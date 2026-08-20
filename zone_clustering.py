@@ -10,7 +10,7 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
-PROCESSED_PATH = Path("data/processed/orders_clean.csv")
+PROCESSED_PATH = Path("data/processed/orders_preprocessed.csv")
 OUTPUT_PATH = Path("data/processed/orders_with_zones.csv")
 
 

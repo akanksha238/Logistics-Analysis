@@ -23,7 +23,7 @@ except ImportError:  # scikit-learn < 1.4
     def root_mean_squared_error(y_true, y_pred):
         return mean_squared_error(y_true, y_pred) ** 0.5
 
-PROCESSED_PATH = Path("data/processed/orders_clean.csv")
+PROCESSED_PATH = Path("data/processed/orders_preprocessed.csv")
 
 
 def build_daily_demand(orders: pd.DataFrame) -> pd.DataFrame:

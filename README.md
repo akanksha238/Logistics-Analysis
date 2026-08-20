@@ -25,19 +25,22 @@ KPIs:
 logistics-analytics/
 ├── data/
 │   ├── raw/                # Original, unmodified source data (gitignored)
-│   └── processed/          # Cleaned datasets ready for analysis (gitignored)
+│   └── processed/          # Cleaned & preprocessed datasets (gitignored)
 ├── docs/
-│   └── Week1_Strategic_Planning.md   # Full Week 1 report
+│   ├── Week1_Strategic_Planning.md / .docx      # Week 1 report
+│   └── Week2_Data_Cleaning_Preprocessing.md / .docx   # Week 2 report
 ├── notebooks/
 │   └── 01_eda.ipynb        # Exploratory data analysis
 ├── src/
 │   ├── __init__.py
 │   ├── data_cleaning.py    # Load & clean raw order/shipment data
+│   ├── preprocessing.py    # Outlier detection & normalization (Week 2)
 │   ├── demand_forecasting.py   # Regression-based demand forecasting
 │   ├── zone_clustering.py      # K-Means delivery zone segmentation
 │   └── route_optimization.py   # VRP-based route planning
 ├── tests/
-│   └── test_data_cleaning.py
+│   ├── test_data_cleaning.py
+│   └── test_preprocessing.py
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -67,6 +70,7 @@ Place raw order/shipment CSVs in `data/raw/`. Suggested public sources:
 
 ```bash
 python -m src.data_cleaning
+python -m src.preprocessing
 python -m src.demand_forecasting
 python -m src.zone_clustering
 python -m src.route_optimization
@@ -83,7 +87,7 @@ pytest tests/
 ## Roadmap
 
 - [x] Week 1 — Strategic planning, KPI definition, data research
-- [ ] Week 2 — Data collection & cleaning pipeline
+- [x] Week 2 — Data collection, cleaning & preprocessing pipeline (outlier handling, normalization)
 - [ ] Week 3 — Exploratory data analysis
 - [ ] Week 4 — Demand forecasting model
 - [ ] Week 5 — Zone clustering & route optimization
