@@ -1,0 +1,165 @@
+======================================================================
+1. DATASET OVERVIEW
+======================================================================
+Rows: 1200, Columns: 18
+Date range: 2026-01-01 to 2026-06-30
+
+Missing values per column:
+shipment_id                0
+dispatch_date              0
+day_of_week                0
+is_weekend                 0
+region                     0
+transport_mode             0
+carrier                    0
+product_category           0
+distance_km                0
+shipment_weight_kg         0
+transportation_cost_usd    0
+promised_delivery_days     0
+delivery_time_days         0
+delay_days                 0
+is_delayed                 0
+fuel_surcharge_pct         0
+damaged_in_transit         0
+customer_satisfaction      0
+
+======================================================================
+2. CENTRAL TENDENCY & DISPERSION (numeric variables)
+======================================================================
+                          count     mean      std    min     25%     50%      75%      max  median  skew
+distance_km              1200.0  1253.17  1305.74  20.00  420.50  648.40  1607.60  6822.40  648.40  1.61
+shipment_weight_kg       1200.0   553.01   527.20  10.00  208.55  373.75   696.02  4330.30  373.75  2.22
+transportation_cost_usd  1200.0   134.42   198.89  19.64   38.61   68.12   201.58  3142.35   68.12  6.84
+delivery_time_days       1200.0     3.55     3.17   0.50    1.68    2.30     3.45    16.33    2.30  1.66
+delay_days               1200.0    -0.88     1.14  -5.24   -1.53   -0.96    -0.41     6.33   -0.96  1.01
+fuel_surcharge_pct       1200.0     8.47     1.98   2.30    7.10    8.40     9.90    14.70    8.40  0.10
+customer_satisfaction    1200.0     4.30     0.53   1.00    4.00    4.50     4.50     5.00    4.50 -1.23
+
+======================================================================
+3. CATEGORICAL DISTRIBUTIONS
+======================================================================
+
+-- region --
+         count   pct
+region              
+North      275  22.9
+West       262  21.8
+South      239  19.9
+Central    224  18.7
+East       200  16.7
+
+-- transport_mode --
+                count   pct
+transport_mode             
+Road              657  54.8
+Sea               230  19.2
+Rail              194  16.2
+Air               119   9.9
+
+-- carrier --
+           count   pct
+carrier               
+Carrier A    365  30.4
+Carrier B    321  26.8
+Carrier C    277  23.1
+Carrier D    237  19.8
+
+-- product_category --
+                  count   pct
+product_category             
+Consumer Goods      318  26.5
+Electronics         271  22.6
+Textiles            243  20.2
+Machinery           185  15.4
+Perishables         183  15.2
+
+======================================================================
+4. DELAY / SLA PERFORMANCE
+======================================================================
+Overall on-time-vs-delayed: 14.8% of shipments delayed
+
+Delay rate by transport mode:
+transport_mode
+Air     26.9
+Rail     2.1
+Road     7.3
+Sea     40.9
+
+Delay rate by carrier:
+carrier
+Carrier A    16.2
+Carrier B    15.0
+Carrier C    12.3
+Carrier D    15.6
+
+Delay rate: weekday vs weekend dispatch:
+is_weekend
+False     9.6
+True     28.0
+
+Average delay (days) among delayed shipments, by mode:
+transport_mode
+Air     0.32
+Rail    0.23
+Road    0.41
+Sea     1.57
+
+======================================================================
+5. COST ANALYSIS
+======================================================================
+Average transportation cost by mode:
+transport_mode
+Air     486.20
+Rail     82.56
+Road     48.47
+Sea     241.66
+
+Average transportation cost by region:
+region
+Central    115.43
+East       122.63
+North      152.21
+South      143.87
+West       132.36
+
+Cost per kg by mode (efficiency indicator):
+transport_mode
+Air     1.069
+Rail    0.332
+Road    0.146
+Sea     0.950
+
+======================================================================
+6. CORRELATION MATRIX
+======================================================================
+                         distance_km  shipment_weight_kg  transportation_cost_usd  delivery_time_days  delay_days  fuel_surcharge_pct  customer_satisfaction
+distance_km                     1.00               -0.01                     0.46                0.89        0.55               -0.00                  -0.40
+shipment_weight_kg             -0.01                1.00                     0.38               -0.02       -0.03                0.02                  -0.02
+transportation_cost_usd         0.46                0.38                     1.00                0.20        0.22                0.00                  -0.12
+delivery_time_days              0.89               -0.02                     0.20                1.00        0.48               -0.02                  -0.37
+delay_days                      0.55               -0.03                     0.22                0.48        1.00                0.02                  -0.44
+fuel_surcharge_pct             -0.00                0.02                     0.00               -0.02        0.02                1.00                  -0.01
+customer_satisfaction          -0.40               -0.02                    -0.12               -0.37       -0.44               -0.01                   1.00
+
+======================================================================
+7. CUSTOMER SATISFACTION
+======================================================================
+Average satisfaction by transport mode:
+transport_mode
+Air     4.31
+Rail    4.38
+Road    4.38
+Sea     4.02
+
+Average satisfaction: delayed vs on-time shipments:
+is_delayed
+False    4.39
+True     3.82
+
+Damage rate by mode (%):
+transport_mode
+Air     2.52
+Rail    1.03
+Road    1.98
+Sea     3.91

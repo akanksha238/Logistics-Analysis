@@ -1,0 +1,1201 @@
+shipment_id,dispatch_date,day_of_week,is_weekend,region,transport_mode,carrier,product_category,distance_km,shipment_weight_kg,transportation_cost_usd,promised_delivery_days,delivery_time_days,delay_days,is_delayed,fuel_surcharge_pct,damaged_in_transit,customer_satisfaction
+SHP1000,2026-05-27,Wednesday,False,South,Air,Carrier B,Electronics,2202.0,139.0,196.72,1.5,0.98,-0.52,False,9.2,False,5.0
+SHP1001,2026-02-26,Thursday,False,Central,Road,Carrier A,Machinery,424.6,908.0,61.11,3.0,1.86,-1.14,False,10.0,False,4.5
+SHP1002,2026-06-21,Sunday,True,West,Road,Carrier B,Electronics,256.9,255.8,33.32,3.0,2.49,-0.51,False,6.0,False,4.5
+SHP1003,2026-02-04,Wednesday,False,East,Road,Carrier B,Perishables,396.8,399.2,33.85,3.0,1.48,-1.52,False,10.0,False,4.5
+SHP1004,2026-04-24,Friday,False,North,Road,Carrier C,Electronics,252.4,300.7,35.43,3.0,1.31,-1.69,False,11.7,False,4.5
+SHP1005,2026-05-05,Tuesday,False,North,Air,Carrier C,Electronics,1845.1,86.9,165.62,1.5,0.5,-1.0,False,6.7,False,5.0
+SHP1006,2026-05-09,Saturday,True,North,Rail,Carrier B,Consumer Goods,276.8,30.4,68.15,4.5,2.96,-1.54,False,7.9,False,4.5
+SHP1007,2026-02-21,Saturday,True,Central,Road,Carrier A,Perishables,518.2,570.6,62.9,3.0,3.17,0.17,True,9.9,False,4.0
+SHP1008,2026-03-26,Thursday,False,West,Road,Carrier D,Consumer Goods,123.7,555.2,31.8,3.0,1.14,-1.86,False,9.4,False,4.5
+SHP1009,2026-06-14,Sunday,True,West,Sea,Carrier B,Consumer Goods,3015.8,312.7,260.45,10.0,10.51,0.51,True,5.8,False,4.5
+SHP1010,2026-03-06,Friday,False,North,Road,Carrier C,Machinery,550.8,892.6,64.47,3.0,1.81,-1.19,False,8.8,False,4.0
+SHP1011,2026-06-28,Sunday,True,Central,Road,Carrier A,Electronics,608.2,288.2,49.04,3.0,3.44,0.44,True,7.8,False,4.5
+SHP1012,2026-05-09,Saturday,True,Central,Road,Carrier B,Textiles,584.5,193.3,35.47,3.0,2.66,-0.34,False,6.6,False,5.0
+SHP1013,2026-01-21,Wednesday,False,North,Air,Carrier A,Consumer Goods,2023.8,1273.1,901.33,1.5,1.34,-0.16,False,11.2,False,5.0
+SHP1014,2026-06-30,Tuesday,False,North,Rail,Carrier B,Perishables,508.3,524.5,63.62,4.5,2.33,-2.17,False,8.5,False,4.5
+SHP1015,2026-01-16,Friday,False,North,Road,Carrier D,Electronics,646.1,33.7,28.51,3.0,1.94,-1.06,False,10.5,False,4.5
+SHP1016,2026-05-03,Sunday,True,South,Road,Carrier B,Textiles,230.7,236.5,33.93,3.0,1.6,-1.4,False,6.2,False,4.0
+SHP1017,2026-03-02,Monday,False,East,Rail,Carrier A,Consumer Goods,1283.1,375.7,86.7,4.5,3.62,-0.88,False,9.7,False,4.0
+SHP1018,2026-02-23,Monday,False,East,Rail,Carrier A,Consumer Goods,1119.7,531.0,76.82,4.5,3.45,-1.05,False,10.6,False,4.0
+SHP1019,2026-06-17,Wednesday,False,South,Road,Carrier B,Electronics,721.8,119.8,33.77,3.0,2.0,-1.0,False,8.0,False,4.5
+SHP1020,2026-01-26,Monday,False,West,Sea,Carrier A,Machinery,3529.8,1011.7,280.37,10.0,9.27,-0.73,False,7.5,False,4.0
+SHP1021,2026-03-21,Saturday,True,North,Road,Carrier A,Perishables,286.2,787.6,51.32,3.0,1.79,-1.21,False,5.9,True,4.5
+SHP1022,2026-03-06,Friday,False,South,Road,Carrier C,Electronics,191.5,266.0,27.76,3.0,1.42,-1.58,False,6.8,False,4.5
+SHP1023,2026-04-10,Friday,False,South,Sea,Carrier B,Consumer Goods,2082.1,240.5,167.92,10.0,6.48,-3.52,False,7.6,False,4.0
+SHP1024,2026-03-15,Sunday,True,East,Road,Carrier A,Perishables,122.6,548.4,35.43,3.0,1.64,-1.36,False,6.5,False,4.0
+SHP1025,2026-06-20,Saturday,True,West,Rail,Carrier D,Perishables,1229.7,135.6,72.05,4.5,4.54,0.04,True,7.0,False,4.5
+SHP1026,2026-01-17,Saturday,True,North,Road,Carrier A,Electronics,663.5,230.6,42.81,3.0,2.68,-0.32,False,8.8,False,4.5
+SHP1027,2026-05-01,Friday,False,East,Road,Carrier D,Consumer Goods,560.7,414.1,45.55,3.0,2.12,-0.88,False,9.1,False,4.5
+SHP1028,2026-01-23,Friday,False,East,Sea,Carrier B,Consumer Goods,3460.4,374.6,230.16,10.0,9.33,-0.67,False,10.7,False,4.0
+SHP1029,2026-05-15,Friday,False,North,Road,Carrier D,Machinery,862.2,1397.2,141.29,3.0,2.71,-0.29,False,7.0,False,4.5
+SHP1030,2026-06-21,Sunday,True,West,Sea,Carrier C,Consumer Goods,3382.2,451.7,212.01,10.0,9.51,-0.49,False,8.5,False,5.0
+SHP1031,2026-06-30,Tuesday,False,North,Road,Carrier D,Electronics,494.2,135.2,33.84,3.0,1.58,-1.42,False,7.7,False,4.0
+SHP1032,2026-03-12,Thursday,False,North,Road,Carrier D,Textiles,440.4,380.3,39.49,3.0,1.66,-1.34,False,7.5,False,4.0
+SHP1033,2026-04-18,Saturday,True,Central,Road,Carrier A,Perishables,382.3,593.3,55.43,3.0,2.59,-0.41,False,7.9,False,5.0
+SHP1034,2026-03-20,Friday,False,Central,Rail,Carrier D,Electronics,1120.8,492.0,81.7,4.5,3.44,-1.06,False,8.1,False,4.5
+SHP1035,2026-06-11,Thursday,False,West,Road,Carrier B,Textiles,323.3,629.6,40.96,3.0,2.42,-0.58,False,9.0,False,4.5
+SHP1036,2026-02-15,Sunday,True,South,Sea,Carrier B,Consumer Goods,2659.3,630.6,249.23,10.0,9.37,-0.63,False,7.8,False,4.0
+SHP1037,2026-03-19,Thursday,False,North,Road,Carrier B,Electronics,586.3,129.2,33.09,3.0,1.88,-1.12,False,11.0,False,4.0
+SHP1038,2026-01-16,Friday,False,West,Sea,Carrier B,Perishables,2902.9,321.9,213.89,10.0,8.74,-1.26,False,5.1,False,4.0
+SHP1039,2026-03-12,Thursday,False,East,Road,Carrier A,Electronics,476.7,215.0,35.79,3.0,1.71,-1.29,False,10.6,False,4.5
+SHP1040,2026-04-06,Monday,False,North,Sea,Carrier B,Perishables,3090.4,1358.9,275.2,10.0,8.25,-1.75,False,7.8,False,5.0
+SHP1041,2026-05-27,Wednesday,False,East,Air,Carrier B,Consumer Goods,1791.9,709.3,528.19,1.5,0.51,-0.99,False,8.1,False,4.5
+SHP1042,2026-01-02,Friday,False,North,Air,Carrier C,Textiles,1328.7,1088.0,686.84,1.5,0.5,-1.0,False,8.5,True,5.0
+SHP1043,2026-01-10,Saturday,True,Central,Sea,Carrier D,Textiles,2731.3,90.6,227.67,10.0,9.19,-0.81,False,9.9,False,4.0
+SHP1044,2026-06-27,Saturday,True,South,Air,Carrier B,Consumer Goods,1226.2,870.0,515.72,1.5,1.33,-0.17,False,6.7,False,4.5
+SHP1045,2026-05-05,Tuesday,False,West,Rail,Carrier B,Electronics,1195.2,139.3,59.54,4.5,2.59,-1.91,False,7.2,False,4.5
+SHP1046,2026-03-22,Sunday,True,South,Road,Carrier A,Textiles,484.4,189.4,39.81,3.0,2.76,-0.24,False,9.5,False,4.5
+SHP1047,2026-05-20,Wednesday,False,East,Road,Carrier A,Textiles,633.7,495.9,57.83,3.0,1.7,-1.3,False,5.1,False,4.5
+SHP1048,2026-03-11,Wednesday,False,East,Sea,Carrier A,Machinery,4730.5,871.8,266.34,10.0,11.22,1.22,True,8.4,True,3.5
+SHP1049,2026-05-30,Saturday,True,North,Rail,Carrier B,Consumer Goods,739.0,371.0,84.67,4.5,2.47,-2.03,False,6.9,False,4.0
+SHP1050,2026-02-01,Sunday,True,Central,Air,Carrier A,Consumer Goods,2417.1,491.4,554.34,1.5,1.72,0.22,True,6.5,False,3.5
+SHP1051,2026-04-15,Wednesday,False,West,Road,Carrier D,Textiles,447.2,481.4,44.54,3.0,2.16,-0.84,False,5.2,False,4.5
+SHP1052,2026-03-25,Wednesday,False,Central,Road,Carrier B,Consumer Goods,418.3,410.2,44.62,3.0,2.15,-0.85,False,10.0,False,4.0
+SHP1053,2026-05-09,Saturday,True,Central,Road,Carrier B,Electronics,700.5,181.4,37.74,3.0,3.1,0.1,True,8.8,False,4.0
+SHP1054,2026-02-27,Friday,False,East,Rail,Carrier C,Electronics,1093.8,111.1,61.69,4.5,2.94,-1.56,False,7.2,False,4.0
+SHP1055,2026-05-26,Tuesday,False,Central,Road,Carrier A,Electronics,379.5,167.4,31.23,3.0,1.81,-1.19,False,8.2,False,5.0
+SHP1056,2026-05-14,Thursday,False,North,Road,Carrier B,Perishables,547.8,1026.8,78.82,3.0,2.06,-0.94,False,6.3,False,4.0
+SHP1057,2026-02-14,Saturday,True,North,Road,Carrier C,Textiles,196.9,420.2,37.75,3.0,2.38,-0.62,False,7.4,False,4.5
+SHP1058,2026-04-07,Tuesday,False,North,Road,Carrier B,Machinery,499.5,1389.4,86.4,3.0,1.97,-1.03,False,8.1,False,4.5
+SHP1059,2026-01-23,Friday,False,South,Rail,Carrier B,Consumer Goods,375.1,309.0,60.78,4.5,2.02,-2.48,False,8.6,False,5.0
+SHP1060,2026-01-23,Friday,False,South,Road,Carrier D,Textiles,253.1,113.8,33.17,3.0,1.61,-1.39,False,9.3,False,4.5
+SHP1061,2026-06-03,Wednesday,False,South,Air,Carrier D,Textiles,2209.2,578.7,483.11,1.5,1.56,0.06,True,4.9,False,3.5
+SHP1062,2026-05-15,Friday,False,Central,Road,Carrier C,Electronics,20.0,56.8,25.21,3.0,0.95,-2.05,False,9.3,False,5.0
+SHP1063,2026-03-20,Friday,False,South,Road,Carrier B,Electronics,810.5,265.5,47.13,3.0,2.09,-0.91,False,5.0,False,4.5
+SHP1064,2026-02-13,Friday,False,South,Road,Carrier C,Textiles,616.9,263.6,43.29,3.0,2.02,-0.98,False,9.4,False,5.0
+SHP1065,2026-01-27,Tuesday,False,East,Road,Carrier A,Textiles,82.3,248.5,25.62,3.0,1.09,-1.91,False,8.1,False,4.5
+SHP1066,2026-01-26,Monday,False,North,Road,Carrier B,Consumer Goods,929.7,208.1,36.05,3.0,3.08,0.08,True,10.7,False,5.0
+SHP1067,2026-04-07,Tuesday,False,West,Road,Carrier A,Electronics,984.8,131.8,34.95,3.0,2.83,-0.17,False,7.2,False,5.0
+SHP1068,2026-02-05,Thursday,False,North,Rail,Carrier B,Electronics,836.8,84.7,67.54,4.5,2.24,-2.26,False,10.1,False,4.5
+SHP1069,2026-04-19,Sunday,True,Central,Road,Carrier B,Textiles,264.7,332.8,37.38,3.0,2.62,-0.38,False,6.2,False,5.0
+SHP1070,2026-02-24,Tuesday,False,West,Rail,Carrier A,Perishables,1490.2,797.0,119.53,4.5,3.66,-0.84,False,8.7,False,4.0
+SHP1071,2026-03-10,Tuesday,False,North,Sea,Carrier D,Electronics,3087.5,59.5,215.27,10.0,8.68,-1.32,False,4.4,False,4.5
+SHP1072,2026-03-02,Monday,False,North,Air,Carrier D,Consumer Goods,1912.7,625.1,556.48,1.5,0.77,-0.73,False,10.3,False,4.0
+SHP1073,2026-05-10,Sunday,True,West,Road,Carrier C,Electronics,693.5,246.8,40.93,3.0,3.0,0.0,False,12.0,False,4.5
+SHP1074,2026-02-24,Tuesday,False,West,Road,Carrier B,Machinery,419.3,1375.7,69.54,3.0,1.76,-1.24,False,7.1,True,4.5
+SHP1075,2026-05-02,Saturday,True,West,Road,Carrier D,Perishables,401.8,319.2,40.64,3.0,2.35,-0.65,False,8.7,False,3.5
+SHP1076,2026-04-07,Tuesday,False,West,Road,Carrier A,Electronics,195.5,322.5,28.1,3.0,2.1,-0.9,False,9.4,False,4.0
+SHP1077,2026-03-21,Saturday,True,North,Sea,Carrier C,Textiles,2743.3,290.7,209.7,10.0,9.03,-0.97,False,5.4,False,4.5
+SHP1078,2026-03-28,Saturday,True,South,Road,Carrier A,Consumer Goods,397.8,1004.2,72.27,3.0,2.73,-0.27,False,7.0,False,3.5
+SHP1079,2026-02-07,Saturday,True,North,Road,Carrier C,Textiles,202.3,507.2,37.71,3.0,2.0,-1.0,False,6.9,False,4.5
+SHP1080,2026-04-29,Wednesday,False,Central,Rail,Carrier A,Consumer Goods,498.2,508.2,71.56,4.5,2.57,-1.93,False,13.3,False,5.0
+SHP1081,2026-03-19,Thursday,False,West,Air,Carrier D,Electronics,1823.5,113.4,186.91,1.5,0.5,-1.0,False,10.6,False,5.0
+SHP1082,2026-06-06,Saturday,True,South,Rail,Carrier D,Consumer Goods,252.6,224.8,66.99,4.5,2.23,-2.27,False,8.1,False,4.0
+SHP1083,2026-06-03,Wednesday,False,North,Road,Carrier A,Perishables,274.2,896.0,51.7,3.0,0.84,-2.16,False,10.1,False,5.0
+SHP1084,2026-02-04,Wednesday,False,South,Road,Carrier B,Machinery,838.9,519.9,56.47,3.0,2.36,-0.64,False,8.9,False,5.0
+SHP1085,2026-03-20,Friday,False,South,Road,Carrier D,Textiles,380.9,213.8,28.3,3.0,1.24,-1.76,False,9.7,False,3.5
+SHP1086,2026-03-08,Sunday,True,West,Road,Carrier B,Consumer Goods,355.9,457.7,39.62,3.0,3.31,0.31,True,6.4,False,4.5
+SHP1087,2026-03-28,Saturday,True,West,Road,Carrier D,Textiles,380.0,539.4,48.01,3.0,2.15,-0.85,False,11.2,False,4.5
+SHP1088,2026-06-06,Saturday,True,Central,Road,Carrier C,Electronics,383.2,37.0,33.03,3.0,2.37,-0.63,False,7.0,False,5.0
+SHP1089,2026-02-03,Tuesday,False,East,Road,Carrier B,Electronics,565.0,178.2,36.43,3.0,2.59,-0.41,False,7.1,False,4.5
+SHP1090,2026-04-07,Tuesday,False,North,Road,Carrier A,Consumer Goods,551.0,275.5,40.49,3.0,1.52,-1.48,False,9.7,False,5.0
+SHP1091,2026-06-18,Thursday,False,West,Road,Carrier A,Textiles,371.8,204.8,31.65,3.0,1.36,-1.64,False,9.2,False,4.0
+SHP1092,2026-06-18,Thursday,False,West,Rail,Carrier C,Consumer Goods,825.2,835.0,81.31,4.5,2.87,-1.63,False,8.5,False,4.0
+SHP1093,2026-05-31,Sunday,True,East,Rail,Carrier B,Perishables,1359.5,1084.0,142.04,4.5,3.95,-0.55,False,10.2,False,4.0
+SHP1094,2026-03-12,Thursday,False,West,Sea,Carrier B,Perishables,1687.6,679.1,259.05,10.0,5.82,-4.18,False,6.2,False,5.0
+SHP1095,2026-01-03,Saturday,True,East,Road,Carrier B,Electronics,438.5,302.8,39.14,3.0,2.77,-0.23,False,12.2,False,5.0
+SHP1096,2026-02-27,Friday,False,East,Road,Carrier B,Consumer Goods,477.0,901.5,60.84,3.0,2.4,-0.6,False,7.5,False,5.0
+SHP1097,2026-02-01,Sunday,True,East,Road,Carrier D,Machinery,294.7,682.5,45.67,3.0,1.79,-1.21,False,8.3,False,4.0
+SHP1098,2026-01-31,Saturday,True,North,Rail,Carrier D,Consumer Goods,859.7,936.9,108.93,4.5,3.46,-1.04,False,12.2,False,5.0
+SHP1099,2026-03-23,Monday,False,North,Air,Carrier B,Perishables,1161.8,1654.4,741.64,1.5,0.5,-1.0,False,7.1,False,4.5
+SHP1100,2026-02-12,Thursday,False,North,Road,Carrier D,Machinery,577.4,571.3,58.67,3.0,1.3,-1.7,False,10.5,False,4.5
+SHP1101,2026-05-15,Friday,False,West,Sea,Carrier C,Machinery,1894.2,2250.0,284.48,10.0,6.3,-3.7,False,8.1,False,4.5
+SHP1102,2026-04-15,Wednesday,False,South,Road,Carrier B,Perishables,662.5,761.0,69.02,3.0,2.01,-0.99,False,6.8,False,4.5
+SHP1103,2026-01-01,Thursday,False,East,Road,Carrier D,Consumer Goods,435.3,83.6,28.79,3.0,1.84,-1.16,False,7.7,False,4.5
+SHP1104,2026-03-02,Monday,False,Central,Air,Carrier A,Consumer Goods,1486.4,429.9,310.47,1.5,1.52,0.02,True,9.6,False,4.5
+SHP1105,2026-01-14,Wednesday,False,South,Sea,Carrier A,Consumer Goods,2294.4,97.2,232.93,10.0,7.39,-2.61,False,10.5,False,5.0
+SHP1106,2026-06-29,Monday,False,South,Air,Carrier D,Consumer Goods,2521.5,242.8,336.71,1.5,1.01,-0.49,False,9.0,False,4.5
+SHP1107,2026-01-06,Tuesday,False,West,Sea,Carrier B,Perishables,2717.8,906.5,227.34,10.0,8.43,-1.57,False,5.3,False,5.0
+SHP1108,2026-04-13,Monday,False,South,Road,Carrier D,Perishables,216.6,735.2,36.99,3.0,1.45,-1.55,False,9.8,False,4.5
+SHP1109,2026-01-10,Saturday,True,North,Sea,Carrier D,Consumer Goods,4761.8,522.7,281.96,10.0,12.8,2.8,True,8.2,False,3.5
+SHP1110,2026-03-12,Thursday,False,South,Road,Carrier A,Electronics,269.1,87.1,27.51,3.0,1.44,-1.56,False,6.3,False,4.0
+SHP1111,2026-03-31,Tuesday,False,North,Sea,Carrier D,Machinery,3386.6,654.4,250.24,10.0,8.31,-1.69,False,9.2,False,4.0
+SHP1112,2026-06-07,Sunday,True,Central,Road,Carrier B,Machinery,613.8,1585.2,119.71,3.0,2.21,-0.79,False,10.8,False,4.0
+SHP1113,2026-05-29,Friday,False,West,Sea,Carrier B,Machinery,3689.5,1520.3,323.55,10.0,9.21,-0.79,False,8.5,False,5.0
+SHP1114,2026-05-06,Wednesday,False,West,Road,Carrier C,Consumer Goods,796.2,644.5,70.22,3.0,2.86,-0.14,False,10.3,False,4.0
+SHP1115,2026-04-07,Tuesday,False,Central,Rail,Carrier D,Perishables,607.8,1161.6,95.91,4.5,1.68,-2.82,False,9.4,False,5.0
+SHP1116,2026-03-15,Sunday,True,West,Road,Carrier A,Perishables,407.9,485.4,49.1,3.0,2.26,-0.74,False,9.5,False,4.0
+SHP1117,2026-04-25,Saturday,True,North,Air,Carrier B,Electronics,1706.8,135.1,236.19,1.5,1.71,0.21,True,7.9,False,4.5
+SHP1118,2026-06-19,Friday,False,Central,Road,Carrier C,Textiles,574.2,634.0,55.39,3.0,1.71,-1.29,False,10.1,False,4.5
+SHP1119,2026-02-20,Friday,False,East,Road,Carrier C,Perishables,707.7,805.2,76.22,3.0,2.84,-0.16,False,10.3,False,4.0
+SHP1120,2026-02-25,Wednesday,False,West,Road,Carrier C,Perishables,464.7,754.3,51.03,3.0,1.14,-1.86,False,10.1,False,4.0
+SHP1121,2026-02-10,Tuesday,False,Central,Road,Carrier A,Consumer Goods,422.5,337.6,43.37,3.0,2.03,-0.97,False,7.9,False,4.5
+SHP1122,2026-02-01,Sunday,True,South,Sea,Carrier A,Consumer Goods,1720.4,584.8,200.16,10.0,6.7,-3.3,False,10.5,False,4.5
+SHP1123,2026-01-15,Thursday,False,North,Road,Carrier B,Electronics,472.5,156.9,35.94,3.0,1.86,-1.14,False,9.3,False,4.5
+SHP1124,2026-03-03,Tuesday,False,South,Sea,Carrier D,Textiles,2719.6,807.5,245.75,10.0,8.47,-1.53,False,6.6,False,4.0
+SHP1125,2026-06-04,Thursday,False,East,Road,Carrier A,Consumer Goods,573.7,545.5,54.95,3.0,1.73,-1.27,False,7.7,False,4.5
+SHP1126,2026-01-28,Wednesday,False,West,Road,Carrier A,Electronics,368.1,290.5,34.17,3.0,1.02,-1.98,False,7.4,False,4.5
+SHP1127,2026-03-05,Thursday,False,Central,Air,Carrier D,Electronics,1631.6,289.4,271.77,1.5,0.89,-0.61,False,4.5,False,3.5
+SHP1128,2026-05-10,Sunday,True,North,Rail,Carrier A,Electronics,388.9,176.9,71.35,4.5,2.69,-1.81,False,10.5,False,5.0
+SHP1129,2026-05-07,Thursday,False,East,Road,Carrier D,Machinery,87.7,590.5,25.78,3.0,1.61,-1.39,False,14.7,False,4.0
+SHP1130,2026-02-05,Thursday,False,South,Rail,Carrier C,Electronics,1551.3,282.8,75.58,4.5,3.94,-0.56,False,10.9,False,5.0
+SHP1131,2026-04-24,Friday,False,South,Air,Carrier D,Consumer Goods,1890.8,459.6,371.17,1.5,0.93,-0.57,False,8.8,False,4.0
+SHP1132,2026-01-13,Tuesday,False,North,Road,Carrier A,Textiles,530.9,232.3,37.39,3.0,1.87,-1.13,False,7.5,False,4.0
+SHP1133,2026-01-15,Thursday,False,South,Sea,Carrier A,Textiles,2405.2,309.2,214.95,10.0,6.57,-3.43,False,6.6,False,4.0
+SHP1134,2026-03-30,Monday,False,Central,Sea,Carrier C,Perishables,4550.6,264.0,235.1,10.0,11.51,1.51,True,8.8,False,4.0
+SHP1135,2026-01-22,Thursday,False,South,Rail,Carrier D,Textiles,1143.3,289.1,75.86,4.5,3.42,-1.08,False,10.4,False,4.5
+SHP1136,2026-03-15,Sunday,True,East,Road,Carrier C,Machinery,289.5,1204.9,66.06,3.0,2.25,-0.75,False,7.2,False,5.0
+SHP1137,2026-01-25,Sunday,True,West,Rail,Carrier A,Consumer Goods,529.2,602.5,75.54,4.5,2.46,-2.04,False,13.6,False,4.5
+SHP1138,2026-04-11,Saturday,True,South,Road,Carrier C,Consumer Goods,303.5,356.6,37.69,3.0,2.53,-0.47,False,5.7,False,4.5
+SHP1139,2026-06-25,Thursday,False,Central,Road,Carrier C,Machinery,444.3,1600.9,96.92,3.0,1.49,-1.51,False,8.9,False,3.5
+SHP1140,2026-06-20,Saturday,True,Central,Road,Carrier C,Consumer Goods,483.4,698.2,64.16,3.0,2.48,-0.52,False,8.6,False,4.0
+SHP1141,2026-04-27,Monday,False,South,Road,Carrier C,Consumer Goods,457.7,587.1,43.36,3.0,1.96,-1.04,False,8.5,False,4.5
+SHP1142,2026-06-15,Monday,False,East,Sea,Carrier D,Consumer Goods,5058.5,173.1,199.74,10.0,12.42,2.42,True,7.4,False,3.0
+SHP1143,2026-02-10,Tuesday,False,South,Air,Carrier C,Electronics,1299.5,149.0,180.77,1.5,0.86,-0.64,False,8.7,False,5.0
+SHP1144,2026-06-22,Monday,False,South,Air,Carrier A,Electronics,1039.3,219.7,189.44,1.5,0.81,-0.69,False,7.6,False,3.5
+SHP1145,2026-03-29,Sunday,True,North,Road,Carrier B,Electronics,450.0,262.4,38.28,3.0,2.94,-0.06,False,11.1,False,4.5
+SHP1146,2026-06-17,Wednesday,False,West,Road,Carrier A,Machinery,111.4,799.2,35.12,3.0,0.99,-2.01,False,11.7,False,4.0
+SHP1147,2026-04-20,Monday,False,East,Road,Carrier B,Textiles,589.1,383.0,46.36,3.0,2.54,-0.46,False,7.7,True,4.5
+SHP1148,2026-04-30,Thursday,False,North,Sea,Carrier B,Textiles,3617.6,231.1,222.75,10.0,9.24,-0.76,False,5.2,False,4.5
+SHP1149,2026-04-07,Tuesday,False,South,Road,Carrier A,Consumer Goods,382.4,435.1,42.12,3.0,1.05,-1.95,False,9.1,False,4.5
+SHP1150,2026-05-25,Monday,False,Central,Sea,Carrier B,Consumer Goods,3027.7,142.9,226.58,10.0,8.08,-1.92,False,9.1,False,4.0
+SHP1151,2026-02-26,Thursday,False,South,Rail,Carrier A,Consumer Goods,1218.5,81.7,48.72,4.5,3.65,-0.85,False,8.7,False,4.0
+SHP1152,2026-05-10,Sunday,True,North,Road,Carrier D,Perishables,625.6,525.6,57.14,3.0,3.72,0.72,True,9.6,False,4.0
+SHP1153,2026-04-06,Monday,False,East,Air,Carrier D,Machinery,1627.5,801.5,499.46,1.5,1.63,0.13,True,11.3,False,4.0
+SHP1154,2026-05-01,Friday,False,Central,Road,Carrier A,Perishables,568.4,1051.3,81.78,3.0,1.33,-1.67,False,10.2,False,4.5
+SHP1155,2026-03-03,Tuesday,False,South,Sea,Carrier D,Electronics,4536.0,236.8,213.29,10.0,11.12,1.12,True,9.6,False,3.5
+SHP1156,2026-05-17,Sunday,True,West,Sea,Carrier B,Electronics,3902.6,263.4,239.65,10.0,11.69,1.69,True,10.0,True,2.5
+SHP1157,2026-03-09,Monday,False,West,Road,Carrier A,Perishables,408.9,170.5,33.41,3.0,1.22,-1.78,False,9.0,False,5.0
+SHP1158,2026-03-22,Sunday,True,South,Road,Carrier A,Textiles,526.2,203.0,35.58,3.0,2.68,-0.32,False,6.6,False,4.5
+SHP1159,2026-01-17,Saturday,True,West,Rail,Carrier B,Consumer Goods,536.3,406.0,77.57,4.5,3.58,-0.92,False,11.4,False,3.5
+SHP1160,2026-04-27,Monday,False,South,Sea,Carrier C,Electronics,3585.3,70.8,230.57,10.0,9.53,-0.47,False,8.7,False,4.5
+SHP1161,2026-02-19,Thursday,False,West,Road,Carrier C,Consumer Goods,403.4,592.4,49.6,3.0,2.26,-0.74,False,6.6,False,4.5
+SHP1162,2026-04-22,Wednesday,False,West,Rail,Carrier A,Textiles,763.5,211.8,58.74,4.5,2.56,-1.94,False,6.2,False,4.0
+SHP1163,2026-04-04,Saturday,True,East,Rail,Carrier A,Perishables,295.7,700.7,73.12,4.5,2.59,-1.91,False,6.7,False,4.5
+SHP1164,2026-06-17,Wednesday,False,North,Air,Carrier B,Textiles,1080.7,370.0,255.01,1.5,0.5,-1.0,False,6.0,False,4.0
+SHP1165,2026-03-26,Thursday,False,Central,Road,Carrier A,Perishables,352.8,560.6,44.69,3.0,2.03,-0.97,False,9.8,False,4.5
+SHP1166,2026-05-29,Friday,False,South,Air,Carrier A,Machinery,2426.5,1713.5,1421.22,1.5,0.77,-0.73,False,8.1,False,4.0
+SHP1167,2026-05-26,Tuesday,False,North,Sea,Carrier A,Textiles,3843.0,158.0,201.29,10.0,9.43,-0.57,False,10.1,False,4.0
+SHP1168,2026-06-06,Saturday,True,North,Road,Carrier D,Electronics,637.9,183.5,38.59,3.0,2.66,-0.34,False,10.8,False,4.5
+SHP1169,2026-06-01,Monday,False,East,Road,Carrier D,Electronics,698.6,170.0,32.59,3.0,2.23,-0.77,False,10.3,False,4.0
+SHP1170,2026-03-15,Sunday,True,West,Sea,Carrier B,Textiles,3895.2,537.3,284.19,10.0,11.07,1.07,True,9.8,False,3.5
+SHP1171,2026-04-19,Sunday,True,North,Road,Carrier D,Consumer Goods,478.1,142.1,38.63,3.0,2.44,-0.56,False,9.1,False,4.5
+SHP1172,2026-05-25,Monday,False,East,Sea,Carrier B,Perishables,2332.4,669.7,238.54,10.0,7.63,-2.37,False,8.1,False,5.0
+SHP1173,2026-01-18,Sunday,True,South,Road,Carrier B,Consumer Goods,847.3,466.3,64.19,3.0,3.7,0.7,True,8.3,False,4.5
+SHP1174,2026-02-11,Wednesday,False,West,Road,Carrier A,Machinery,166.4,1040.3,43.63,3.0,1.74,-1.26,False,9.7,False,5.0
+SHP1175,2026-04-11,Saturday,True,North,Sea,Carrier C,Consumer Goods,3642.5,133.0,240.45,10.0,10.34,0.34,True,6.6,False,4.0
+SHP1176,2026-02-14,Saturday,True,West,Road,Carrier D,Consumer Goods,616.6,206.8,38.53,3.0,1.91,-1.09,False,8.4,False,4.0
+SHP1177,2026-03-23,Monday,False,South,Road,Carrier C,Textiles,619.3,213.7,36.77,3.0,1.41,-1.59,False,7.0,False,4.5
+SHP1178,2026-01-17,Saturday,True,Central,Road,Carrier B,Machinery,219.0,1449.6,55.04,3.0,1.93,-1.07,False,10.8,False,4.0
+SHP1179,2026-03-14,Saturday,True,North,Rail,Carrier C,Consumer Goods,753.0,218.1,73.74,4.5,2.82,-1.68,False,9.9,False,4.5
+SHP1180,2026-01-14,Wednesday,False,South,Road,Carrier A,Textiles,290.2,511.7,39.28,3.0,1.78,-1.22,False,12.8,False,4.5
+SHP1181,2026-06-26,Friday,False,North,Road,Carrier D,Perishables,53.9,570.4,26.03,3.0,0.79,-2.21,False,7.0,False,5.0
+SHP1182,2026-06-06,Saturday,True,Central,Sea,Carrier B,Electronics,3656.4,246.6,215.23,10.0,10.13,0.13,True,7.2,False,4.5
+SHP1183,2026-05-12,Tuesday,False,Central,Road,Carrier B,Consumer Goods,306.5,951.9,45.82,3.0,1.62,-1.38,False,8.6,False,4.5
+SHP1184,2026-03-23,Monday,False,South,Rail,Carrier C,Consumer Goods,1426.9,254.8,78.91,4.5,3.39,-1.11,False,7.0,False,4.0
+SHP1185,2026-05-28,Thursday,False,West,Road,Carrier C,Electronics,573.0,21.3,27.55,3.0,2.14,-0.86,False,9.6,False,5.0
+SHP1186,2026-04-30,Thursday,False,West,Air,Carrier A,Machinery,1829.0,1083.9,749.34,1.5,1.57,0.07,True,8.4,False,4.5
+SHP1187,2026-04-30,Thursday,False,East,Road,Carrier C,Textiles,355.5,134.1,30.38,3.0,1.49,-1.51,False,7.5,False,4.5
+SHP1188,2026-02-16,Monday,False,East,Sea,Carrier A,Electronics,3638.1,469.4,217.28,10.0,9.4,-0.6,False,10.7,False,4.0
+SHP1189,2026-04-17,Friday,False,South,Road,Carrier C,Consumer Goods,398.8,475.4,38.46,3.0,1.39,-1.61,False,4.8,False,4.0
+SHP1190,2026-04-18,Saturday,True,North,Road,Carrier D,Electronics,463.9,173.9,35.51,3.0,2.31,-0.69,False,9.6,False,4.5
+SHP1191,2026-01-09,Friday,False,Central,Road,Carrier D,Electronics,830.3,87.2,27.16,3.0,3.5,0.5,True,7.4,False,3.5
+SHP1192,2026-03-20,Friday,False,Central,Road,Carrier B,Machinery,237.0,2261.1,71.71,3.0,1.45,-1.55,False,10.1,False,5.0
+SHP1193,2026-06-04,Thursday,False,West,Road,Carrier B,Consumer Goods,416.3,615.1,57.53,3.0,1.88,-1.12,False,10.6,False,5.0
+SHP1194,2026-01-15,Thursday,False,South,Road,Carrier A,Electronics,591.3,136.4,28.78,3.0,1.57,-1.43,False,3.9,False,4.5
+SHP1195,2026-01-19,Monday,False,South,Sea,Carrier C,Machinery,3019.8,1593.0,286.03,10.0,8.98,-1.02,False,8.1,False,4.0
+SHP1196,2026-03-31,Tuesday,False,West,Road,Carrier A,Textiles,766.1,339.9,40.21,3.0,2.94,-0.06,False,8.6,False,4.5
+SHP1197,2026-06-29,Monday,False,Central,Road,Carrier B,Electronics,585.7,231.3,36.5,3.0,1.38,-1.62,False,3.8,False,4.5
+SHP1198,2026-01-26,Monday,False,Central,Rail,Carrier A,Electronics,648.4,129.2,73.8,4.5,2.39,-2.11,False,9.0,False,4.5
+SHP1199,2026-06-03,Wednesday,False,West,Air,Carrier A,Textiles,1942.8,304.5,320.86,1.5,0.86,-0.64,False,7.4,False,5.0
+SHP1200,2026-06-03,Wednesday,False,West,Road,Carrier C,Perishables,309.1,455.3,35.82,3.0,2.52,-0.48,False,6.1,False,4.0
+SHP1201,2026-06-23,Tuesday,False,North,Road,Carrier A,Consumer Goods,290.7,293.8,38.39,3.0,2.11,-0.89,False,7.2,False,4.0
+SHP1202,2026-04-02,Thursday,False,North,Road,Carrier C,Consumer Goods,422.0,523.0,38.61,3.0,1.19,-1.81,False,6.9,False,4.5
+SHP1203,2026-06-26,Friday,False,Central,Air,Carrier B,Consumer Goods,2684.6,217.6,318.08,1.5,0.81,-0.69,False,7.4,False,4.5
+SHP1204,2026-03-23,Monday,False,West,Rail,Carrier A,Perishables,1160.9,1274.4,127.23,4.5,2.8,-1.7,False,8.9,False,4.0
+SHP1205,2026-06-30,Tuesday,False,North,Road,Carrier B,Consumer Goods,445.5,497.9,44.07,3.0,1.96,-1.04,False,10.5,False,4.5
+SHP1206,2026-05-11,Monday,False,North,Sea,Carrier A,Textiles,4437.4,148.6,226.95,10.0,11.7,1.7,True,8.3,False,3.0
+SHP1207,2026-02-11,Wednesday,False,West,Sea,Carrier A,Perishables,3822.3,980.8,248.98,10.0,9.99,-0.01,False,10.7,False,4.5
+SHP1208,2026-01-19,Monday,False,North,Rail,Carrier C,Electronics,490.5,173.8,65.43,4.5,2.4,-2.1,False,6.4,False,5.0
+SHP1209,2026-01-17,Saturday,True,North,Sea,Carrier A,Electronics,3325.8,69.5,224.28,10.0,9.77,-0.23,False,8.8,False,5.0
+SHP1210,2026-06-10,Wednesday,False,East,Road,Carrier D,Machinery,435.4,842.7,53.98,3.0,1.89,-1.11,False,12.7,False,4.5
+SHP1211,2026-03-17,Tuesday,False,West,Road,Carrier A,Textiles,602.3,276.6,46.23,3.0,2.61,-0.39,False,5.3,False,4.0
+SHP1212,2026-06-26,Friday,False,West,Road,Carrier A,Perishables,336.7,281.4,33.04,3.0,1.37,-1.63,False,5.2,False,4.0
+SHP1213,2026-03-04,Wednesday,False,South,Road,Carrier C,Machinery,267.5,2529.3,84.94,3.0,1.33,-1.67,False,11.1,False,4.5
+SHP1214,2026-05-11,Monday,False,West,Road,Carrier B,Perishables,440.9,686.7,47.95,3.0,0.76,-2.24,False,8.9,False,5.0
+SHP1215,2026-04-17,Friday,False,South,Sea,Carrier A,Machinery,2725.5,1510.1,278.63,10.0,7.92,-2.08,False,7.3,False,3.5
+SHP1216,2026-02-18,Wednesday,False,South,Road,Carrier B,Perishables,385.3,397.3,46.02,3.0,1.93,-1.07,False,6.2,False,4.0
+SHP1217,2026-02-24,Tuesday,False,West,Road,Carrier A,Consumer Goods,433.8,679.1,50.47,3.0,1.9,-1.1,False,8.4,False,5.0
+SHP1218,2026-06-03,Wednesday,False,West,Road,Carrier D,Consumer Goods,373.4,592.3,46.77,3.0,1.43,-1.57,False,8.8,False,5.0
+SHP1219,2026-04-09,Thursday,False,Central,Sea,Carrier B,Textiles,4655.8,269.1,242.17,10.0,11.8,1.8,True,8.8,False,3.5
+SHP1220,2026-02-21,Saturday,True,West,Road,Carrier C,Perishables,732.9,589.5,67.99,3.0,4.04,1.04,True,6.2,False,4.5
+SHP1221,2026-04-10,Friday,False,East,Road,Carrier D,Perishables,622.6,1262.8,92.62,3.0,2.04,-0.96,False,7.8,False,4.0
+SHP1222,2026-04-27,Monday,False,North,Road,Carrier B,Consumer Goods,95.8,329.0,28.89,3.0,0.5,-2.5,False,7.4,False,4.0
+SHP1223,2026-04-28,Tuesday,False,South,Road,Carrier D,Perishables,321.6,885.6,49.66,3.0,1.91,-1.09,False,9.8,False,4.5
+SHP1224,2026-01-07,Wednesday,False,South,Sea,Carrier B,Electronics,3285.6,162.1,205.06,10.0,9.59,-0.41,False,6.3,False,5.0
+SHP1225,2026-02-15,Sunday,True,South,Sea,Carrier D,Electronics,1284.5,187.5,237.83,10.0,5.99,-4.01,False,8.7,False,5.0
+SHP1226,2026-02-15,Sunday,True,Central,Road,Carrier A,Textiles,274.8,260.0,33.76,3.0,2.49,-0.51,False,13.8,False,4.0
+SHP1227,2026-04-10,Friday,False,South,Sea,Carrier C,Textiles,3270.3,676.7,267.97,10.0,9.28,-0.72,False,6.2,False,4.5
+SHP1228,2026-05-24,Sunday,True,Central,Rail,Carrier B,Consumer Goods,742.9,556.2,84.26,4.5,2.95,-1.55,False,7.0,False,4.5
+SHP1229,2026-06-01,Monday,False,West,Sea,Carrier B,Perishables,3510.4,734.0,225.03,10.0,9.66,-0.34,False,8.3,False,4.5
+SHP1230,2026-02-23,Monday,False,West,Road,Carrier C,Textiles,173.8,131.3,19.64,3.0,1.45,-1.55,False,2.6,True,5.0
+SHP1231,2026-03-03,Tuesday,False,East,Road,Carrier C,Consumer Goods,357.9,291.1,29.32,3.0,2.02,-0.98,False,5.6,False,4.0
+SHP1232,2026-05-09,Saturday,True,East,Road,Carrier A,Consumer Goods,480.4,571.5,46.53,3.0,3.08,0.08,True,9.1,False,4.5
+SHP1233,2026-02-18,Wednesday,False,East,Rail,Carrier A,Textiles,903.6,265.9,72.32,4.5,3.19,-1.31,False,8.1,False,4.5
+SHP1234,2026-01-25,Sunday,True,North,Road,Carrier C,Textiles,539.4,136.2,31.49,3.0,3.09,0.09,True,10.6,False,4.5
+SHP1235,2026-01-10,Saturday,True,West,Road,Carrier C,Perishables,527.7,960.4,64.22,3.0,3.22,0.22,True,8.0,True,4.0
+SHP1236,2026-04-28,Tuesday,False,South,Road,Carrier D,Consumer Goods,368.6,222.8,32.05,3.0,1.52,-1.48,False,7.8,False,5.0
+SHP1237,2026-05-24,Sunday,True,North,Air,Carrier C,Electronics,1884.1,410.7,362.66,1.5,0.98,-0.52,False,7.1,False,5.0
+SHP1238,2026-06-06,Saturday,True,West,Road,Carrier D,Consumer Goods,290.0,615.2,45.98,3.0,1.89,-1.11,False,7.8,False,4.0
+SHP1239,2026-04-02,Thursday,False,North,Rail,Carrier C,Machinery,805.4,1237.5,108.53,4.5,2.76,-1.74,False,6.1,False,4.5
+SHP1240,2026-05-14,Thursday,False,Central,Sea,Carrier A,Textiles,2233.3,247.6,220.25,10.0,7.43,-2.57,False,8.2,False,5.0
+SHP1241,2026-05-24,Sunday,True,Central,Road,Carrier A,Electronics,663.1,102.1,26.71,3.0,3.45,0.45,True,6.6,False,5.0
+SHP1242,2026-05-28,Thursday,False,Central,Rail,Carrier C,Textiles,804.3,66.7,62.64,4.5,2.48,-2.02,False,6.1,False,4.5
+SHP1243,2026-03-21,Saturday,True,South,Road,Carrier C,Textiles,662.8,167.4,37.42,3.0,2.68,-0.32,False,7.2,False,4.0
+SHP1244,2026-03-12,Thursday,False,North,Sea,Carrier A,Electronics,3873.8,206.3,194.87,10.0,10.52,0.52,True,9.4,False,4.0
+SHP1245,2026-03-19,Thursday,False,Central,Road,Carrier B,Machinery,272.9,529.8,31.51,3.0,1.85,-1.15,False,8.8,False,5.0
+SHP1246,2026-02-12,Thursday,False,East,Rail,Carrier D,Consumer Goods,987.9,356.2,75.18,4.5,2.41,-2.09,False,9.8,False,4.0
+SHP1247,2026-06-03,Wednesday,False,Central,Sea,Carrier B,Textiles,4471.7,690.9,284.08,10.0,12.01,2.01,True,6.7,False,3.0
+SHP1248,2026-03-31,Tuesday,False,Central,Sea,Carrier B,Machinery,3406.9,819.1,202.98,10.0,8.91,-1.09,False,8.5,False,4.5
+SHP1249,2026-03-19,Thursday,False,Central,Rail,Carrier B,Electronics,925.9,50.3,57.96,4.5,3.21,-1.29,False,11.9,False,4.5
+SHP1250,2026-06-10,Wednesday,False,South,Road,Carrier A,Textiles,339.7,128.8,29.24,3.0,1.99,-1.01,False,11.3,False,4.0
+SHP1251,2026-01-26,Monday,False,South,Rail,Carrier B,Electronics,908.4,403.6,83.38,4.5,2.31,-2.19,False,6.0,False,4.0
+SHP1252,2026-05-01,Friday,False,Central,Sea,Carrier B,Machinery,3785.5,1344.7,294.27,10.0,9.95,-0.05,False,6.5,False,4.5
+SHP1253,2026-02-14,Saturday,True,South,Rail,Carrier A,Consumer Goods,697.4,255.6,84.81,4.5,3.63,-0.87,False,11.9,False,5.0
+SHP1254,2026-03-04,Wednesday,False,North,Road,Carrier C,Machinery,234.1,1567.9,49.7,3.0,1.63,-1.37,False,9.4,True,4.5
+SHP1255,2026-06-29,Monday,False,East,Sea,Carrier B,Electronics,5045.6,84.3,174.86,10.0,11.86,1.86,True,8.1,False,3.5
+SHP1256,2026-03-09,Monday,False,Central,Rail,Carrier D,Perishables,1111.4,109.0,70.78,4.5,3.5,-1.0,False,7.9,False,5.0
+SHP1257,2026-06-03,Wednesday,False,West,Rail,Carrier D,Textiles,708.3,581.0,63.76,4.5,2.19,-2.31,False,9.0,False,5.0
+SHP1258,2026-01-02,Friday,False,East,Road,Carrier A,Textiles,493.9,246.8,37.3,3.0,2.6,-0.4,False,9.0,False,5.0
+SHP1259,2026-05-22,Friday,False,North,Rail,Carrier C,Consumer Goods,382.5,1177.0,78.37,4.5,1.26,-3.24,False,7.4,False,3.5
+SHP1260,2026-04-18,Saturday,True,West,Road,Carrier B,Consumer Goods,54.6,670.6,28.36,3.0,1.87,-1.13,False,8.2,False,4.5
+SHP1261,2026-01-30,Friday,False,Central,Rail,Carrier D,Machinery,1279.4,1033.0,115.39,4.5,2.86,-1.64,False,7.4,False,5.0
+SHP1262,2026-02-18,Wednesday,False,North,Road,Carrier A,Textiles,495.9,290.8,34.06,3.0,2.05,-0.95,False,8.8,False,5.0
+SHP1263,2026-05-20,Wednesday,False,East,Rail,Carrier C,Perishables,883.3,585.3,81.14,4.5,3.35,-1.15,False,7.0,False,4.5
+SHP1264,2026-02-13,Friday,False,Central,Sea,Carrier C,Electronics,3779.2,198.7,215.32,10.0,9.81,-0.19,False,6.0,False,4.0
+SHP1265,2026-06-10,Wednesday,False,West,Road,Carrier A,Perishables,1095.2,221.7,45.29,3.0,2.65,-0.35,False,11.5,False,4.0
+SHP1266,2026-01-13,Tuesday,False,West,Sea,Carrier A,Textiles,4542.9,556.8,238.86,10.0,11.59,1.59,True,8.4,False,3.0
+SHP1267,2026-03-19,Thursday,False,West,Road,Carrier C,Machinery,240.9,1624.8,61.45,3.0,1.51,-1.49,False,11.9,False,4.5
+SHP1268,2026-05-06,Wednesday,False,South,Sea,Carrier C,Machinery,1483.5,1086.6,263.07,10.0,5.9,-4.1,False,4.6,False,4.0
+SHP1269,2026-04-08,Wednesday,False,South,Air,Carrier B,Electronics,2538.2,330.9,380.49,1.5,0.85,-0.65,False,5.6,False,3.0
+SHP1270,2026-01-26,Monday,False,West,Rail,Carrier C,Textiles,1199.6,425.1,88.39,4.5,3.07,-1.43,False,9.4,False,4.0
+SHP1271,2026-05-29,Friday,False,West,Air,Carrier B,Electronics,2202.5,57.7,148.25,1.5,0.78,-0.72,False,8.4,False,4.0
+SHP1272,2026-06-05,Friday,False,Central,Sea,Carrier C,Electronics,2524.5,263.2,190.53,10.0,7.79,-2.21,False,6.2,False,4.0
+SHP1273,2026-02-17,Tuesday,False,Central,Road,Carrier A,Consumer Goods,522.7,265.7,38.86,3.0,1.81,-1.19,False,10.8,False,4.0
+SHP1274,2026-06-17,Wednesday,False,East,Road,Carrier D,Electronics,305.3,49.4,25.88,3.0,1.79,-1.21,False,6.8,False,5.0
+SHP1275,2026-03-07,Saturday,True,East,Rail,Carrier A,Textiles,1132.0,147.2,79.49,4.5,3.58,-0.92,False,10.9,False,4.5
+SHP1276,2026-03-28,Saturday,True,West,Sea,Carrier B,Electronics,4679.2,373.4,280.64,10.0,12.91,2.91,True,8.4,False,2.5
+SHP1277,2026-03-20,Friday,False,West,Air,Carrier A,Consumer Goods,1419.6,648.2,442.28,1.5,1.1,-0.4,False,6.4,False,4.5
+SHP1278,2026-01-23,Friday,False,West,Air,Carrier A,Textiles,2592.3,312.6,404.12,1.5,1.21,-0.29,False,7.2,False,5.0
+SHP1279,2026-03-22,Sunday,True,West,Road,Carrier B,Perishables,473.0,743.7,44.42,3.0,3.29,0.29,True,11.2,False,5.0
+SHP1280,2026-02-17,Tuesday,False,Central,Sea,Carrier A,Textiles,4090.2,458.7,245.97,10.0,10.26,0.26,True,7.9,False,5.0
+SHP1281,2026-05-04,Monday,False,South,Road,Carrier D,Consumer Goods,188.1,388.8,33.76,3.0,1.24,-1.76,False,10.4,False,4.5
+SHP1282,2026-05-10,Sunday,True,South,Road,Carrier A,Consumer Goods,496.4,941.9,65.08,3.0,1.99,-1.01,False,11.3,False,4.0
+SHP1283,2026-03-25,Wednesday,False,North,Road,Carrier B,Perishables,314.9,592.9,41.83,3.0,0.9,-2.1,False,8.3,False,4.0
+SHP1284,2026-01-20,Tuesday,False,East,Road,Carrier B,Consumer Goods,544.9,129.3,28.73,3.0,1.11,-1.89,False,8.1,False,4.0
+SHP1285,2026-02-15,Sunday,True,North,Road,Carrier A,Consumer Goods,743.4,1137.3,118.15,3.0,3.39,0.39,True,7.7,False,4.5
+SHP1286,2026-05-11,Monday,False,East,Road,Carrier A,Consumer Goods,507.9,172.2,30.36,3.0,2.13,-0.87,False,9.2,False,4.5
+SHP1287,2026-01-12,Monday,False,East,Rail,Carrier B,Machinery,584.7,2320.0,113.37,4.5,1.45,-3.05,False,11.5,False,4.0
+SHP1288,2026-02-09,Monday,False,South,Road,Carrier B,Machinery,575.3,316.9,39.87,3.0,1.87,-1.13,False,6.0,False,3.5
+SHP1289,2026-03-07,Saturday,True,East,Road,Carrier B,Textiles,530.4,319.0,51.26,3.0,3.31,0.31,True,8.9,False,4.5
+SHP1290,2026-04-10,Friday,False,North,Road,Carrier B,Consumer Goods,861.7,294.8,51.71,3.0,2.3,-0.7,False,8.9,False,4.5
+SHP1291,2026-03-19,Thursday,False,North,Road,Carrier C,Textiles,500.8,372.0,47.16,3.0,2.26,-0.74,False,4.9,False,4.5
+SHP1292,2026-01-16,Friday,False,Central,Road,Carrier A,Machinery,332.9,3096.7,100.7,3.0,2.05,-0.95,False,6.7,False,4.5
+SHP1293,2026-03-24,Tuesday,False,South,Road,Carrier B,Textiles,604.1,241.5,34.26,3.0,2.27,-0.73,False,7.1,False,5.0
+SHP1294,2026-06-11,Thursday,False,North,Rail,Carrier D,Consumer Goods,855.3,176.1,73.93,4.5,2.65,-1.85,False,10.0,False,4.5
+SHP1295,2026-02-13,Friday,False,East,Rail,Carrier B,Consumer Goods,928.1,500.0,69.49,4.5,3.57,-0.93,False,10.4,False,4.0
+SHP1296,2026-05-14,Thursday,False,West,Rail,Carrier C,Electronics,575.0,138.1,60.16,4.5,2.39,-2.11,False,4.7,False,5.0
+SHP1297,2026-04-10,Friday,False,North,Road,Carrier B,Consumer Goods,425.5,205.6,38.28,3.0,1.79,-1.21,False,9.8,False,4.5
+SHP1298,2026-01-22,Thursday,False,West,Road,Carrier C,Textiles,456.2,405.4,38.44,3.0,2.36,-0.64,False,9.5,False,4.5
+SHP1299,2026-01-18,Sunday,True,North,Sea,Carrier C,Consumer Goods,3346.0,54.6,187.9,10.0,10.23,0.23,True,9.7,False,4.0
+SHP1300,2026-01-12,Monday,False,North,Road,Carrier B,Textiles,331.8,166.4,30.08,3.0,2.03,-0.97,False,8.8,False,4.0
+SHP1301,2026-06-29,Monday,False,East,Road,Carrier D,Textiles,507.6,358.3,35.48,3.0,2.32,-0.68,False,10.4,False,4.0
+SHP1302,2026-05-03,Sunday,True,East,Road,Carrier A,Consumer Goods,265.3,260.3,37.05,3.0,1.21,-1.79,False,10.8,False,4.0
+SHP1303,2026-04-27,Monday,False,West,Road,Carrier A,Perishables,218.2,233.3,27.46,3.0,0.6,-2.4,False,5.2,False,3.0
+SHP1304,2026-02-20,Friday,False,West,Road,Carrier C,Consumer Goods,591.9,679.7,55.85,3.0,1.8,-1.2,False,8.4,False,4.5
+SHP1305,2026-03-12,Thursday,False,Central,Road,Carrier D,Textiles,573.6,322.3,41.74,3.0,1.87,-1.13,False,8.0,False,5.0
+SHP1306,2026-02-17,Tuesday,False,East,Rail,Carrier A,Textiles,442.3,135.9,60.68,4.5,2.28,-2.22,False,7.4,False,4.0
+SHP1307,2026-01-19,Monday,False,South,Road,Carrier A,Perishables,84.1,501.1,29.37,3.0,0.88,-2.12,False,7.6,False,5.0
+SHP1308,2026-01-06,Tuesday,False,West,Rail,Carrier A,Machinery,546.9,2125.9,117.01,4.5,2.28,-2.22,False,8.9,False,5.0
+SHP1309,2026-03-25,Wednesday,False,South,Air,Carrier A,Perishables,1710.2,135.2,190.62,1.5,0.8,-0.7,False,5.9,False,4.5
+SHP1310,2026-06-04,Thursday,False,East,Sea,Carrier C,Electronics,4885.2,346.6,212.13,10.0,12.68,2.68,True,9.8,False,2.5
+SHP1311,2026-02-22,Sunday,True,North,Air,Carrier B,Perishables,1693.1,686.1,562.1,1.5,1.39,-0.11,False,7.8,False,4.0
+SHP1312,2026-04-17,Friday,False,North,Sea,Carrier B,Electronics,2576.8,155.9,196.49,10.0,7.39,-2.61,False,10.2,False,4.5
+SHP1313,2026-04-11,Saturday,True,Central,Road,Carrier B,Consumer Goods,479.7,673.3,54.33,3.0,1.43,-1.57,False,7.3,False,4.5
+SHP1314,2026-02-17,Tuesday,False,Central,Road,Carrier A,Consumer Goods,427.2,702.3,52.6,3.0,1.52,-1.48,False,7.2,False,4.5
+SHP1315,2026-05-15,Friday,False,West,Road,Carrier A,Textiles,173.8,97.6,22.43,3.0,1.61,-1.39,False,6.6,False,5.0
+SHP1316,2026-03-10,Tuesday,False,South,Rail,Carrier C,Consumer Goods,418.7,357.6,68.82,4.5,1.55,-2.95,False,7.3,False,5.0
+SHP1317,2026-01-11,Sunday,True,North,Sea,Carrier D,Perishables,1882.2,451.8,238.04,10.0,6.11,-3.89,False,6.9,False,4.5
+SHP1318,2026-05-23,Saturday,True,North,Road,Carrier D,Machinery,946.0,1431.5,172.86,3.0,4.19,1.19,True,9.4,False,4.0
+SHP1319,2026-05-11,Monday,False,South,Sea,Carrier A,Consumer Goods,4532.0,1112.3,288.78,10.0,11.74,1.74,True,10.6,False,3.0
+SHP1320,2026-05-02,Saturday,True,East,Road,Carrier D,Consumer Goods,331.3,432.5,45.27,3.0,2.3,-0.7,False,9.3,False,4.5
+SHP1321,2026-03-10,Tuesday,False,West,Sea,Carrier C,Textiles,4829.9,1054.5,314.65,10.0,11.45,1.45,True,8.3,False,3.5
+SHP1322,2026-01-23,Friday,False,West,Road,Carrier C,Consumer Goods,336.4,282.7,33.49,3.0,1.26,-1.74,False,9.5,False,4.5
+SHP1323,2026-06-30,Tuesday,False,South,Road,Carrier B,Perishables,665.0,654.3,73.48,3.0,2.51,-0.49,False,8.4,False,4.5
+SHP1324,2026-02-06,Friday,False,Central,Road,Carrier B,Consumer Goods,466.1,338.7,39.51,3.0,1.77,-1.23,False,8.6,False,4.0
+SHP1325,2026-01-09,Friday,False,West,Road,Carrier B,Electronics,318.2,155.3,28.23,3.0,1.22,-1.78,False,7.9,False,4.0
+SHP1326,2026-01-15,Thursday,False,East,Road,Carrier A,Machinery,586.0,1428.6,101.34,3.0,2.24,-0.76,False,10.2,False,4.0
+SHP1327,2026-05-11,Monday,False,West,Road,Carrier A,Machinery,477.5,2270.1,117.27,3.0,2.15,-0.85,False,3.4,False,4.0
+SHP1328,2026-04-03,Friday,False,South,Sea,Carrier A,Machinery,3977.9,796.6,271.25,10.0,10.34,0.34,True,4.2,False,4.0
+SHP1329,2026-01-17,Saturday,True,South,Road,Carrier B,Electronics,493.1,151.5,37.88,3.0,2.67,-0.33,False,10.6,False,5.0
+SHP1330,2026-06-03,Wednesday,False,South,Road,Carrier C,Consumer Goods,491.0,389.7,42.19,3.0,1.28,-1.72,False,8.1,False,4.5
+SHP1331,2026-05-29,Friday,False,West,Rail,Carrier B,Electronics,1180.2,309.2,76.97,4.5,3.35,-1.15,False,10.3,False,4.0
+SHP1332,2026-03-13,Friday,False,North,Air,Carrier A,Machinery,3608.7,2038.0,2631.32,1.5,1.66,0.16,True,7.3,False,3.5
+SHP1333,2026-05-29,Friday,False,North,Road,Carrier D,Perishables,699.8,1208.9,110.75,3.0,2.72,-0.28,False,11.8,False,4.0
+SHP1334,2026-05-01,Friday,False,North,Road,Carrier D,Perishables,493.9,796.8,58.23,3.0,1.52,-1.48,False,8.2,False,4.5
+SHP1335,2026-01-11,Sunday,True,North,Road,Carrier C,Textiles,387.9,166.9,33.75,3.0,1.88,-1.12,False,9.4,False,5.0
+SHP1336,2026-06-15,Monday,False,Central,Road,Carrier D,Textiles,409.9,338.5,39.89,3.0,1.61,-1.39,False,7.6,False,4.0
+SHP1337,2026-03-13,Friday,False,West,Rail,Carrier B,Electronics,460.4,155.1,64.88,4.5,2.82,-1.68,False,6.7,False,4.5
+SHP1338,2026-04-16,Thursday,False,East,Road,Carrier D,Electronics,582.9,148.0,27.88,3.0,2.4,-0.6,False,5.0,False,4.0
+SHP1339,2026-05-05,Tuesday,False,North,Road,Carrier A,Textiles,247.0,333.8,34.97,3.0,1.28,-1.72,False,10.1,False,4.5
+SHP1340,2026-02-04,Wednesday,False,East,Air,Carrier B,Consumer Goods,1539.3,256.0,256.39,1.5,1.04,-0.46,False,9.3,False,4.0
+SHP1341,2026-04-29,Wednesday,False,East,Road,Carrier A,Consumer Goods,584.1,240.6,39.44,3.0,3.07,0.07,True,8.7,False,4.5
+SHP1342,2026-01-14,Wednesday,False,North,Rail,Carrier A,Electronics,816.9,305.1,64.42,4.5,2.97,-1.53,False,6.2,False,4.0
+SHP1343,2026-01-14,Wednesday,False,East,Road,Carrier A,Textiles,351.5,145.2,29.95,3.0,1.87,-1.13,False,11.3,False,4.5
+SHP1344,2026-01-10,Saturday,True,South,Sea,Carrier C,Electronics,2063.0,146.7,237.55,10.0,6.85,-3.15,False,8.7,False,5.0
+SHP1345,2026-05-20,Wednesday,False,West,Road,Carrier C,Electronics,691.1,438.8,48.61,3.0,1.85,-1.15,False,9.9,False,4.5
+SHP1346,2026-02-07,Saturday,True,West,Sea,Carrier B,Machinery,2500.1,1998.6,307.85,10.0,9.29,-0.71,False,8.5,False,5.0
+SHP1347,2026-04-18,Saturday,True,North,Rail,Carrier A,Machinery,694.9,523.9,88.17,4.5,3.66,-0.84,False,6.3,False,4.5
+SHP1348,2026-04-29,Wednesday,False,South,Road,Carrier D,Electronics,91.7,324.3,26.2,3.0,1.08,-1.92,False,10.5,False,4.5
+SHP1349,2026-02-03,Tuesday,False,West,Rail,Carrier C,Perishables,893.0,1014.6,99.09,4.5,2.95,-1.55,False,9.4,False,4.5
+SHP1350,2026-06-18,Thursday,False,East,Sea,Carrier B,Electronics,3100.0,237.1,196.93,10.0,8.4,-1.6,False,8.1,False,4.0
+SHP1351,2026-01-10,Saturday,True,Central,Rail,Carrier C,Consumer Goods,963.7,698.5,111.71,4.5,3.54,-0.96,False,9.4,False,3.5
+SHP1352,2026-05-02,Saturday,True,West,Sea,Carrier A,Consumer Goods,2090.4,265.2,237.47,10.0,7.1,-2.9,False,10.1,False,4.5
+SHP1353,2026-05-25,Monday,False,North,Sea,Carrier B,Electronics,4381.0,263.8,218.56,10.0,10.81,0.81,True,9.8,False,3.0
+SHP1354,2026-05-25,Monday,False,North,Road,Carrier D,Perishables,82.2,1353.3,33.77,3.0,1.34,-1.66,False,5.1,False,5.0
+SHP1355,2026-04-25,Saturday,True,West,Road,Carrier A,Consumer Goods,431.6,392.0,39.18,3.0,1.75,-1.25,False,5.5,False,4.5
+SHP1356,2026-01-01,Thursday,False,North,Rail,Carrier B,Consumer Goods,940.4,356.6,74.43,4.5,2.66,-1.84,False,10.0,False,4.0
+SHP1357,2026-01-12,Monday,False,East,Road,Carrier D,Textiles,461.6,244.8,37.04,3.0,2.21,-0.79,False,7.1,False,4.0
+SHP1358,2026-04-13,Monday,False,Central,Sea,Carrier C,Electronics,3689.3,235.1,203.27,10.0,9.81,-0.19,False,6.4,False,4.5
+SHP1359,2026-01-04,Sunday,True,East,Sea,Carrier A,Electronics,4446.4,256.0,242.62,10.0,11.5,1.5,True,9.2,False,3.0
+SHP1360,2026-06-19,Friday,False,South,Road,Carrier A,Machinery,714.9,825.8,75.84,3.0,2.4,-0.6,False,6.3,False,4.5
+SHP1361,2026-05-21,Thursday,False,West,Road,Carrier A,Textiles,418.9,68.1,30.61,3.0,1.34,-1.66,False,7.5,False,4.5
+SHP1362,2026-04-08,Wednesday,False,East,Air,Carrier C,Electronics,1122.5,114.6,152.96,1.5,0.8,-0.7,False,10.2,False,4.0
+SHP1363,2026-04-16,Thursday,False,East,Road,Carrier B,Machinery,562.1,902.0,75.02,3.0,2.09,-0.91,False,5.5,False,4.0
+SHP1364,2026-03-26,Thursday,False,Central,Sea,Carrier A,Electronics,3163.7,256.5,240.34,10.0,7.85,-2.15,False,5.8,False,4.5
+SHP1365,2026-05-01,Friday,False,South,Road,Carrier D,Consumer Goods,702.9,617.9,62.16,3.0,2.81,-0.19,False,5.3,False,5.0
+SHP1366,2026-05-12,Tuesday,False,Central,Rail,Carrier B,Perishables,689.3,673.6,77.09,4.5,2.09,-2.41,False,6.8,False,4.5
+SHP1367,2026-03-23,Monday,False,Central,Road,Carrier A,Electronics,278.4,171.2,31.45,3.0,2.34,-0.66,False,8.7,False,3.5
+SHP1368,2026-01-19,Monday,False,North,Rail,Carrier B,Machinery,950.3,1579.5,109.37,4.5,3.18,-1.32,False,7.3,False,4.5
+SHP1369,2026-05-10,Sunday,True,North,Road,Carrier C,Textiles,101.9,505.2,33.11,3.0,1.82,-1.18,False,11.5,False,4.5
+SHP1370,2026-01-12,Monday,False,North,Rail,Carrier A,Consumer Goods,736.4,737.7,73.8,4.5,2.97,-1.53,False,9.4,False,4.0
+SHP1371,2026-03-22,Sunday,True,North,Road,Carrier A,Textiles,384.0,185.7,37.25,3.0,2.23,-0.77,False,8.5,False,4.0
+SHP1372,2026-03-15,Sunday,True,North,Air,Carrier D,Perishables,1954.3,529.2,477.2,1.5,1.82,0.32,True,11.0,False,4.0
+SHP1373,2026-04-08,Wednesday,False,West,Sea,Carrier B,Machinery,2304.5,958.0,242.38,10.0,7.61,-2.39,False,5.8,False,4.5
+SHP1374,2026-01-06,Tuesday,False,North,Road,Carrier B,Perishables,274.1,636.5,38.34,3.0,0.74,-2.26,False,10.2,False,4.0
+SHP1375,2026-05-16,Saturday,True,South,Road,Carrier B,Consumer Goods,681.4,606.9,58.69,3.0,3.49,0.49,True,8.0,False,4.5
+SHP1376,2026-05-05,Tuesday,False,Central,Road,Carrier A,Textiles,447.3,35.5,29.75,3.0,1.7,-1.3,False,7.6,False,4.0
+SHP1377,2026-02-20,Friday,False,North,Rail,Carrier A,Textiles,1202.6,188.0,69.21,4.5,3.2,-1.3,False,9.7,False,4.0
+SHP1378,2026-01-11,Sunday,True,West,Rail,Carrier B,Electronics,710.4,257.2,92.59,4.5,3.2,-1.3,False,7.7,False,4.0
+SHP1379,2026-05-07,Thursday,False,South,Road,Carrier A,Textiles,439.1,168.4,29.6,3.0,1.99,-1.01,False,8.9,False,5.0
+SHP1380,2026-05-20,Wednesday,False,North,Road,Carrier A,Consumer Goods,492.9,191.2,31.75,3.0,1.6,-1.4,False,8.3,False,4.5
+SHP1381,2026-03-14,Saturday,True,West,Road,Carrier D,Consumer Goods,799.5,258.9,43.74,3.0,3.43,0.43,True,9.1,False,4.5
+SHP1382,2026-01-02,Friday,False,West,Rail,Carrier D,Perishables,823.8,858.4,90.53,4.5,2.37,-2.13,False,7.5,False,4.5
+SHP1383,2026-01-08,Thursday,False,Central,Road,Carrier C,Perishables,416.7,183.2,35.89,3.0,1.79,-1.21,False,10.4,False,4.0
+SHP1384,2026-05-19,Tuesday,False,West,Sea,Carrier D,Consumer Goods,4817.8,953.3,315.44,10.0,12.15,2.15,True,4.4,False,3.0
+SHP1385,2026-05-04,Monday,False,West,Road,Carrier A,Consumer Goods,374.0,566.9,38.78,3.0,1.72,-1.28,False,9.8,False,4.0
+SHP1386,2026-02-22,Sunday,True,South,Rail,Carrier D,Electronics,999.6,217.0,82.6,4.5,3.66,-0.84,False,4.7,False,5.0
+SHP1387,2026-01-10,Saturday,True,North,Road,Carrier A,Textiles,652.2,184.6,40.82,3.0,2.68,-0.32,False,7.0,False,4.5
+SHP1388,2026-04-22,Wednesday,False,West,Road,Carrier D,Perishables,334.8,595.4,44.59,3.0,2.19,-0.81,False,9.5,False,3.5
+SHP1389,2026-01-08,Thursday,False,West,Air,Carrier D,Consumer Goods,2038.3,690.1,538.91,1.5,1.0,-0.5,False,4.5,False,5.0
+SHP1390,2026-02-05,Thursday,False,Central,Rail,Carrier C,Electronics,1510.9,228.5,71.85,4.5,3.45,-1.05,False,8.8,False,4.5
+SHP1391,2026-04-16,Thursday,False,South,Sea,Carrier D,Electronics,4605.6,115.6,212.96,10.0,11.62,1.62,True,5.8,False,3.5
+SHP1392,2026-01-14,Wednesday,False,South,Road,Carrier B,Consumer Goods,507.0,1107.5,72.19,3.0,1.77,-1.23,False,6.6,False,5.0
+SHP1393,2026-03-27,Friday,False,West,Road,Carrier A,Electronics,405.1,185.8,35.11,3.0,1.97,-1.03,False,6.5,False,3.5
+SHP1394,2026-05-29,Friday,False,South,Air,Carrier B,Textiles,1377.0,419.3,290.23,1.5,0.54,-0.96,False,5.8,False,4.5
+SHP1395,2026-02-19,Thursday,False,Central,Rail,Carrier C,Textiles,554.1,379.8,58.65,4.5,1.96,-2.54,False,5.0,False,4.5
+SHP1396,2026-06-16,Tuesday,False,Central,Road,Carrier A,Perishables,751.9,269.4,38.73,3.0,2.85,-0.15,False,12.6,False,3.5
+SHP1397,2026-01-20,Tuesday,False,East,Road,Carrier C,Textiles,713.1,254.4,37.23,3.0,1.89,-1.11,False,8.1,False,4.0
+SHP1398,2026-03-28,Saturday,True,West,Road,Carrier D,Textiles,318.6,141.6,30.72,3.0,2.24,-0.76,False,6.0,False,4.0
+SHP1399,2026-05-15,Friday,False,West,Sea,Carrier A,Electronics,3905.2,235.5,222.17,10.0,10.47,0.47,True,7.4,False,4.5
+SHP1400,2026-05-17,Sunday,True,North,Road,Carrier C,Machinery,472.3,870.0,67.23,3.0,3.21,0.21,True,8.6,False,4.0
+SHP1401,2026-05-09,Saturday,True,Central,Road,Carrier D,Consumer Goods,686.9,561.2,66.85,3.0,2.4,-0.6,False,7.7,False,4.5
+SHP1402,2026-06-03,Wednesday,False,East,Road,Carrier D,Consumer Goods,526.6,283.8,37.67,3.0,1.93,-1.07,False,6.0,False,4.5
+SHP1403,2026-06-15,Monday,False,Central,Road,Carrier D,Electronics,445.4,207.1,32.72,3.0,1.75,-1.25,False,6.7,False,5.0
+SHP1404,2026-02-07,Saturday,True,South,Road,Carrier B,Electronics,341.7,43.1,32.68,3.0,2.32,-0.68,False,10.9,False,4.5
+SHP1405,2026-02-13,Friday,False,Central,Road,Carrier D,Perishables,518.2,1134.7,85.43,3.0,2.21,-0.79,False,5.7,False,4.5
+SHP1406,2026-03-27,Friday,False,South,Road,Carrier C,Perishables,380.4,385.9,39.46,3.0,1.91,-1.09,False,4.5,False,4.0
+SHP1407,2026-02-13,Friday,False,North,Sea,Carrier A,Textiles,3764.8,624.8,265.16,10.0,9.39,-0.61,False,7.7,False,4.5
+SHP1408,2026-03-15,Sunday,True,Central,Road,Carrier B,Machinery,434.8,759.6,50.0,3.0,3.09,0.09,True,4.6,False,5.0
+SHP1409,2026-04-29,Wednesday,False,North,Road,Carrier C,Electronics,375.5,95.7,26.38,3.0,1.97,-1.03,False,6.7,False,4.5
+SHP1410,2026-05-02,Saturday,True,South,Sea,Carrier A,Electronics,2332.7,75.8,212.22,10.0,7.99,-2.01,False,6.0,False,4.0
+SHP1411,2026-05-14,Thursday,False,Central,Rail,Carrier C,Textiles,1080.0,317.0,70.52,4.5,3.34,-1.16,False,6.0,False,5.0
+SHP1412,2026-05-25,Monday,False,Central,Road,Carrier C,Machinery,458.5,2772.9,122.18,3.0,1.95,-1.05,False,8.6,False,4.0
+SHP1413,2026-02-20,Friday,False,East,Road,Carrier A,Electronics,807.5,112.1,34.26,3.0,2.15,-0.85,False,9.0,False,4.5
+SHP1414,2026-02-07,Saturday,True,West,Road,Carrier B,Machinery,243.5,1758.6,76.23,3.0,2.33,-0.67,False,6.9,False,4.5
+SHP1415,2026-06-01,Monday,False,East,Rail,Carrier C,Perishables,1118.9,862.3,103.31,4.5,3.3,-1.2,False,8.3,False,4.5
+SHP1416,2026-02-20,Friday,False,South,Sea,Carrier B,Consumer Goods,3400.8,170.3,222.55,10.0,8.16,-1.84,False,6.8,False,4.5
+SHP1417,2026-01-10,Saturday,True,South,Rail,Carrier A,Consumer Goods,1634.9,363.0,93.32,4.5,4.6,0.1,True,9.3,False,4.0
+SHP1418,2026-04-30,Thursday,False,West,Rail,Carrier A,Perishables,1092.1,688.2,90.51,4.5,2.5,-2.0,False,5.5,False,4.0
+SHP1419,2026-05-29,Friday,False,West,Air,Carrier B,Perishables,2027.3,452.1,443.69,1.5,1.1,-0.4,False,8.8,True,4.0
+SHP1420,2026-03-11,Wednesday,False,West,Road,Carrier D,Textiles,434.0,547.0,41.07,3.0,1.65,-1.35,False,9.0,False,4.0
+SHP1421,2026-03-26,Thursday,False,West,Road,Carrier A,Perishables,309.4,328.9,29.07,3.0,1.45,-1.55,False,13.2,False,4.5
+SHP1422,2026-02-26,Thursday,False,North,Rail,Carrier C,Machinery,1009.0,2546.9,155.38,4.5,2.56,-1.94,False,5.0,False,4.0
+SHP1423,2026-05-06,Wednesday,False,East,Sea,Carrier A,Consumer Goods,1841.2,571.0,236.12,10.0,7.01,-2.99,False,13.8,False,4.0
+SHP1424,2026-02-08,Sunday,True,North,Road,Carrier B,Machinery,182.7,756.3,40.71,3.0,2.24,-0.76,False,10.0,False,5.0
+SHP1425,2026-02-02,Monday,False,East,Rail,Carrier D,Consumer Goods,1254.4,365.5,83.06,4.5,3.32,-1.18,False,12.2,False,5.0
+SHP1426,2026-01-18,Sunday,True,East,Road,Carrier C,Textiles,97.6,288.3,33.72,3.0,0.94,-2.06,False,10.3,False,4.5
+SHP1427,2026-02-26,Thursday,False,Central,Road,Carrier A,Electronics,386.1,114.8,26.29,3.0,1.51,-1.49,False,6.6,False,4.5
+SHP1428,2026-04-06,Monday,False,South,Road,Carrier B,Consumer Goods,240.2,973.4,50.48,3.0,1.77,-1.23,False,9.8,False,4.0
+SHP1429,2026-02-17,Tuesday,False,North,Road,Carrier A,Perishables,369.5,534.9,41.43,3.0,1.65,-1.35,False,7.2,False,4.0
+SHP1430,2026-02-11,Wednesday,False,North,Air,Carrier B,Machinery,1929.2,2820.0,1779.27,1.5,1.29,-0.21,False,8.3,False,4.5
+SHP1431,2026-01-27,Tuesday,False,West,Road,Carrier C,Perishables,646.9,973.6,82.21,3.0,2.68,-0.32,False,6.2,False,4.5
+SHP1432,2026-03-15,Sunday,True,West,Rail,Carrier A,Electronics,1326.2,42.2,69.32,4.5,4.04,-0.46,False,7.1,False,4.5
+SHP1433,2026-04-20,Monday,False,North,Air,Carrier A,Consumer Goods,1156.7,144.8,170.67,1.5,0.77,-0.73,False,10.3,False,3.5
+SHP1434,2026-06-29,Monday,False,North,Sea,Carrier B,Electronics,2940.8,105.3,216.26,10.0,8.88,-1.12,False,9.4,False,5.0
+SHP1435,2026-06-19,Friday,False,West,Road,Carrier D,Consumer Goods,1260.5,545.2,87.44,3.0,4.15,1.15,True,10.5,False,4.0
+SHP1436,2026-02-01,Sunday,True,North,Road,Carrier D,Consumer Goods,400.0,175.4,33.28,3.0,2.56,-0.44,False,5.7,False,4.0
+SHP1437,2026-01-26,Monday,False,Central,Road,Carrier A,Consumer Goods,273.6,284.4,30.94,3.0,1.28,-1.72,False,4.8,False,4.5
+SHP1438,2026-01-25,Sunday,True,West,Sea,Carrier C,Machinery,2641.0,1241.3,292.28,10.0,8.11,-1.89,False,10.7,False,4.0
+SHP1439,2026-03-16,Monday,False,North,Sea,Carrier B,Machinery,3207.0,3298.0,366.87,10.0,8.53,-1.47,False,10.6,False,4.0
+SHP1440,2026-01-23,Friday,False,North,Road,Carrier B,Consumer Goods,371.5,675.9,43.51,3.0,2.01,-0.99,False,8.9,False,4.0
+SHP1441,2026-02-26,Thursday,False,Central,Sea,Carrier C,Perishables,3218.8,1486.5,287.0,10.0,8.51,-1.49,False,9.3,False,4.5
+SHP1442,2026-06-29,Monday,False,South,Road,Carrier D,Textiles,445.7,328.9,39.86,3.0,2.32,-0.68,False,10.2,False,5.0
+SHP1443,2026-05-06,Wednesday,False,South,Rail,Carrier D,Machinery,890.1,1340.7,133.19,4.5,3.02,-1.48,False,8.9,False,4.5
+SHP1444,2026-03-28,Saturday,True,West,Road,Carrier B,Textiles,258.9,263.6,33.2,3.0,2.31,-0.69,False,9.6,False,4.5
+SHP1445,2026-01-31,Saturday,True,Central,Air,Carrier B,Textiles,2058.5,301.5,295.25,1.5,1.73,0.23,True,10.1,False,4.5
+SHP1446,2026-03-05,Thursday,False,Central,Road,Carrier C,Perishables,474.2,264.3,33.99,3.0,2.15,-0.85,False,8.3,False,4.5
+SHP1447,2026-02-02,Monday,False,West,Sea,Carrier A,Textiles,4095.9,394.3,244.55,10.0,10.33,0.33,True,7.8,False,3.5
+SHP1448,2026-01-02,Friday,False,South,Air,Carrier B,Consumer Goods,599.9,355.0,173.54,1.5,0.58,-0.92,False,9.3,False,4.0
+SHP1449,2026-01-18,Sunday,True,North,Air,Carrier B,Electronics,1909.8,133.1,194.73,1.5,1.16,-0.34,False,13.0,False,4.0
+SHP1450,2026-06-24,Wednesday,False,West,Road,Carrier C,Consumer Goods,52.9,285.7,27.74,3.0,1.82,-1.18,False,6.8,False,5.0
+SHP1451,2026-06-10,Wednesday,False,East,Road,Carrier A,Machinery,414.9,552.8,47.34,3.0,1.49,-1.51,False,7.6,False,5.0
+SHP1452,2026-03-25,Wednesday,False,East,Road,Carrier A,Consumer Goods,581.6,298.2,35.83,3.0,2.37,-0.63,False,5.0,False,4.5
+SHP1453,2026-02-04,Wednesday,False,Central,Road,Carrier D,Textiles,659.2,133.6,30.57,3.0,2.01,-0.99,False,9.4,False,4.5
+SHP1454,2026-06-28,Sunday,True,North,Road,Carrier A,Consumer Goods,516.9,565.8,60.95,3.0,2.87,-0.13,False,7.4,False,4.5
+SHP1455,2026-04-24,Friday,False,East,Sea,Carrier B,Electronics,4310.5,96.0,222.49,10.0,10.96,0.96,True,5.7,False,3.5
+SHP1456,2026-05-26,Tuesday,False,North,Rail,Carrier A,Consumer Goods,795.3,877.0,82.63,4.5,2.35,-2.15,False,8.4,False,4.0
+SHP1457,2026-04-20,Monday,False,East,Road,Carrier A,Electronics,348.2,99.2,23.64,3.0,1.15,-1.85,False,11.5,False,4.0
+SHP1458,2026-03-29,Sunday,True,North,Road,Carrier A,Consumer Goods,988.6,1147.1,140.17,3.0,4.25,1.25,True,7.8,False,4.5
+SHP1459,2026-03-13,Friday,False,North,Road,Carrier A,Consumer Goods,615.4,651.0,59.61,3.0,2.01,-0.99,False,8.0,False,4.5
+SHP1460,2026-05-05,Tuesday,False,North,Rail,Carrier D,Perishables,489.5,503.0,72.11,4.5,2.05,-2.45,False,11.4,False,4.0
+SHP1461,2026-01-30,Friday,False,West,Road,Carrier A,Electronics,103.1,85.9,27.11,3.0,1.47,-1.53,False,8.5,False,5.0
+SHP1462,2026-06-21,Sunday,True,West,Sea,Carrier D,Consumer Goods,2941.9,431.5,224.8,10.0,9.21,-0.79,False,6.1,False,5.0
+SHP1463,2026-02-22,Sunday,True,East,Road,Carrier C,Perishables,688.4,844.6,80.63,3.0,2.65,-0.35,False,9.9,False,5.0
+SHP1464,2026-05-18,Monday,False,Central,Sea,Carrier B,Consumer Goods,3558.5,527.6,220.46,10.0,9.64,-0.36,False,10.7,False,4.5
+SHP1465,2026-03-28,Saturday,True,South,Sea,Carrier C,Electronics,831.2,213.6,204.65,10.0,4.76,-5.24,False,8.1,False,4.5
+SHP1466,2026-06-29,Monday,False,South,Road,Carrier B,Electronics,414.5,192.3,33.63,3.0,2.0,-1.0,False,8.8,False,4.5
+SHP1467,2026-06-26,Friday,False,Central,Sea,Carrier C,Consumer Goods,3497.1,490.4,237.0,10.0,9.12,-0.88,False,5.9,False,5.0
+SHP1468,2026-05-19,Tuesday,False,South,Road,Carrier A,Machinery,20.0,744.4,23.05,3.0,0.5,-2.5,False,6.8,False,4.5
+SHP1469,2026-06-13,Saturday,True,Central,Sea,Carrier B,Consumer Goods,3529.0,187.8,243.68,10.0,10.34,0.34,True,7.8,False,4.0
+SHP1470,2026-06-10,Wednesday,False,North,Road,Carrier D,Perishables,247.3,682.7,39.07,3.0,1.64,-1.36,False,8.7,False,4.0
+SHP1471,2026-06-24,Wednesday,False,Central,Sea,Carrier D,Machinery,1297.3,270.1,219.78,10.0,5.85,-4.15,False,7.3,False,5.0
+SHP1472,2026-01-13,Tuesday,False,North,Sea,Carrier D,Machinery,5425.4,377.7,221.42,10.0,12.94,2.94,True,7.8,False,3.0
+SHP1473,2026-02-09,Monday,False,Central,Sea,Carrier B,Machinery,2230.9,981.5,225.74,10.0,6.7,-3.3,False,8.3,False,4.5
+SHP1474,2026-03-30,Monday,False,East,Air,Carrier C,Machinery,1332.9,2383.6,1159.56,1.5,1.4,-0.1,False,6.5,False,4.5
+SHP1475,2026-03-09,Monday,False,Central,Road,Carrier B,Machinery,313.9,505.7,35.84,3.0,1.47,-1.53,False,8.0,False,4.5
+SHP1476,2026-02-11,Wednesday,False,North,Road,Carrier B,Textiles,450.4,136.7,29.87,3.0,1.73,-1.27,False,10.8,False,5.0
+SHP1477,2026-05-27,Wednesday,False,East,Road,Carrier A,Perishables,803.3,1226.5,102.67,3.0,1.89,-1.11,False,7.3,False,4.0
+SHP1478,2026-04-04,Saturday,True,Central,Road,Carrier C,Consumer Goods,210.8,896.7,43.95,3.0,2.18,-0.82,False,6.7,False,4.0
+SHP1479,2026-01-19,Monday,False,East,Rail,Carrier A,Perishables,792.6,422.6,74.88,4.5,3.07,-1.43,False,12.7,False,5.0
+SHP1480,2026-01-23,Friday,False,West,Road,Carrier B,Machinery,474.2,811.5,59.71,3.0,2.17,-0.83,False,9.0,False,4.5
+SHP1481,2026-02-23,Monday,False,West,Sea,Carrier D,Perishables,2457.4,348.1,210.77,10.0,7.41,-2.59,False,7.0,False,4.5
+SHP1482,2026-03-06,Friday,False,East,Rail,Carrier A,Machinery,787.0,1078.2,100.8,4.5,2.36,-2.14,False,9.8,False,4.5
+SHP1483,2026-05-20,Wednesday,False,West,Sea,Carrier A,Consumer Goods,4213.4,392.9,235.87,10.0,10.23,0.23,True,9.0,False,4.0
+SHP1484,2026-01-24,Saturday,True,East,Road,Carrier A,Electronics,298.9,129.4,30.54,3.0,2.53,-0.47,False,7.4,False,4.5
+SHP1485,2026-02-03,Tuesday,False,Central,Sea,Carrier D,Electronics,3093.6,264.6,205.54,10.0,8.81,-1.19,False,8.4,False,4.0
+SHP1486,2026-02-22,Sunday,True,North,Sea,Carrier B,Electronics,2982.4,46.0,237.96,10.0,9.48,-0.52,False,7.9,False,5.0
+SHP1487,2026-05-16,Saturday,True,South,Road,Carrier B,Machinery,429.2,1227.3,80.62,3.0,2.25,-0.75,False,10.5,False,4.0
+SHP1488,2026-01-18,Sunday,True,Central,Rail,Carrier D,Consumer Goods,985.1,925.4,100.06,4.5,3.31,-1.19,False,9.9,False,4.5
+SHP1489,2026-02-26,Thursday,False,Central,Air,Carrier D,Electronics,2210.6,79.9,185.68,1.5,1.56,0.06,True,4.2,False,4.5
+SHP1490,2026-04-22,Wednesday,False,East,Road,Carrier B,Consumer Goods,837.5,578.1,73.38,3.0,2.31,-0.69,False,12.3,False,4.0
+SHP1491,2026-01-05,Monday,False,West,Road,Carrier C,Perishables,20.0,252.3,25.29,3.0,0.91,-2.09,False,7.9,False,4.5
+SHP1492,2026-06-03,Wednesday,False,South,Road,Carrier C,Textiles,416.5,360.2,38.46,3.0,1.67,-1.33,False,11.9,False,4.5
+SHP1493,2026-06-07,Sunday,True,North,Road,Carrier C,Consumer Goods,177.1,715.3,32.84,3.0,1.93,-1.07,False,9.9,False,4.5
+SHP1494,2026-01-13,Tuesday,False,East,Road,Carrier A,Perishables,372.9,819.3,48.95,3.0,1.53,-1.47,False,9.0,False,5.0
+SHP1495,2026-03-24,Tuesday,False,South,Road,Carrier D,Textiles,626.2,336.9,46.96,3.0,2.3,-0.7,False,8.3,False,4.5
+SHP1496,2026-01-29,Thursday,False,East,Road,Carrier B,Electronics,689.6,234.5,37.08,3.0,1.5,-1.5,False,14.0,False,4.0
+SHP1497,2026-01-03,Saturday,True,North,Road,Carrier A,Electronics,698.9,345.7,49.84,3.0,2.5,-0.5,False,8.0,False,4.0
+SHP1498,2026-03-31,Tuesday,False,Central,Sea,Carrier B,Perishables,4982.4,472.5,230.11,10.0,12.15,2.15,True,7.2,False,3.5
+SHP1499,2026-04-14,Tuesday,False,Central,Road,Carrier A,Electronics,415.2,195.7,32.91,3.0,2.29,-0.71,False,7.3,False,4.5
+SHP1500,2026-05-03,Sunday,True,West,Sea,Carrier A,Machinery,5178.2,1527.7,399.06,10.0,14.46,4.46,True,8.5,False,1.5
+SHP1501,2026-03-17,Tuesday,False,East,Road,Carrier C,Textiles,769.4,767.7,80.79,3.0,2.57,-0.43,False,8.5,False,4.5
+SHP1502,2026-05-10,Sunday,True,South,Road,Carrier A,Textiles,477.8,19.7,26.65,3.0,3.0,0.0,False,10.5,False,4.5
+SHP1503,2026-04-18,Saturday,True,West,Road,Carrier B,Electronics,685.4,211.2,41.42,3.0,2.79,-0.21,False,10.0,False,4.5
+SHP1504,2026-06-05,Friday,False,West,Road,Carrier B,Perishables,458.2,773.2,64.06,3.0,2.16,-0.84,False,10.0,False,4.0
+SHP1505,2026-03-23,Monday,False,North,Road,Carrier A,Machinery,732.0,2472.6,199.15,3.0,2.32,-0.68,False,8.0,False,4.0
+SHP1506,2026-03-18,Wednesday,False,Central,Rail,Carrier D,Consumer Goods,843.4,397.2,75.64,4.5,2.71,-1.79,False,9.9,False,3.5
+SHP1507,2026-01-02,Friday,False,Central,Road,Carrier A,Electronics,328.1,232.8,26.95,3.0,1.8,-1.2,False,10.1,False,4.5
+SHP1508,2026-05-07,Thursday,False,Central,Rail,Carrier B,Consumer Goods,508.0,315.1,65.86,4.5,2.43,-2.07,False,8.3,False,4.0
+SHP1509,2026-05-15,Friday,False,West,Rail,Carrier B,Machinery,839.2,602.0,93.63,4.5,2.29,-2.21,False,9.1,False,5.0
+SHP1510,2026-01-26,Monday,False,West,Road,Carrier A,Textiles,466.9,412.2,46.79,3.0,1.94,-1.06,False,10.1,False,4.5
+SHP1511,2026-03-29,Sunday,True,South,Road,Carrier A,Textiles,260.8,134.7,31.54,3.0,2.55,-0.45,False,8.9,False,4.0
+SHP1512,2026-01-16,Friday,False,Central,Air,Carrier C,Electronics,1624.9,134.3,178.91,1.5,1.15,-0.35,False,9.1,False,5.0
+SHP1513,2026-05-31,Sunday,True,Central,Road,Carrier D,Electronics,344.7,65.8,29.33,3.0,1.83,-1.17,False,11.3,False,5.0
+SHP1514,2026-06-17,Wednesday,False,North,Road,Carrier A,Machinery,234.6,394.8,35.4,3.0,1.42,-1.58,False,8.9,False,5.0
+SHP1515,2026-03-14,Saturday,True,North,Sea,Carrier C,Perishables,4743.1,354.8,271.34,10.0,12.49,2.49,True,7.3,False,2.5
+SHP1516,2026-02-01,Sunday,True,South,Road,Carrier C,Consumer Goods,692.4,912.0,90.59,3.0,2.78,-0.22,False,5.8,False,4.5
+SHP1517,2026-01-15,Thursday,False,West,Rail,Carrier D,Textiles,1261.0,756.9,109.99,4.5,4.07,-0.43,False,8.7,False,5.0
+SHP1518,2026-05-21,Thursday,False,Central,Sea,Carrier B,Electronics,3399.0,228.5,214.52,10.0,8.79,-1.21,False,7.8,False,5.0
+SHP1519,2026-01-05,Monday,False,North,Road,Carrier B,Machinery,445.5,1560.8,86.86,3.0,1.61,-1.39,False,10.1,False,4.0
+SHP1520,2026-03-15,Sunday,True,East,Road,Carrier B,Perishables,237.4,1350.7,56.03,3.0,2.04,-0.96,False,11.7,False,4.5
+SHP1521,2026-02-21,Saturday,True,South,Road,Carrier C,Textiles,532.9,273.6,42.57,3.0,2.33,-0.67,False,6.4,False,4.0
+SHP1522,2026-03-18,Wednesday,False,Central,Road,Carrier D,Machinery,483.9,1189.2,82.94,3.0,1.03,-1.97,False,6.7,False,5.0
+SHP1523,2026-06-18,Thursday,False,Central,Road,Carrier A,Consumer Goods,1018.8,342.0,59.55,3.0,1.97,-1.03,False,8.5,False,4.5
+SHP1524,2026-06-30,Tuesday,False,Central,Rail,Carrier B,Consumer Goods,1280.5,782.9,94.87,4.5,3.59,-0.91,False,6.9,False,5.0
+SHP1525,2026-04-20,Monday,False,East,Road,Carrier D,Machinery,513.0,2150.4,112.71,3.0,1.75,-1.25,False,8.1,False,4.5
+SHP1526,2026-06-27,Saturday,True,South,Road,Carrier D,Machinery,441.7,2551.7,148.61,3.0,2.17,-0.83,False,7.4,False,4.5
+SHP1527,2026-05-23,Saturday,True,South,Sea,Carrier D,Consumer Goods,4701.6,278.0,247.68,10.0,11.93,1.93,True,6.5,False,3.0
+SHP1528,2026-04-16,Thursday,False,North,Sea,Carrier C,Perishables,2401.1,548.9,230.26,10.0,8.01,-1.99,False,10.2,False,4.0
+SHP1529,2026-05-07,Thursday,False,Central,Rail,Carrier B,Electronics,1298.9,253.3,75.96,4.5,3.92,-0.58,False,8.7,False,4.5
+SHP1530,2026-01-07,Wednesday,False,West,Road,Carrier C,Perishables,232.6,1826.2,72.09,3.0,2.06,-0.94,False,12.2,False,4.0
+SHP1531,2026-02-09,Monday,False,Central,Rail,Carrier C,Electronics,703.5,160.2,62.75,4.5,2.58,-1.92,False,9.2,False,4.0
+SHP1532,2026-06-05,Friday,False,Central,Road,Carrier A,Machinery,82.4,315.3,29.78,3.0,1.26,-1.74,False,11.1,False,4.5
+SHP1533,2026-06-09,Tuesday,False,East,Road,Carrier B,Machinery,572.8,2019.2,131.51,3.0,1.78,-1.22,False,7.0,False,4.0
+SHP1534,2026-04-09,Thursday,False,West,Road,Carrier C,Machinery,500.0,336.0,34.98,3.0,1.57,-1.43,False,7.0,False,4.5
+SHP1535,2026-05-23,Saturday,True,Central,Sea,Carrier A,Electronics,2826.2,425.7,226.02,10.0,9.0,-1.0,False,12.9,False,4.0
+SHP1536,2026-03-26,Thursday,False,Central,Road,Carrier C,Consumer Goods,264.2,659.9,38.72,3.0,1.01,-1.99,False,7.3,False,4.0
+SHP1537,2026-03-06,Friday,False,South,Road,Carrier C,Perishables,725.7,815.8,85.13,3.0,2.56,-0.44,False,6.6,False,4.0
+SHP1538,2026-05-12,Tuesday,False,East,Road,Carrier D,Machinery,423.3,1215.1,78.29,3.0,1.34,-1.66,False,6.2,False,4.5
+SHP1539,2026-01-11,Sunday,True,North,Road,Carrier A,Textiles,296.5,176.4,32.99,3.0,2.83,-0.17,False,12.3,False,5.0
+SHP1540,2026-04-18,Saturday,True,Central,Sea,Carrier A,Perishables,5806.3,794.0,302.38,10.0,14.19,4.19,True,8.0,False,2.0
+SHP1541,2026-01-26,Monday,False,West,Air,Carrier C,Electronics,1340.1,61.2,135.59,1.5,1.07,-0.43,False,9.3,False,4.0
+SHP1542,2026-06-14,Sunday,True,South,Air,Carrier A,Electronics,2597.0,90.3,229.82,1.5,1.62,0.12,True,8.8,False,4.5
+SHP1543,2026-05-31,Sunday,True,West,Road,Carrier C,Consumer Goods,219.8,722.3,38.07,3.0,2.42,-0.58,False,7.1,False,4.5
+SHP1544,2026-03-26,Thursday,False,West,Road,Carrier C,Consumer Goods,379.0,332.9,36.05,3.0,1.88,-1.12,False,7.9,False,5.0
+SHP1545,2026-06-17,Wednesday,False,South,Road,Carrier A,Machinery,550.5,1459.5,115.72,3.0,1.79,-1.21,False,10.2,False,5.0
+SHP1546,2026-05-31,Sunday,True,North,Road,Carrier B,Electronics,438.4,186.1,33.48,3.0,2.19,-0.81,False,6.0,False,4.0
+SHP1547,2026-05-03,Sunday,True,West,Road,Carrier B,Textiles,498.8,285.2,36.67,3.0,3.06,0.06,True,9.8,False,4.0
+SHP1548,2026-05-24,Sunday,True,East,Air,Carrier B,Consumer Goods,1422.8,420.1,288.69,1.5,2.02,0.52,True,11.4,False,5.0
+SHP1549,2026-03-09,Monday,False,West,Road,Carrier D,Consumer Goods,130.4,675.7,39.26,3.0,1.28,-1.72,False,9.1,False,5.0
+SHP1550,2026-04-14,Tuesday,False,East,Road,Carrier D,Electronics,743.1,247.3,42.7,3.0,2.57,-0.43,False,11.2,False,4.5
+SHP1551,2026-03-21,Saturday,True,Central,Road,Carrier C,Electronics,354.4,85.8,27.87,3.0,2.59,-0.41,False,5.8,False,4.5
+SHP1552,2026-06-08,Monday,False,East,Road,Carrier C,Machinery,507.8,900.8,65.17,3.0,2.21,-0.79,False,4.8,False,4.5
+SHP1553,2026-02-22,Sunday,True,East,Road,Carrier B,Perishables,590.4,1798.1,123.28,3.0,2.6,-0.4,False,9.0,False,5.0
+SHP1554,2026-04-16,Thursday,False,Central,Sea,Carrier D,Perishables,3870.5,428.8,198.43,10.0,10.58,0.58,True,7.3,False,4.0
+SHP1555,2026-06-02,Tuesday,False,South,Sea,Carrier C,Electronics,2649.7,100.2,218.25,10.0,8.01,-1.99,False,10.3,False,4.0
+SHP1556,2026-02-13,Friday,False,North,Sea,Carrier C,Textiles,4891.7,463.3,245.99,10.0,11.44,1.44,True,7.9,False,3.5
+SHP1557,2026-05-20,Wednesday,False,North,Road,Carrier D,Consumer Goods,552.7,438.8,49.47,3.0,1.39,-1.61,False,8.8,False,5.0
+SHP1558,2026-03-31,Tuesday,False,West,Road,Carrier A,Consumer Goods,489.8,118.7,30.25,3.0,1.8,-1.2,False,8.7,False,4.0
+SHP1559,2026-04-11,Saturday,True,West,Road,Carrier D,Textiles,485.1,555.1,53.73,3.0,3.11,0.11,True,8.7,False,4.5
+SHP1560,2026-04-07,Tuesday,False,West,Road,Carrier A,Textiles,786.5,155.6,29.58,3.0,2.35,-0.65,False,7.4,False,5.0
+SHP1561,2026-01-09,Friday,False,North,Sea,Carrier B,Electronics,2623.9,45.9,217.34,10.0,7.88,-2.12,False,5.8,False,4.0
+SHP1562,2026-01-12,Monday,False,North,Road,Carrier B,Textiles,533.1,339.7,37.7,3.0,0.85,-2.15,False,8.1,False,3.5
+SHP1563,2026-03-10,Tuesday,False,North,Road,Carrier D,Textiles,344.3,165.5,28.12,3.0,1.56,-1.44,False,11.4,False,3.5
+SHP1564,2026-01-28,Wednesday,False,South,Road,Carrier D,Machinery,62.7,655.7,27.49,3.0,0.66,-2.34,False,7.3,False,4.0
+SHP1565,2026-02-25,Wednesday,False,East,Road,Carrier C,Textiles,57.5,355.1,22.42,3.0,0.66,-2.34,False,7.3,False,3.5
+SHP1566,2026-04-09,Thursday,False,South,Air,Carrier C,Perishables,1089.8,654.4,331.98,1.5,0.63,-0.87,False,8.8,False,5.0
+SHP1567,2026-04-20,Monday,False,East,Road,Carrier B,Electronics,318.3,208.0,29.34,3.0,0.85,-2.15,False,6.1,False,4.5
+SHP1568,2026-03-18,Wednesday,False,Central,Road,Carrier D,Perishables,884.6,449.2,58.93,3.0,2.29,-0.71,False,10.5,False,3.5
+SHP1569,2026-04-13,Monday,False,South,Road,Carrier B,Electronics,589.7,292.5,35.01,3.0,1.35,-1.65,False,6.3,False,4.0
+SHP1570,2026-04-16,Thursday,False,East,Road,Carrier B,Electronics,607.7,249.6,41.52,3.0,2.15,-0.85,False,7.9,False,5.0
+SHP1571,2026-04-19,Sunday,True,West,Air,Carrier A,Consumer Goods,1354.0,740.6,491.32,1.5,1.91,0.41,True,13.6,False,4.0
+SHP1572,2026-04-22,Wednesday,False,South,Sea,Carrier C,Textiles,3573.6,90.0,192.16,10.0,9.23,-0.77,False,6.2,False,5.0
+SHP1573,2026-02-27,Friday,False,West,Sea,Carrier C,Textiles,6267.4,482.0,248.3,10.0,13.51,3.51,True,11.4,False,2.5
+SHP1574,2026-03-19,Thursday,False,Central,Air,Carrier B,Consumer Goods,949.9,847.7,403.0,1.5,0.7,-0.8,False,8.7,False,4.0
+SHP1575,2026-03-16,Monday,False,Central,Road,Carrier A,Consumer Goods,541.2,357.7,41.55,3.0,1.93,-1.07,False,9.0,False,5.0
+SHP1576,2026-02-11,Wednesday,False,North,Rail,Carrier D,Machinery,1464.0,585.1,88.77,4.5,3.95,-0.55,False,6.9,False,4.5
+SHP1577,2026-06-15,Monday,False,Central,Road,Carrier A,Consumer Goods,643.2,117.9,31.61,3.0,2.13,-0.87,False,10.1,False,3.5
+SHP1578,2026-03-09,Monday,False,East,Road,Carrier C,Perishables,810.3,346.4,45.89,3.0,2.24,-0.76,False,7.8,False,4.0
+SHP1579,2026-06-30,Tuesday,False,South,Sea,Carrier D,Perishables,3755.4,610.0,231.9,10.0,9.91,-0.09,False,6.2,False,5.0
+SHP1580,2026-02-02,Monday,False,East,Road,Carrier B,Textiles,570.7,296.3,40.06,3.0,2.26,-0.74,False,11.4,False,4.0
+SHP1581,2026-03-12,Thursday,False,Central,Sea,Carrier A,Machinery,3631.7,642.2,267.47,10.0,8.96,-1.04,False,7.7,False,4.5
+SHP1582,2026-02-25,Wednesday,False,East,Road,Carrier C,Machinery,556.7,521.1,59.38,3.0,2.41,-0.59,False,4.8,False,4.5
+SHP1583,2026-04-15,Wednesday,False,South,Rail,Carrier D,Perishables,579.7,1706.4,115.91,4.5,2.85,-1.65,False,8.0,False,4.5
+SHP1584,2026-04-11,Saturday,True,West,Rail,Carrier B,Electronics,1177.3,288.0,80.81,4.5,3.89,-0.61,False,10.1,False,4.5
+SHP1585,2026-02-20,Friday,False,South,Sea,Carrier D,Machinery,3853.1,2190.2,435.38,10.0,10.21,0.21,True,9.8,False,4.5
+SHP1586,2026-03-15,Sunday,True,North,Rail,Carrier A,Electronics,921.9,235.7,78.73,4.5,3.09,-1.41,False,7.2,False,5.0
+SHP1587,2026-06-20,Saturday,True,North,Rail,Carrier B,Machinery,1511.2,1151.4,137.66,4.5,5.09,0.59,True,6.5,False,4.0
+SHP1588,2026-05-01,Friday,False,North,Road,Carrier C,Machinery,396.9,2177.3,103.55,3.0,2.11,-0.89,False,5.8,False,4.0
+SHP1589,2026-05-23,Saturday,True,North,Road,Carrier D,Machinery,691.6,1049.6,92.43,3.0,3.24,0.24,True,8.5,False,4.0
+SHP1590,2026-06-15,Monday,False,North,Road,Carrier A,Consumer Goods,711.5,206.5,34.41,3.0,1.96,-1.04,False,8.8,False,4.0
+SHP1591,2026-05-23,Saturday,True,West,Air,Carrier D,Consumer Goods,2398.9,219.7,282.46,1.5,1.47,-0.03,False,9.9,False,4.5
+SHP1592,2026-01-05,Monday,False,North,Road,Carrier B,Textiles,257.0,215.0,29.62,3.0,1.41,-1.59,False,8.2,False,3.5
+SHP1593,2026-03-24,Tuesday,False,South,Rail,Carrier B,Consumer Goods,1025.7,269.9,76.83,4.5,3.05,-1.45,False,8.1,False,4.5
+SHP1594,2026-02-20,Friday,False,Central,Road,Carrier A,Machinery,841.7,1494.9,150.06,3.0,2.77,-0.23,False,7.9,False,4.5
+SHP1595,2026-01-10,Saturday,True,East,Road,Carrier D,Electronics,86.3,22.4,24.69,3.0,1.93,-1.07,False,8.8,False,5.0
+SHP1596,2026-05-20,Wednesday,False,West,Air,Carrier A,Electronics,1668.6,232.5,238.22,1.5,0.72,-0.78,False,8.2,False,4.0
+SHP1597,2026-01-04,Sunday,True,North,Road,Carrier B,Perishables,682.5,503.6,62.76,3.0,2.27,-0.73,False,10.4,False,4.0
+SHP1598,2026-04-05,Sunday,True,North,Road,Carrier A,Textiles,426.9,165.7,34.29,3.0,2.37,-0.63,False,9.1,False,5.0
+SHP1599,2026-05-26,Tuesday,False,North,Road,Carrier D,Machinery,612.0,1023.5,85.9,3.0,2.68,-0.32,False,8.7,False,4.0
+SHP1600,2026-03-21,Saturday,True,North,Sea,Carrier C,Consumer Goods,5191.0,360.0,247.45,10.0,12.74,2.74,True,8.4,False,3.5
+SHP1601,2026-02-05,Thursday,False,South,Air,Carrier C,Electronics,1962.4,259.0,311.43,1.5,0.84,-0.66,False,6.6,False,4.0
+SHP1602,2026-01-25,Sunday,True,North,Road,Carrier A,Electronics,551.8,314.2,43.84,3.0,2.88,-0.12,False,8.5,False,4.0
+SHP1603,2026-04-08,Wednesday,False,North,Road,Carrier C,Consumer Goods,468.4,524.5,49.97,3.0,1.7,-1.3,False,7.2,False,4.5
+SHP1604,2026-06-13,Saturday,True,North,Road,Carrier B,Electronics,509.6,287.0,39.96,3.0,2.12,-0.88,False,9.2,False,4.5
+SHP1605,2026-04-11,Saturday,True,East,Air,Carrier D,Textiles,3271.8,367.7,547.92,1.5,2.47,0.97,True,8.1,False,4.5
+SHP1606,2026-01-09,Friday,False,North,Rail,Carrier D,Machinery,877.6,1560.0,106.08,4.5,3.14,-1.36,False,11.8,False,3.5
+SHP1607,2026-03-02,Monday,False,South,Road,Carrier A,Textiles,379.4,264.7,31.76,3.0,2.28,-0.72,False,6.0,False,4.5
+SHP1608,2026-02-22,Sunday,True,East,Road,Carrier C,Electronics,658.4,199.5,39.11,3.0,2.36,-0.64,False,2.3,False,4.5
+SHP1609,2026-05-26,Tuesday,False,West,Road,Carrier A,Electronics,281.4,162.0,29.34,3.0,1.6,-1.4,False,9.0,False,4.0
+SHP1610,2026-06-20,Saturday,True,North,Rail,Carrier B,Electronics,684.8,176.0,85.81,4.5,2.25,-2.25,False,7.2,False,5.0
+SHP1611,2026-06-12,Friday,False,West,Air,Carrier A,Machinery,1374.2,1977.4,959.32,1.5,1.62,0.12,True,8.8,False,4.5
+SHP1612,2026-03-04,Wednesday,False,West,Road,Carrier B,Textiles,398.8,121.4,26.12,3.0,1.87,-1.13,False,6.0,False,4.5
+SHP1613,2026-05-01,Friday,False,North,Road,Carrier B,Perishables,407.6,1024.5,71.11,3.0,2.04,-0.96,False,12.3,False,4.5
+SHP1614,2026-04-15,Wednesday,False,Central,Road,Carrier C,Machinery,589.8,1807.2,131.37,3.0,2.29,-0.71,False,7.7,False,3.5
+SHP1615,2026-01-04,Sunday,True,Central,Sea,Carrier B,Consumer Goods,3089.2,93.5,201.68,10.0,9.04,-0.96,False,7.1,False,4.0
+SHP1616,2026-04-03,Friday,False,North,Road,Carrier C,Electronics,597.9,147.6,34.17,3.0,1.85,-1.15,False,12.3,False,4.5
+SHP1617,2026-06-18,Thursday,False,South,Air,Carrier B,Textiles,2404.9,115.6,222.92,1.5,1.19,-0.31,False,10.2,False,4.5
+SHP1618,2026-06-22,Monday,False,West,Rail,Carrier A,Machinery,671.3,1085.1,94.0,4.5,2.98,-1.52,False,11.3,False,5.0
+SHP1619,2026-06-27,Saturday,True,West,Road,Carrier C,Perishables,618.5,1108.1,96.06,3.0,2.37,-0.63,False,8.2,False,4.0
+SHP1620,2026-01-28,Wednesday,False,North,Road,Carrier A,Perishables,636.7,233.6,36.44,3.0,2.95,-0.05,False,8.6,False,4.0
+SHP1621,2026-06-19,Friday,False,North,Road,Carrier B,Machinery,97.8,912.6,34.36,3.0,2.1,-0.9,False,7.3,False,4.5
+SHP1622,2026-03-21,Saturday,True,South,Rail,Carrier C,Consumer Goods,1002.7,246.0,73.77,4.5,3.96,-0.54,False,7.1,False,4.5
+SHP1623,2026-03-17,Tuesday,False,East,Air,Carrier B,Consumer Goods,1445.5,353.7,223.59,1.5,0.5,-1.0,False,9.3,False,3.5
+SHP1624,2026-04-26,Sunday,True,West,Rail,Carrier A,Machinery,1356.1,1489.2,165.51,4.5,4.03,-0.47,False,7.8,False,4.0
+SHP1625,2026-03-10,Tuesday,False,South,Road,Carrier B,Consumer Goods,346.7,101.1,24.38,3.0,1.12,-1.88,False,12.9,False,4.5
+SHP1626,2026-04-08,Wednesday,False,East,Road,Carrier D,Perishables,182.1,723.0,39.84,3.0,1.04,-1.96,False,10.2,False,4.5
+SHP1627,2026-01-01,Thursday,False,West,Sea,Carrier C,Machinery,3464.2,2997.0,370.77,10.0,9.44,-0.56,False,12.3,False,4.5
+SHP1628,2026-06-16,Tuesday,False,North,Air,Carrier C,Textiles,1172.1,519.1,252.94,1.5,0.83,-0.67,False,4.0,False,4.0
+SHP1629,2026-04-06,Monday,False,South,Road,Carrier C,Electronics,619.9,142.7,28.3,3.0,1.72,-1.28,False,12.3,False,4.5
+SHP1630,2026-01-17,Saturday,True,West,Sea,Carrier A,Machinery,2529.7,843.3,261.21,10.0,7.54,-2.46,False,3.7,False,5.0
+SHP1631,2026-04-22,Wednesday,False,Central,Rail,Carrier B,Textiles,893.9,680.0,88.66,4.5,2.13,-2.37,False,6.0,False,3.0
+SHP1632,2026-04-01,Wednesday,False,East,Rail,Carrier C,Perishables,1441.0,571.1,86.07,4.5,3.74,-0.76,False,5.0,False,4.5
+SHP1633,2026-03-29,Sunday,True,East,Air,Carrier A,Consumer Goods,2569.0,1412.1,1264.65,1.5,2.29,0.79,True,9.0,False,3.5
+SHP1634,2026-06-12,Friday,False,North,Sea,Carrier A,Electronics,4073.4,139.7,211.24,10.0,11.14,1.14,True,8.5,False,3.5
+SHP1635,2026-06-23,Tuesday,False,East,Rail,Carrier A,Perishables,855.3,450.6,83.36,4.5,2.89,-1.61,False,10.1,False,4.0
+SHP1636,2026-06-19,Friday,False,East,Road,Carrier B,Electronics,526.6,78.7,25.95,3.0,2.03,-0.97,False,8.3,False,4.5
+SHP1637,2026-06-16,Tuesday,False,South,Road,Carrier D,Consumer Goods,587.8,730.1,65.55,3.0,2.27,-0.73,False,11.0,False,5.0
+SHP1638,2026-03-31,Tuesday,False,South,Sea,Carrier A,Machinery,2316.1,1367.8,226.73,10.0,7.41,-2.59,False,6.6,False,4.0
+SHP1639,2026-02-18,Wednesday,False,South,Road,Carrier B,Perishables,620.3,603.5,60.17,3.0,1.48,-1.52,False,11.0,False,4.0
+SHP1640,2026-02-07,Saturday,True,North,Road,Carrier A,Machinery,229.7,2931.1,98.03,3.0,2.46,-0.54,False,8.4,False,4.0
+SHP1641,2026-05-31,Sunday,True,South,Road,Carrier D,Textiles,564.5,334.7,47.27,3.0,4.22,1.22,True,13.2,False,4.0
+SHP1642,2026-05-30,Saturday,True,North,Road,Carrier A,Consumer Goods,228.6,833.3,49.14,3.0,2.19,-0.81,False,10.2,False,4.0
+SHP1643,2026-05-12,Tuesday,False,South,Rail,Carrier B,Textiles,1587.0,367.9,92.68,4.5,3.75,-0.75,False,7.9,False,4.0
+SHP1644,2026-06-26,Friday,False,North,Sea,Carrier C,Textiles,4416.0,378.4,267.91,10.0,10.61,0.61,True,8.4,False,4.0
+SHP1645,2026-02-28,Saturday,True,Central,Road,Carrier C,Consumer Goods,138.8,196.5,29.91,3.0,1.31,-1.69,False,6.5,False,4.0
+SHP1646,2026-03-09,Monday,False,East,Road,Carrier B,Perishables,449.8,730.8,62.66,3.0,1.57,-1.43,False,9.2,False,4.5
+SHP1647,2026-05-10,Sunday,True,West,Road,Carrier B,Electronics,345.7,163.5,30.04,3.0,2.23,-0.77,False,7.9,False,4.5
+SHP1648,2026-02-18,Wednesday,False,West,Sea,Carrier B,Machinery,2732.3,1250.0,263.9,10.0,8.11,-1.89,False,9.9,False,4.0
+SHP1649,2026-05-06,Wednesday,False,East,Rail,Carrier A,Consumer Goods,951.5,652.5,87.13,4.5,2.43,-2.07,False,5.8,False,4.5
+SHP1650,2026-06-08,Monday,False,North,Road,Carrier A,Textiles,264.4,118.5,25.5,3.0,1.58,-1.42,False,7.8,False,5.0
+SHP1651,2026-04-21,Tuesday,False,East,Sea,Carrier B,Electronics,4413.8,39.0,165.81,10.0,10.56,0.56,True,6.2,False,4.5
+SHP1652,2026-06-17,Wednesday,False,East,Sea,Carrier A,Perishables,4345.6,126.6,225.68,10.0,10.44,0.44,True,6.3,False,4.0
+SHP1653,2026-02-17,Tuesday,False,West,Sea,Carrier A,Textiles,3921.7,278.2,205.32,10.0,9.19,-0.81,False,9.7,False,4.5
+SHP1654,2026-02-20,Friday,False,East,Sea,Carrier C,Electronics,3476.6,398.1,220.38,10.0,9.26,-0.74,False,10.7,False,4.5
+SHP1655,2026-02-12,Thursday,False,North,Road,Carrier D,Machinery,582.0,598.2,63.47,3.0,2.64,-0.36,False,3.8,False,4.5
+SHP1656,2026-04-08,Wednesday,False,South,Air,Carrier C,Consumer Goods,2354.0,222.7,300.93,1.5,1.58,0.08,True,12.2,False,4.0
+SHP1657,2026-06-26,Friday,False,South,Road,Carrier A,Textiles,541.0,284.2,44.24,3.0,2.11,-0.89,False,11.3,False,4.5
+SHP1658,2026-05-04,Monday,False,West,Sea,Carrier A,Perishables,1925.8,501.0,221.41,10.0,5.7,-4.3,False,5.8,False,4.0
+SHP1659,2026-03-21,Saturday,True,East,Air,Carrier D,Textiles,1248.1,461.5,343.27,1.5,1.49,-0.01,False,10.2,False,5.0
+SHP1660,2026-04-21,Tuesday,False,South,Air,Carrier A,Electronics,1612.4,211.9,224.92,1.5,1.11,-0.39,False,7.6,False,4.5
+SHP1661,2026-05-23,Saturday,True,Central,Rail,Carrier A,Consumer Goods,383.5,219.4,64.21,4.5,3.38,-1.12,False,8.3,False,4.5
+SHP1662,2026-01-27,Tuesday,False,West,Road,Carrier C,Textiles,494.8,296.5,39.89,3.0,2.38,-0.62,False,9.7,False,5.0
+SHP1663,2026-06-07,Sunday,True,South,Road,Carrier C,Textiles,732.2,92.9,32.44,3.0,3.27,0.27,True,9.5,False,4.5
+SHP1664,2026-06-13,Saturday,True,North,Sea,Carrier C,Machinery,5002.0,1243.6,368.43,10.0,12.4,2.4,True,7.4,False,3.5
+SHP1665,2026-04-23,Thursday,False,North,Sea,Carrier A,Textiles,4387.6,113.6,200.39,10.0,10.51,0.51,True,7.3,True,4.5
+SHP1666,2026-03-27,Friday,False,South,Road,Carrier A,Machinery,595.5,1093.3,82.42,3.0,1.97,-1.03,False,7.5,False,5.0
+SHP1667,2026-04-24,Friday,False,North,Road,Carrier D,Electronics,893.1,136.1,35.67,3.0,3.26,0.26,True,10.8,False,4.0
+SHP1668,2026-05-04,Monday,False,North,Road,Carrier A,Consumer Goods,618.8,749.1,72.47,3.0,1.88,-1.12,False,4.8,False,4.5
+SHP1669,2026-02-18,Wednesday,False,South,Air,Carrier C,Consumer Goods,2447.9,169.6,244.27,1.5,0.8,-0.7,False,8.2,False,4.5
+SHP1670,2026-03-17,Tuesday,False,North,Sea,Carrier C,Machinery,1773.3,2226.7,305.46,10.0,6.39,-3.61,False,11.6,False,4.0
+SHP1671,2026-02-24,Tuesday,False,Central,Road,Carrier C,Consumer Goods,716.6,203.8,35.38,3.0,2.64,-0.36,False,9.9,False,4.5
+SHP1672,2026-02-25,Wednesday,False,North,Road,Carrier B,Electronics,529.7,23.0,27.97,3.0,1.07,-1.93,False,10.6,False,4.5
+SHP1673,2026-04-05,Sunday,True,East,Sea,Carrier A,Textiles,3404.3,405.8,232.32,10.0,10.29,0.29,True,8.2,False,4.0
+SHP1674,2026-02-13,Friday,False,South,Air,Carrier C,Machinery,1570.7,2380.2,1433.84,1.5,0.82,-0.68,False,6.2,False,4.5
+SHP1675,2026-06-08,Monday,False,Central,Road,Carrier D,Machinery,340.3,1575.7,68.46,3.0,1.35,-1.65,False,8.6,False,4.0
+SHP1676,2026-03-28,Saturday,True,North,Rail,Carrier D,Textiles,1339.9,456.7,89.12,4.5,3.82,-0.68,False,7.1,True,4.5
+SHP1677,2026-06-30,Tuesday,False,South,Road,Carrier A,Perishables,444.3,1493.9,76.22,3.0,1.22,-1.78,False,13.0,False,4.5
+SHP1678,2026-03-25,Wednesday,False,Central,Road,Carrier A,Electronics,347.7,165.1,30.42,3.0,1.62,-1.38,False,8.2,False,5.0
+SHP1679,2026-05-31,Sunday,True,Central,Rail,Carrier D,Textiles,630.0,537.0,85.08,4.5,2.59,-1.91,False,9.8,False,4.5
+SHP1680,2026-06-05,Friday,False,West,Rail,Carrier C,Electronics,959.7,286.8,75.18,4.5,2.98,-1.52,False,11.9,False,4.0
+SHP1681,2026-01-16,Friday,False,South,Sea,Carrier D,Consumer Goods,3068.5,565.2,231.98,10.0,9.69,-0.31,False,6.3,False,4.5
+SHP1682,2026-06-14,Sunday,True,North,Rail,Carrier A,Electronics,694.3,293.8,70.77,4.5,2.84,-1.66,False,3.9,False,3.0
+SHP1683,2026-05-29,Friday,False,West,Air,Carrier C,Electronics,832.5,87.9,140.22,1.5,1.01,-0.49,False,9.5,False,4.5
+SHP1684,2026-05-25,Monday,False,Central,Road,Carrier C,Textiles,641.9,744.1,66.68,3.0,2.93,-0.07,False,9.9,False,4.0
+SHP1685,2026-02-06,Friday,False,East,Road,Carrier C,Machinery,422.4,1600.6,87.58,3.0,1.83,-1.17,False,7.7,False,4.5
+SHP1686,2026-03-18,Wednesday,False,East,Road,Carrier B,Consumer Goods,233.0,447.0,34.88,3.0,1.52,-1.48,False,6.2,False,5.0
+SHP1687,2026-05-27,Wednesday,False,South,Road,Carrier A,Machinery,395.8,615.7,53.46,3.0,1.41,-1.59,False,9.1,False,5.0
+SHP1688,2026-06-07,Sunday,True,West,Air,Carrier C,Perishables,2184.4,529.5,531.01,1.5,2.48,0.98,True,8.5,False,4.0
+SHP1689,2026-02-14,Saturday,True,North,Sea,Carrier A,Consumer Goods,3534.6,321.8,247.51,10.0,9.88,-0.12,False,9.1,False,4.0
+SHP1690,2026-05-26,Tuesday,False,South,Road,Carrier B,Textiles,488.2,169.1,32.62,3.0,2.61,-0.39,False,6.2,False,4.0
+SHP1691,2026-03-03,Tuesday,False,East,Road,Carrier D,Electronics,458.5,168.8,31.13,3.0,1.87,-1.13,False,9.1,False,4.0
+SHP1692,2026-06-13,Saturday,True,East,Sea,Carrier B,Textiles,1967.8,227.3,232.05,10.0,7.59,-2.41,False,10.1,False,4.5
+SHP1693,2026-04-10,Friday,False,South,Road,Carrier D,Consumer Goods,639.7,495.2,51.71,3.0,1.67,-1.33,False,5.5,False,4.5
+SHP1694,2026-02-21,Saturday,True,North,Rail,Carrier A,Textiles,302.1,354.5,69.68,4.5,2.21,-2.29,False,11.4,False,4.0
+SHP1695,2026-01-19,Monday,False,West,Air,Carrier C,Perishables,2123.1,810.0,732.47,1.5,0.89,-0.61,False,9.0,False,4.0
+SHP1696,2026-04-19,Sunday,True,South,Rail,Carrier D,Electronics,1115.4,212.7,73.37,4.5,2.79,-1.71,False,10.2,False,4.0
+SHP1697,2026-02-13,Friday,False,East,Road,Carrier A,Electronics,406.0,345.6,38.79,3.0,1.22,-1.78,False,5.9,False,4.0
+SHP1698,2026-01-07,Wednesday,False,North,Road,Carrier A,Textiles,520.7,180.7,26.82,3.0,1.58,-1.42,False,9.9,False,5.0
+SHP1699,2026-06-21,Sunday,True,East,Air,Carrier B,Machinery,1606.0,1360.8,871.77,1.5,1.06,-0.44,False,5.2,False,4.0
+SHP1700,2026-04-27,Monday,False,East,Rail,Carrier A,Electronics,1027.9,142.4,63.97,4.5,3.3,-1.2,False,6.6,False,4.5
+SHP1701,2026-03-09,Monday,False,North,Road,Carrier C,Consumer Goods,648.6,279.0,41.68,3.0,2.29,-0.71,False,9.0,False,5.0
+SHP1702,2026-02-03,Tuesday,False,South,Air,Carrier D,Consumer Goods,1245.5,486.0,307.77,1.5,0.59,-0.91,False,7.9,False,4.5
+SHP1703,2026-03-10,Tuesday,False,North,Road,Carrier B,Machinery,584.8,2053.8,134.6,3.0,1.24,-1.76,False,8.6,False,4.0
+SHP1704,2026-02-24,Tuesday,False,North,Air,Carrier A,Consumer Goods,2984.7,467.5,549.35,1.5,1.04,-0.46,False,12.4,False,5.0
+SHP1705,2026-01-10,Saturday,True,Central,Road,Carrier B,Electronics,502.9,164.1,36.1,3.0,3.25,0.25,True,8.5,False,4.5
+SHP1706,2026-02-11,Wednesday,False,South,Sea,Carrier C,Textiles,2896.3,200.0,182.56,10.0,7.82,-2.18,False,9.9,False,3.5
+SHP1707,2026-02-10,Tuesday,False,West,Road,Carrier A,Machinery,902.6,1009.9,107.99,3.0,2.34,-0.66,False,8.4,False,5.0
+SHP1708,2026-05-02,Saturday,True,South,Road,Carrier C,Consumer Goods,467.7,304.8,37.79,3.0,2.4,-0.6,False,8.3,False,4.5
+SHP1709,2026-05-18,Monday,False,West,Road,Carrier C,Consumer Goods,496.3,306.0,42.28,3.0,2.04,-0.96,False,6.5,False,4.5
+SHP1710,2026-01-10,Saturday,True,West,Road,Carrier C,Perishables,500.5,1003.8,70.05,3.0,2.06,-0.94,False,9.2,False,5.0
+SHP1711,2026-04-12,Sunday,True,East,Sea,Carrier A,Consumer Goods,4037.4,360.0,267.09,10.0,10.2,0.2,True,13.6,False,4.5
+SHP1712,2026-05-08,Friday,False,East,Sea,Carrier C,Electronics,3093.4,156.8,209.51,10.0,9.1,-0.9,False,8.7,False,5.0
+SHP1713,2026-06-28,Sunday,True,South,Road,Carrier A,Consumer Goods,488.0,362.5,37.73,3.0,2.28,-0.72,False,8.0,False,5.0
+SHP1714,2026-05-29,Friday,False,South,Road,Carrier A,Consumer Goods,640.4,263.2,37.35,3.0,2.29,-0.71,False,10.8,False,4.5
+SHP1715,2026-05-16,Saturday,True,Central,Air,Carrier D,Electronics,1538.6,55.2,169.73,1.5,2.0,0.5,True,10.5,False,3.5
+SHP1716,2026-04-02,Thursday,False,Central,Sea,Carrier C,Consumer Goods,2996.0,900.0,270.0,10.0,7.86,-2.14,False,9.4,False,3.5
+SHP1717,2026-04-23,Thursday,False,Central,Rail,Carrier A,Electronics,797.8,10.0,55.37,4.5,3.0,-1.5,False,7.9,False,4.5
+SHP1718,2026-03-19,Thursday,False,North,Road,Carrier A,Textiles,230.4,297.8,35.07,3.0,1.95,-1.05,False,10.8,False,5.0
+SHP1719,2026-03-26,Thursday,False,West,Road,Carrier A,Textiles,313.4,51.6,26.4,3.0,1.42,-1.58,False,8.7,False,4.0
+SHP1720,2026-01-30,Friday,False,Central,Rail,Carrier A,Machinery,646.7,1172.2,100.77,4.5,2.31,-2.19,False,10.3,False,4.0
+SHP1721,2026-02-18,Wednesday,False,North,Road,Carrier A,Consumer Goods,449.9,254.6,31.89,3.0,1.05,-1.95,False,6.9,False,4.5
+SHP1722,2026-01-09,Friday,False,North,Rail,Carrier A,Machinery,1192.7,2131.7,168.05,4.5,3.52,-0.98,False,7.3,False,4.0
+SHP1723,2026-05-25,Monday,False,West,Road,Carrier B,Textiles,740.7,370.2,51.33,3.0,1.33,-1.67,False,8.7,False,4.5
+SHP1724,2026-03-10,Tuesday,False,East,Air,Carrier C,Consumer Goods,1840.0,236.2,252.58,1.5,1.3,-0.2,False,6.0,False,4.5
+SHP1725,2026-02-27,Friday,False,Central,Road,Carrier C,Consumer Goods,541.3,473.5,36.84,3.0,1.42,-1.58,False,7.8,False,4.5
+SHP1726,2026-03-03,Tuesday,False,North,Rail,Carrier C,Electronics,985.2,123.7,64.48,4.5,3.46,-1.04,False,5.9,False,5.0
+SHP1727,2026-02-21,Saturday,True,West,Road,Carrier A,Consumer Goods,31.3,264.0,23.43,3.0,1.78,-1.22,False,5.4,False,4.0
+SHP1728,2026-02-09,Monday,False,North,Rail,Carrier D,Electronics,498.2,292.2,60.85,4.5,1.96,-2.54,False,13.4,False,4.5
+SHP1729,2026-06-15,Monday,False,North,Road,Carrier D,Consumer Goods,602.3,153.8,29.6,3.0,2.65,-0.35,False,7.3,False,4.0
+SHP1730,2026-06-20,Saturday,True,North,Rail,Carrier D,Perishables,1200.5,976.3,132.79,4.5,4.32,-0.18,False,7.5,False,5.0
+SHP1731,2026-03-04,Wednesday,False,West,Rail,Carrier D,Electronics,1192.5,137.4,75.17,4.5,3.47,-1.03,False,8.7,False,4.5
+SHP1732,2026-05-27,Wednesday,False,West,Rail,Carrier D,Textiles,837.8,137.2,66.95,4.5,2.98,-1.52,False,6.4,False,5.0
+SHP1733,2026-02-19,Thursday,False,East,Rail,Carrier B,Machinery,201.8,1471.0,72.01,4.5,1.9,-2.6,False,7.5,False,3.5
+SHP1734,2026-06-10,Wednesday,False,South,Rail,Carrier A,Textiles,540.0,535.8,73.19,4.5,2.49,-2.01,False,12.2,False,4.5
+SHP1735,2026-05-21,Thursday,False,Central,Sea,Carrier C,Electronics,2449.4,66.5,221.66,10.0,7.34,-2.66,False,9.2,True,4.5
+SHP1736,2026-03-19,Thursday,False,South,Road,Carrier C,Machinery,575.8,2265.1,119.79,3.0,2.2,-0.8,False,10.5,False,5.0
+SHP1737,2026-04-07,Tuesday,False,West,Sea,Carrier C,Consumer Goods,3071.2,296.4,199.44,10.0,8.24,-1.76,False,11.6,True,4.0
+SHP1738,2026-02-12,Thursday,False,East,Road,Carrier B,Textiles,788.1,545.3,68.79,3.0,2.3,-0.7,False,8.9,False,4.5
+SHP1739,2026-06-26,Friday,False,South,Road,Carrier A,Electronics,743.5,141.6,37.82,3.0,3.57,0.57,True,8.1,False,4.0
+SHP1740,2026-02-05,Thursday,False,East,Road,Carrier B,Textiles,784.7,245.8,44.36,3.0,2.44,-0.56,False,5.6,False,4.5
+SHP1741,2026-05-02,Saturday,True,South,Road,Carrier D,Electronics,266.7,114.8,27.47,3.0,1.14,-1.86,False,7.7,False,5.0
+SHP1742,2026-04-18,Saturday,True,West,Air,Carrier C,Consumer Goods,2143.6,494.8,535.44,1.5,1.67,0.17,True,8.2,True,4.0
+SHP1743,2026-01-10,Saturday,True,East,Air,Carrier B,Consumer Goods,1465.7,478.7,412.61,1.5,0.86,-0.64,False,6.9,False,4.5
+SHP1744,2026-04-05,Sunday,True,South,Air,Carrier A,Machinery,2029.5,1233.3,1051.78,1.5,1.31,-0.19,False,11.6,False,4.5
+SHP1745,2026-01-06,Tuesday,False,Central,Road,Carrier B,Perishables,288.9,539.7,31.24,3.0,1.23,-1.77,False,10.7,False,4.5
+SHP1746,2026-02-26,Thursday,False,South,Road,Carrier D,Consumer Goods,695.2,232.9,39.97,3.0,2.34,-0.66,False,10.5,False,4.0
+SHP1747,2026-05-09,Saturday,True,East,Road,Carrier C,Textiles,292.6,397.9,40.11,3.0,2.2,-0.8,False,8.3,False,3.5
+SHP1748,2026-03-12,Thursday,False,Central,Road,Carrier C,Consumer Goods,60.6,597.6,27.09,3.0,1.92,-1.08,False,6.4,False,4.5
+SHP1749,2026-01-21,Wednesday,False,West,Road,Carrier B,Machinery,856.8,1081.4,110.01,3.0,2.72,-0.28,False,11.2,False,4.5
+SHP1750,2026-04-02,Thursday,False,North,Road,Carrier C,Consumer Goods,538.5,162.3,31.52,3.0,1.95,-1.05,False,9.2,False,4.5
+SHP1751,2026-05-07,Thursday,False,Central,Road,Carrier A,Machinery,236.2,657.8,36.3,3.0,0.8,-2.2,False,10.0,False,4.5
+SHP1752,2026-03-21,Saturday,True,West,Rail,Carrier C,Textiles,843.2,432.8,92.51,4.5,3.45,-1.05,False,9.7,False,5.0
+SHP1753,2026-02-25,Wednesday,False,South,Air,Carrier B,Consumer Goods,1396.2,195.9,211.1,1.5,0.51,-0.99,False,9.1,False,5.0
+SHP1754,2026-04-26,Sunday,True,North,Sea,Carrier B,Textiles,3506.9,321.4,219.08,10.0,10.04,0.04,True,12.5,False,5.0
+SHP1755,2026-05-28,Thursday,False,West,Sea,Carrier C,Machinery,4463.3,1583.3,303.74,10.0,10.41,0.41,True,7.2,False,4.5
+SHP1756,2026-01-25,Sunday,True,West,Rail,Carrier D,Perishables,1126.0,439.7,82.74,4.5,4.33,-0.17,False,7.9,False,4.0
+SHP1757,2026-06-05,Friday,False,East,Road,Carrier A,Machinery,500.7,1318.3,78.63,3.0,2.36,-0.64,False,11.8,False,4.5
+SHP1758,2026-01-05,Monday,False,Central,Rail,Carrier D,Machinery,901.8,2009.2,143.19,4.5,3.78,-0.72,False,8.7,False,5.0
+SHP1759,2026-04-30,Thursday,False,West,Air,Carrier A,Electronics,2555.1,149.5,251.65,1.5,0.65,-0.85,False,8.2,False,4.5
+SHP1760,2026-01-21,Wednesday,False,North,Road,Carrier B,Electronics,64.9,102.5,26.59,3.0,0.74,-2.26,False,8.0,False,3.5
+SHP1761,2026-01-18,Sunday,True,South,Road,Carrier A,Machinery,300.2,546.7,40.37,3.0,2.08,-0.92,False,9.9,False,4.5
+SHP1762,2026-06-24,Wednesday,False,South,Sea,Carrier B,Consumer Goods,2325.6,349.4,232.18,10.0,8.19,-1.81,False,8.0,False,4.0
+SHP1763,2026-02-26,Thursday,False,West,Road,Carrier B,Textiles,651.3,297.4,46.6,3.0,2.48,-0.52,False,7.8,False,4.0
+SHP1764,2026-04-03,Friday,False,North,Rail,Carrier A,Perishables,641.3,118.0,62.09,4.5,2.3,-2.2,False,9.8,False,4.5
+SHP1765,2026-01-19,Monday,False,East,Rail,Carrier B,Machinery,449.9,1498.9,82.89,4.5,2.02,-2.48,False,8.7,False,4.0
+SHP1766,2026-05-08,Friday,False,West,Road,Carrier D,Electronics,559.9,157.1,33.18,3.0,2.13,-0.87,False,6.5,False,5.0
+SHP1767,2026-04-07,Tuesday,False,Central,Road,Carrier A,Textiles,268.3,266.6,36.87,3.0,1.3,-1.7,False,8.6,False,4.5
+SHP1768,2026-05-11,Monday,False,South,Road,Carrier C,Electronics,379.9,101.3,26.05,3.0,2.21,-0.79,False,11.3,False,4.5
+SHP1769,2026-06-19,Friday,False,Central,Road,Carrier B,Electronics,926.2,195.0,39.52,3.0,2.72,-0.28,False,10.0,False,4.0
+SHP1770,2026-01-21,Wednesday,False,North,Road,Carrier C,Electronics,607.4,136.9,32.63,3.0,2.51,-0.49,False,11.5,False,4.5
+SHP1771,2026-02-09,Monday,False,Central,Sea,Carrier A,Textiles,3246.8,326.6,230.79,10.0,8.99,-1.01,False,7.0,False,4.0
+SHP1772,2026-03-08,Sunday,True,North,Road,Carrier A,Electronics,425.8,113.8,26.67,3.0,3.08,0.08,True,10.6,False,4.5
+SHP1773,2026-06-02,Tuesday,False,South,Road,Carrier A,Textiles,631.5,343.4,49.17,3.0,2.93,-0.07,False,7.2,False,3.5
+SHP1774,2026-05-07,Thursday,False,West,Road,Carrier A,Textiles,582.6,290.1,44.37,3.0,1.82,-1.18,False,6.0,False,4.5
+SHP1775,2026-02-24,Tuesday,False,North,Sea,Carrier A,Textiles,3590.7,856.8,252.64,10.0,10.18,0.18,True,6.9,False,4.5
+SHP1776,2026-06-29,Monday,False,South,Road,Carrier C,Textiles,470.7,524.9,57.46,3.0,2.84,-0.16,False,8.8,False,4.5
+SHP1777,2026-06-21,Sunday,True,West,Road,Carrier D,Consumer Goods,154.0,529.8,38.36,3.0,1.44,-1.56,False,10.6,False,4.5
+SHP1778,2026-04-19,Sunday,True,West,Sea,Carrier D,Electronics,1472.0,376.3,249.38,10.0,6.5,-3.5,False,9.1,False,5.0
+SHP1779,2026-04-08,Wednesday,False,West,Sea,Carrier C,Textiles,3287.8,197.2,233.2,10.0,8.23,-1.77,False,8.2,False,4.5
+SHP1780,2026-04-22,Wednesday,False,West,Road,Carrier A,Electronics,323.3,198.8,33.64,3.0,1.39,-1.61,False,6.4,False,5.0
+SHP1781,2026-04-25,Saturday,True,East,Sea,Carrier A,Electronics,4203.3,120.9,226.58,10.0,10.98,0.98,True,9.9,False,5.0
+SHP1782,2026-04-27,Monday,False,South,Road,Carrier B,Machinery,489.4,2539.0,135.51,3.0,2.03,-0.97,False,10.4,False,4.5
+SHP1783,2026-03-28,Saturday,True,South,Road,Carrier A,Textiles,295.4,180.9,29.76,3.0,1.96,-1.04,False,9.1,True,4.5
+SHP1784,2026-03-22,Sunday,True,North,Road,Carrier B,Consumer Goods,482.6,767.2,60.08,3.0,2.97,-0.03,False,6.4,False,5.0
+SHP1785,2026-03-07,Saturday,True,Central,Road,Carrier B,Textiles,366.4,194.2,33.07,3.0,2.23,-0.77,False,10.1,False,4.0
+SHP1786,2026-01-19,Monday,False,East,Air,Carrier B,Consumer Goods,3246.6,122.4,248.46,1.5,1.53,0.03,True,11.0,False,4.5
+SHP1787,2026-05-15,Friday,False,South,Road,Carrier B,Electronics,527.2,206.9,39.27,3.0,1.52,-1.48,False,11.6,False,4.5
+SHP1788,2026-04-28,Tuesday,False,East,Road,Carrier D,Electronics,137.9,246.8,23.34,3.0,1.18,-1.82,False,7.6,False,4.5
+SHP1789,2026-02-11,Wednesday,False,Central,Air,Carrier C,Electronics,3074.4,242.6,397.26,1.5,1.07,-0.43,False,9.4,False,4.5
+SHP1790,2026-02-11,Wednesday,False,North,Air,Carrier B,Electronics,1356.8,56.7,132.91,1.5,0.9,-0.6,False,7.4,False,5.0
+SHP1791,2026-02-28,Saturday,True,East,Road,Carrier D,Textiles,255.1,342.0,35.18,3.0,2.26,-0.74,False,6.7,True,3.5
+SHP1792,2026-01-20,Tuesday,False,East,Rail,Carrier D,Machinery,1650.3,1678.3,173.94,4.5,3.2,-1.3,False,11.7,False,5.0
+SHP1793,2026-03-14,Saturday,True,West,Road,Carrier B,Electronics,519.2,72.1,35.18,3.0,2.62,-0.38,False,9.6,False,4.5
+SHP1794,2026-01-17,Saturday,True,North,Air,Carrier B,Consumer Goods,2290.5,649.8,618.22,1.5,1.89,0.39,True,11.1,False,4.0
+SHP1795,2026-01-27,Tuesday,False,Central,Rail,Carrier B,Consumer Goods,1156.6,628.3,96.57,4.5,3.56,-0.94,False,6.1,False,5.0
+SHP1796,2026-06-24,Wednesday,False,Central,Sea,Carrier D,Perishables,3252.8,1259.4,294.86,10.0,9.22,-0.78,False,9.1,False,4.5
+SHP1797,2026-01-02,Friday,False,East,Road,Carrier D,Electronics,335.5,27.2,24.05,3.0,1.63,-1.37,False,9.5,False,4.5
+SHP1798,2026-03-04,Wednesday,False,West,Road,Carrier A,Electronics,368.1,54.2,26.59,3.0,1.65,-1.35,False,6.8,False,4.5
+SHP1799,2026-03-03,Tuesday,False,Central,Road,Carrier B,Electronics,771.8,102.9,35.24,3.0,1.91,-1.09,False,11.5,False,5.0
+SHP1800,2026-04-10,Friday,False,West,Road,Carrier B,Electronics,490.8,334.4,36.99,3.0,2.09,-0.91,False,8.0,False,4.5
+SHP1801,2026-01-19,Monday,False,North,Road,Carrier B,Textiles,712.6,511.6,61.64,3.0,1.76,-1.24,False,9.4,False,4.0
+SHP1802,2026-01-17,Saturday,True,East,Sea,Carrier A,Perishables,3408.3,895.2,274.44,10.0,10.39,0.39,True,7.4,False,4.5
+SHP1803,2026-03-10,Tuesday,False,West,Road,Carrier D,Perishables,298.9,876.8,53.11,3.0,1.41,-1.59,False,6.1,False,5.0
+SHP1804,2026-06-16,Tuesday,False,East,Road,Carrier C,Consumer Goods,161.6,971.6,44.6,3.0,1.8,-1.2,False,10.3,False,5.0
+SHP1805,2026-04-27,Monday,False,West,Air,Carrier D,Machinery,2253.6,669.8,506.16,1.5,1.37,-0.13,False,9.3,False,4.5
+SHP1806,2026-03-22,Sunday,True,Central,Road,Carrier D,Consumer Goods,788.8,741.4,74.87,3.0,2.69,-0.31,False,9.0,False,5.0
+SHP1807,2026-02-08,Sunday,True,Central,Air,Carrier C,Electronics,1179.8,457.3,304.97,1.5,1.33,-0.17,False,7.9,False,4.5
+SHP1808,2026-02-05,Thursday,False,East,Road,Carrier B,Textiles,552.7,487.9,55.05,3.0,1.88,-1.12,False,9.2,False,5.0
+SHP1809,2026-06-17,Wednesday,False,North,Road,Carrier C,Textiles,174.9,200.8,29.36,3.0,1.51,-1.49,False,11.0,False,4.5
+SHP1810,2026-06-22,Monday,False,Central,Road,Carrier A,Electronics,338.9,314.7,31.15,3.0,2.03,-0.97,False,7.1,False,4.5
+SHP1811,2026-05-12,Tuesday,False,Central,Road,Carrier C,Electronics,503.6,256.1,38.6,3.0,1.76,-1.24,False,9.6,False,4.0
+SHP1812,2026-06-02,Tuesday,False,North,Sea,Carrier A,Machinery,1426.0,1618.1,228.16,10.0,6.15,-3.85,False,8.9,False,4.0
+SHP1813,2026-06-07,Sunday,True,Central,Road,Carrier C,Machinery,446.4,563.4,55.03,3.0,2.56,-0.44,False,8.1,False,4.5
+SHP1814,2026-01-29,Thursday,False,Central,Road,Carrier A,Textiles,282.7,231.0,32.21,3.0,1.14,-1.86,False,5.2,False,4.5
+SHP1815,2026-02-20,Friday,False,East,Road,Carrier A,Textiles,571.0,271.5,36.09,3.0,2.34,-0.66,False,8.5,False,5.0
+SHP1816,2026-06-01,Monday,False,East,Road,Carrier A,Textiles,416.9,442.1,41.37,3.0,1.77,-1.23,False,9.8,False,4.5
+SHP1817,2026-01-14,Wednesday,False,South,Sea,Carrier A,Electronics,4627.3,174.9,237.37,10.0,11.52,1.52,True,9.1,False,3.0
+SHP1818,2026-03-10,Tuesday,False,North,Road,Carrier C,Perishables,394.1,502.1,36.33,3.0,1.44,-1.56,False,5.6,False,4.0
+SHP1819,2026-05-26,Tuesday,False,South,Rail,Carrier C,Electronics,423.2,282.0,66.95,4.5,2.25,-2.25,False,11.0,False,5.0
+SHP1820,2026-06-19,Friday,False,West,Sea,Carrier B,Electronics,1715.6,71.7,184.53,10.0,5.88,-4.12,False,11.8,True,4.0
+SHP1821,2026-02-26,Thursday,False,North,Rail,Carrier A,Consumer Goods,231.8,234.4,62.36,4.5,1.67,-2.83,False,8.3,False,5.0
+SHP1822,2026-01-12,Monday,False,South,Sea,Carrier A,Machinery,4259.5,1305.7,322.63,10.0,10.14,0.14,True,13.1,False,4.5
+SHP1823,2026-01-17,Saturday,True,South,Road,Carrier A,Consumer Goods,961.5,322.2,66.31,3.0,3.4,0.4,True,6.8,False,4.0
+SHP1824,2026-01-30,Friday,False,East,Road,Carrier A,Perishables,537.0,1094.8,77.75,3.0,2.09,-0.91,False,6.0,False,4.0
+SHP1825,2026-03-29,Sunday,True,Central,Road,Carrier D,Textiles,784.4,148.2,42.79,3.0,2.59,-0.41,False,6.5,False,3.0
+SHP1826,2026-04-09,Thursday,False,South,Air,Carrier A,Perishables,2593.5,334.0,370.49,1.5,1.31,-0.19,False,9.0,False,4.5
+SHP1827,2026-01-23,Friday,False,South,Sea,Carrier B,Electronics,2878.0,20.8,194.84,10.0,7.99,-2.01,False,4.9,False,4.0
+SHP1828,2026-05-09,Saturday,True,West,Road,Carrier A,Electronics,703.1,209.4,43.25,3.0,2.99,-0.01,False,7.9,False,4.0
+SHP1829,2026-03-20,Friday,False,East,Rail,Carrier A,Consumer Goods,732.5,389.5,74.01,4.5,2.53,-1.97,False,14.4,False,4.5
+SHP1830,2026-02-01,Sunday,True,South,Road,Carrier B,Machinery,358.3,587.4,46.21,3.0,1.83,-1.17,False,5.5,False,5.0
+SHP1831,2026-01-09,Friday,False,East,Rail,Carrier C,Textiles,827.0,262.3,67.78,4.5,2.34,-2.16,False,7.4,False,3.5
+SHP1832,2026-01-15,Thursday,False,North,Road,Carrier A,Textiles,417.8,831.9,62.28,3.0,1.4,-1.6,False,6.4,False,5.0
+SHP1833,2026-06-05,Friday,False,North,Sea,Carrier A,Consumer Goods,4293.6,284.3,219.23,10.0,11.6,1.6,True,7.9,False,3.0
+SHP1834,2026-06-01,Monday,False,East,Rail,Carrier B,Electronics,665.2,129.3,58.65,4.5,2.11,-2.39,False,7.8,False,4.5
+SHP1835,2026-06-12,Friday,False,South,Road,Carrier A,Perishables,627.8,305.5,39.37,3.0,2.16,-0.84,False,7.2,False,4.5
+SHP1836,2026-01-27,Tuesday,False,Central,Road,Carrier A,Perishables,624.9,216.4,39.16,3.0,2.28,-0.72,False,8.2,False,4.5
+SHP1837,2026-04-19,Sunday,True,South,Road,Carrier D,Consumer Goods,518.6,652.3,70.69,3.0,2.84,-0.16,False,9.8,False,4.5
+SHP1838,2026-03-17,Tuesday,False,East,Road,Carrier C,Consumer Goods,837.9,125.5,33.02,3.0,3.22,0.22,True,11.3,False,4.0
+SHP1839,2026-05-28,Thursday,False,West,Road,Carrier B,Perishables,707.5,945.4,99.84,3.0,2.31,-0.69,False,7.9,False,4.5
+SHP1840,2026-03-06,Friday,False,North,Sea,Carrier B,Consumer Goods,4783.7,734.0,269.99,10.0,11.58,1.58,True,8.5,False,3.5
+SHP1841,2026-06-26,Friday,False,West,Rail,Carrier B,Consumer Goods,923.2,533.8,80.34,4.5,2.66,-1.84,False,9.4,False,4.0
+SHP1842,2026-04-19,Sunday,True,North,Road,Carrier B,Perishables,520.4,522.8,49.55,3.0,2.34,-0.66,False,6.0,False,4.0
+SHP1843,2026-05-09,Saturday,True,Central,Road,Carrier C,Textiles,554.8,303.7,42.69,3.0,2.28,-0.72,False,8.2,False,5.0
+SHP1844,2026-01-10,Saturday,True,North,Sea,Carrier C,Textiles,3515.9,76.4,208.38,10.0,10.96,0.96,True,7.5,False,4.0
+SHP1845,2026-02-16,Monday,False,South,Air,Carrier A,Consumer Goods,1537.1,599.0,386.89,1.5,1.04,-0.46,False,10.4,False,4.5
+SHP1846,2026-05-03,Sunday,True,North,Road,Carrier B,Electronics,20.0,250.3,23.85,3.0,2.22,-0.78,False,12.0,False,4.0
+SHP1847,2026-02-28,Saturday,True,Central,Air,Carrier B,Consumer Goods,2302.4,493.6,596.17,1.5,1.82,0.32,True,6.9,False,4.0
+SHP1848,2026-04-06,Monday,False,East,Road,Carrier D,Perishables,658.3,718.0,73.29,3.0,2.49,-0.51,False,11.1,False,4.0
+SHP1849,2026-04-13,Monday,False,East,Road,Carrier C,Consumer Goods,217.8,348.9,32.53,3.0,0.54,-2.46,False,5.6,False,4.5
+SHP1850,2026-05-04,Monday,False,North,Road,Carrier B,Textiles,571.0,663.6,58.42,3.0,1.67,-1.33,False,8.9,False,4.5
+SHP1851,2026-03-27,Friday,False,West,Road,Carrier A,Machinery,331.7,1527.8,70.58,3.0,1.62,-1.38,False,9.0,False,4.0
+SHP1852,2026-05-26,Tuesday,False,North,Road,Carrier C,Consumer Goods,376.7,564.3,41.39,3.0,1.71,-1.29,False,5.5,False,5.0
+SHP1853,2026-04-22,Wednesday,False,Central,Sea,Carrier A,Consumer Goods,5072.9,766.3,252.55,10.0,12.19,2.19,True,6.8,False,3.0
+SHP1854,2026-06-23,Tuesday,False,North,Sea,Carrier B,Consumer Goods,2311.2,520.4,236.91,10.0,7.38,-2.62,False,6.6,False,4.5
+SHP1855,2026-06-09,Tuesday,False,North,Rail,Carrier A,Electronics,552.7,365.9,67.65,4.5,2.49,-2.01,False,5.9,False,4.0
+SHP1856,2026-01-27,Tuesday,False,North,Road,Carrier C,Machinery,811.0,1332.3,125.43,3.0,2.82,-0.18,False,3.2,True,4.0
+SHP1857,2026-01-18,Sunday,True,East,Road,Carrier A,Electronics,420.9,141.1,28.41,3.0,2.94,-0.06,False,8.1,False,4.5
+SHP1858,2026-06-16,Tuesday,False,East,Rail,Carrier B,Textiles,1336.3,244.3,72.81,4.5,3.89,-0.61,False,8.3,False,4.0
+SHP1859,2026-06-26,Friday,False,North,Road,Carrier D,Textiles,130.3,234.5,25.19,3.0,1.73,-1.27,False,8.3,False,4.5
+SHP1860,2026-03-23,Monday,False,West,Road,Carrier A,Textiles,146.3,593.9,34.09,3.0,0.5,-2.5,False,10.0,False,4.5
+SHP1861,2026-06-21,Sunday,True,East,Road,Carrier B,Textiles,267.4,478.9,42.59,3.0,2.54,-0.46,False,4.6,False,5.0
+SHP1862,2026-03-13,Friday,False,East,Sea,Carrier B,Consumer Goods,2922.2,637.8,264.98,10.0,8.47,-1.53,False,7.7,False,4.0
+SHP1863,2026-02-23,Monday,False,East,Road,Carrier A,Electronics,169.3,282.2,27.83,3.0,0.57,-2.43,False,13.6,False,4.5
+SHP1864,2026-06-11,Thursday,False,South,Road,Carrier C,Machinery,523.9,3508.2,173.23,3.0,1.28,-1.72,False,10.3,False,4.5
+SHP1865,2026-03-12,Thursday,False,East,Air,Carrier A,Textiles,2104.2,86.0,171.95,1.5,0.77,-0.73,False,10.3,False,3.5
+SHP1866,2026-06-13,Saturday,True,North,Road,Carrier B,Electronics,270.4,194.2,30.31,3.0,2.32,-0.68,False,6.5,False,4.0
+SHP1867,2026-05-26,Tuesday,False,North,Road,Carrier B,Electronics,286.3,193.0,31.01,3.0,1.08,-1.92,False,8.1,False,4.5
+SHP1868,2026-02-07,Saturday,True,Central,Road,Carrier C,Consumer Goods,312.6,617.3,40.62,3.0,2.15,-0.85,False,3.9,False,4.0
+SHP1869,2026-05-17,Sunday,True,Central,Road,Carrier C,Consumer Goods,217.0,1198.3,44.94,3.0,2.74,-0.26,False,9.7,False,4.5
+SHP1870,2026-06-28,Sunday,True,South,Air,Carrier A,Consumer Goods,20.0,548.4,129.69,1.5,1.11,-0.39,False,11.3,False,3.5
+SHP1871,2026-02-04,Wednesday,False,South,Road,Carrier A,Consumer Goods,433.0,915.5,64.2,3.0,1.56,-1.44,False,5.6,False,4.5
+SHP1872,2026-03-23,Monday,False,West,Road,Carrier C,Electronics,363.9,201.5,29.0,3.0,1.92,-1.08,False,6.2,False,3.5
+SHP1873,2026-05-13,Wednesday,False,South,Sea,Carrier B,Perishables,3106.2,793.2,266.21,10.0,8.32,-1.68,False,8.4,False,4.0
+SHP1874,2026-05-22,Friday,False,North,Sea,Carrier D,Machinery,2285.8,1116.3,258.37,10.0,6.65,-3.35,False,8.8,False,4.0
+SHP1875,2026-06-07,Sunday,True,North,Sea,Carrier D,Textiles,4472.6,130.9,256.94,10.0,11.76,1.76,True,7.4,False,3.5
+SHP1876,2026-01-04,Sunday,True,West,Road,Carrier D,Textiles,935.1,744.6,88.6,3.0,3.09,0.09,True,6.9,False,4.0
+SHP1877,2026-06-16,Tuesday,False,West,Road,Carrier B,Perishables,283.2,759.8,38.66,3.0,1.43,-1.57,False,6.9,False,4.0
+SHP1878,2026-06-02,Tuesday,False,North,Sea,Carrier B,Machinery,5179.6,1712.4,395.46,10.0,12.86,2.86,True,8.4,False,2.0
+SHP1879,2026-06-05,Friday,False,South,Air,Carrier C,Machinery,2056.7,1653.7,1235.43,1.5,1.39,-0.11,False,9.7,False,4.0
+SHP1880,2026-05-30,Saturday,True,South,Road,Carrier B,Electronics,457.1,293.9,40.71,3.0,2.6,-0.4,False,8.4,False,4.5
+SHP1881,2026-06-08,Monday,False,West,Road,Carrier A,Textiles,381.2,184.8,28.71,3.0,2.47,-0.53,False,8.2,False,4.5
+SHP1882,2026-01-23,Friday,False,North,Road,Carrier D,Textiles,433.4,138.5,32.29,3.0,1.7,-1.3,False,5.0,False,4.5
+SHP1883,2026-02-17,Tuesday,False,North,Sea,Carrier D,Machinery,4879.5,569.9,242.66,10.0,12.88,2.88,True,10.2,False,2.5
+SHP1884,2026-05-28,Thursday,False,West,Road,Carrier B,Electronics,222.4,103.3,27.51,3.0,1.65,-1.35,False,8.4,False,3.5
+SHP1885,2026-05-05,Tuesday,False,North,Road,Carrier A,Consumer Goods,395.0,82.3,26.9,3.0,1.42,-1.58,False,7.6,True,4.5
+SHP1886,2026-06-15,Monday,False,West,Road,Carrier B,Electronics,699.8,212.4,39.47,3.0,1.97,-1.03,False,9.0,False,4.5
+SHP1887,2026-02-24,Tuesday,False,South,Rail,Carrier D,Perishables,1244.3,429.6,76.02,4.5,2.69,-1.81,False,6.8,False,4.0
+SHP1888,2026-03-09,Monday,False,North,Sea,Carrier D,Consumer Goods,2152.9,428.2,227.17,10.0,6.38,-3.62,False,7.7,True,4.0
+SHP1889,2026-03-29,Sunday,True,South,Road,Carrier A,Textiles,413.5,500.1,49.58,3.0,2.18,-0.82,False,8.7,False,4.5
+SHP1890,2026-01-01,Thursday,False,West,Air,Carrier A,Perishables,2309.6,1781.7,1450.14,1.5,1.68,0.18,True,7.1,False,4.5
+SHP1891,2026-05-15,Friday,False,Central,Sea,Carrier D,Machinery,4296.1,927.6,316.49,10.0,10.74,0.74,True,5.2,False,4.5
+SHP1892,2026-04-05,Sunday,True,Central,Road,Carrier B,Textiles,645.0,216.8,41.26,3.0,3.28,0.28,True,4.9,False,5.0
+SHP1893,2026-05-20,Wednesday,False,South,Road,Carrier B,Consumer Goods,526.9,509.7,52.78,3.0,1.5,-1.5,False,9.4,False,4.0
+SHP1894,2026-04-16,Thursday,False,West,Road,Carrier D,Consumer Goods,560.4,439.3,47.51,3.0,2.68,-0.32,False,8.4,False,4.0
+SHP1895,2026-05-13,Wednesday,False,North,Air,Carrier A,Machinery,2040.0,4330.3,3142.35,1.5,0.88,-0.62,False,8.4,False,4.5
+SHP1896,2026-04-18,Saturday,True,South,Rail,Carrier C,Textiles,1452.9,103.9,63.29,4.5,4.34,-0.16,False,6.2,False,4.5
+SHP1897,2026-06-27,Saturday,True,Central,Rail,Carrier A,Electronics,752.4,217.6,72.95,4.5,2.99,-1.51,False,8.5,False,5.0
+SHP1898,2026-02-11,Wednesday,False,North,Air,Carrier B,Perishables,1833.7,425.9,336.56,1.5,0.9,-0.6,False,7.7,False,4.5
+SHP1899,2026-04-12,Sunday,True,North,Road,Carrier D,Textiles,247.0,315.1,34.95,3.0,1.98,-1.02,False,7.3,False,5.0
+SHP1900,2026-05-04,Monday,False,North,Sea,Carrier B,Machinery,2045.6,1271.2,259.75,10.0,7.43,-2.57,False,8.3,False,4.5
+SHP1901,2026-05-20,Wednesday,False,North,Road,Carrier D,Textiles,515.0,514.5,52.0,3.0,1.4,-1.6,False,9.1,False,4.0
+SHP1902,2026-04-13,Monday,False,North,Road,Carrier B,Perishables,305.2,746.6,47.29,3.0,1.28,-1.72,False,12.0,False,5.0
+SHP1903,2026-05-26,Tuesday,False,East,Rail,Carrier B,Electronics,879.8,181.0,65.36,4.5,2.38,-2.12,False,9.6,False,4.5
+SHP1904,2026-03-15,Sunday,True,East,Air,Carrier A,Textiles,2932.4,604.6,697.57,1.5,2.37,0.87,True,10.2,False,4.0
+SHP1905,2026-04-18,Saturday,True,Central,Road,Carrier B,Perishables,762.0,674.5,62.54,3.0,3.04,0.04,True,10.7,False,4.0
+SHP1906,2026-05-02,Saturday,True,West,Sea,Carrier B,Consumer Goods,6168.9,128.0,234.34,10.0,14.15,4.15,True,7.0,False,2.0
+SHP1907,2026-01-17,Saturday,True,South,Sea,Carrier A,Electronics,5465.2,263.1,269.55,10.0,14.5,4.5,True,7.9,True,2.0
+SHP1908,2026-03-12,Thursday,False,South,Road,Carrier B,Machinery,930.6,1724.9,170.94,3.0,2.96,-0.04,False,6.7,False,4.0
+SHP1909,2026-03-03,Tuesday,False,South,Sea,Carrier B,Consumer Goods,4023.8,863.4,267.66,10.0,9.91,-0.09,False,7.1,False,4.5
+SHP1910,2026-02-10,Tuesday,False,East,Road,Carrier C,Electronics,269.4,260.2,31.67,3.0,1.47,-1.53,False,7.6,False,4.5
+SHP1911,2026-04-29,Wednesday,False,South,Road,Carrier C,Textiles,249.9,198.0,28.54,3.0,1.68,-1.32,False,7.1,False,4.5
+SHP1912,2026-06-11,Thursday,False,West,Road,Carrier C,Electronics,729.3,13.5,28.72,3.0,1.68,-1.32,False,8.9,False,4.5
+SHP1913,2026-02-14,Saturday,True,South,Sea,Carrier A,Machinery,3562.0,2294.8,379.84,10.0,10.64,0.64,True,9.4,False,4.0
+SHP1914,2026-02-27,Friday,False,East,Rail,Carrier A,Textiles,944.1,327.3,68.59,4.5,3.08,-1.42,False,5.9,False,4.0
+SHP1915,2026-06-28,Sunday,True,East,Road,Carrier C,Textiles,340.2,225.3,34.24,3.0,2.08,-0.92,False,7.9,False,4.0
+SHP1916,2026-05-06,Wednesday,False,South,Road,Carrier B,Textiles,364.2,211.8,31.69,3.0,2.75,-0.25,False,7.9,False,4.0
+SHP1917,2026-06-11,Thursday,False,Central,Rail,Carrier A,Consumer Goods,1034.3,560.7,99.01,4.5,2.36,-2.14,False,5.6,False,4.0
+SHP1918,2026-02-13,Friday,False,West,Road,Carrier D,Electronics,239.0,138.5,26.18,3.0,2.0,-1.0,False,7.0,False,4.0
+SHP1919,2026-01-15,Thursday,False,North,Sea,Carrier C,Electronics,3808.6,80.3,203.49,10.0,9.91,-0.09,False,10.2,False,5.0
+SHP1920,2026-03-19,Thursday,False,Central,Sea,Carrier B,Consumer Goods,5313.3,200.7,216.78,10.0,12.34,2.34,True,10.2,False,3.0
+SHP1921,2026-03-11,Wednesday,False,East,Road,Carrier A,Machinery,23.3,1277.2,26.69,3.0,1.19,-1.81,False,5.2,False,4.5
+SHP1922,2026-06-27,Saturday,True,Central,Sea,Carrier C,Consumer Goods,1650.4,299.9,236.0,10.0,6.92,-3.08,False,9.4,False,5.0
+SHP1923,2026-04-11,Saturday,True,West,Road,Carrier C,Machinery,585.1,724.0,80.38,3.0,1.86,-1.14,False,5.6,False,4.5
+SHP1924,2026-06-09,Tuesday,False,East,Sea,Carrier C,Consumer Goods,5136.8,1023.0,297.27,10.0,12.47,2.47,True,7.7,False,2.5
+SHP1925,2026-01-03,Saturday,True,North,Rail,Carrier C,Textiles,728.5,177.8,74.03,4.5,3.28,-1.22,False,8.3,False,5.0
+SHP1926,2026-03-27,Friday,False,South,Rail,Carrier D,Consumer Goods,200.6,630.0,55.64,4.5,1.6,-2.9,False,10.0,False,5.0
+SHP1927,2026-03-15,Sunday,True,East,Road,Carrier B,Consumer Goods,736.4,671.0,72.67,3.0,3.55,0.55,True,8.2,False,3.5
+SHP1928,2026-02-20,Friday,False,West,Sea,Carrier A,Machinery,2526.7,683.1,263.7,10.0,8.2,-1.8,False,6.5,False,5.0
+SHP1929,2026-03-08,Sunday,True,South,Road,Carrier C,Electronics,377.8,89.7,30.16,3.0,2.2,-0.8,False,6.1,False,4.0
+SHP1930,2026-03-17,Tuesday,False,North,Road,Carrier C,Perishables,513.8,291.1,40.01,3.0,1.82,-1.18,False,8.8,False,5.0
+SHP1931,2026-04-03,Friday,False,Central,Road,Carrier C,Electronics,316.7,113.7,26.83,3.0,2.07,-0.93,False,7.2,False,4.5
+SHP1932,2026-06-25,Thursday,False,Central,Rail,Carrier A,Perishables,593.4,797.4,82.97,4.5,2.38,-2.12,False,7.7,False,4.0
+SHP1933,2026-05-25,Monday,False,East,Road,Carrier A,Perishables,278.4,606.9,45.46,3.0,1.23,-1.77,False,10.4,False,4.0
+SHP1934,2026-01-07,Wednesday,False,North,Air,Carrier D,Textiles,3100.5,529.2,585.19,1.5,2.23,0.73,True,9.4,False,3.5
+SHP1935,2026-01-13,Tuesday,False,South,Sea,Carrier C,Machinery,4891.5,1932.0,457.05,10.0,12.42,2.42,True,11.7,False,2.5
+SHP1936,2026-04-30,Thursday,False,North,Road,Carrier D,Textiles,564.9,464.4,42.6,3.0,2.12,-0.88,False,6.5,False,3.5
+SHP1937,2026-03-07,Saturday,True,Central,Air,Carrier C,Machinery,269.5,2532.0,351.24,1.5,1.44,-0.06,False,7.1,False,4.0
+SHP1938,2026-01-04,Sunday,True,North,Road,Carrier C,Electronics,565.6,165.3,33.67,3.0,3.04,0.04,True,8.9,False,5.0
+SHP1939,2026-05-18,Monday,False,East,Sea,Carrier C,Electronics,4129.0,205.5,212.24,10.0,10.51,0.51,True,12.1,False,4.5
+SHP1940,2026-03-29,Sunday,True,South,Sea,Carrier D,Electronics,1966.2,281.0,212.45,10.0,7.45,-2.55,False,6.9,False,5.0
+SHP1941,2026-01-17,Saturday,True,East,Road,Carrier B,Textiles,501.7,555.1,50.07,3.0,2.81,-0.19,False,8.6,False,4.5
+SHP1942,2026-02-21,Saturday,True,West,Air,Carrier C,Electronics,2536.0,217.0,289.43,1.5,1.55,0.05,True,11.1,False,4.0
+SHP1943,2026-05-14,Thursday,False,Central,Road,Carrier A,Perishables,563.9,182.9,36.05,3.0,1.66,-1.34,False,8.6,False,5.0
+SHP1944,2026-03-10,Tuesday,False,North,Road,Carrier B,Textiles,314.0,823.1,47.34,3.0,2.22,-0.78,False,10.5,False,4.5
+SHP1945,2026-05-17,Sunday,True,North,Sea,Carrier C,Consumer Goods,3515.9,452.9,240.39,10.0,9.86,-0.14,False,12.4,False,4.0
+SHP1946,2026-01-21,Wednesday,False,North,Road,Carrier A,Electronics,596.1,127.2,32.54,3.0,1.38,-1.62,False,9.1,False,4.5
+SHP1947,2026-01-24,Saturday,True,Central,Road,Carrier A,Machinery,461.9,798.1,55.32,3.0,2.22,-0.78,False,9.4,False,5.0
+SHP1948,2026-01-04,Sunday,True,Central,Road,Carrier B,Machinery,700.9,1973.1,165.38,3.0,2.44,-0.56,False,10.0,False,4.0
+SHP1949,2026-06-01,Monday,False,East,Sea,Carrier A,Consumer Goods,3974.8,610.4,246.66,10.0,9.72,-0.28,False,6.7,False,4.5
+SHP1950,2026-01-03,Saturday,True,West,Road,Carrier A,Consumer Goods,600.6,288.1,43.6,3.0,2.46,-0.54,False,5.5,False,4.0
+SHP1951,2026-03-09,Monday,False,West,Road,Carrier B,Electronics,614.3,53.1,29.1,3.0,2.31,-0.69,False,8.8,False,5.0
+SHP1952,2026-04-11,Saturday,True,North,Air,Carrier D,Electronics,1053.3,102.9,189.02,1.5,2.0,0.5,True,7.2,False,4.0
+SHP1953,2026-06-17,Wednesday,False,Central,Sea,Carrier B,Consumer Goods,3560.0,734.9,258.84,10.0,10.02,0.02,True,10.6,False,4.5
+SHP1954,2026-06-25,Thursday,False,South,Road,Carrier A,Textiles,383.5,306.2,35.0,3.0,1.21,-1.79,False,9.1,False,4.5
+SHP1955,2026-02-23,Monday,False,South,Road,Carrier A,Textiles,658.8,114.3,28.77,3.0,2.67,-0.33,False,10.6,False,3.5
+SHP1956,2026-02-04,Wednesday,False,East,Road,Carrier C,Machinery,542.6,761.3,50.28,3.0,1.3,-1.7,False,6.1,False,4.0
+SHP1957,2026-02-25,Wednesday,False,North,Road,Carrier B,Machinery,412.4,1228.4,71.32,3.0,1.99,-1.01,False,10.5,False,5.0
+SHP1958,2026-04-18,Saturday,True,North,Road,Carrier D,Consumer Goods,193.6,523.3,33.13,3.0,1.71,-1.29,False,3.9,False,5.0
+SHP1959,2026-02-09,Monday,False,West,Air,Carrier C,Consumer Goods,682.2,359.2,158.09,1.5,0.97,-0.53,False,6.3,False,4.5
+SHP1960,2026-03-09,Monday,False,North,Rail,Carrier C,Consumer Goods,1008.6,549.4,82.55,4.5,2.78,-1.72,False,9.8,False,4.0
+SHP1961,2026-02-15,Sunday,True,West,Rail,Carrier A,Perishables,649.0,897.3,94.89,4.5,3.64,-0.86,False,7.5,False,4.5
+SHP1962,2026-03-19,Thursday,False,South,Road,Carrier C,Consumer Goods,583.2,383.7,47.83,3.0,2.13,-0.87,False,7.7,False,4.5
+SHP1963,2026-05-21,Thursday,False,South,Sea,Carrier A,Electronics,1528.2,340.4,228.27,10.0,5.94,-4.06,False,8.7,False,4.5
+SHP1964,2026-06-04,Thursday,False,South,Road,Carrier D,Perishables,768.6,331.9,51.32,3.0,2.94,-0.06,False,11.3,False,4.5
+SHP1965,2026-01-06,Tuesday,False,South,Sea,Carrier C,Consumer Goods,4296.6,217.3,234.46,10.0,11.18,1.18,True,4.7,False,4.0
+SHP1966,2026-01-17,Saturday,True,West,Rail,Carrier B,Perishables,934.7,1170.8,104.13,4.5,4.21,-0.29,False,11.0,False,4.5
+SHP1967,2026-06-13,Saturday,True,South,Road,Carrier A,Perishables,786.6,84.1,33.03,3.0,2.53,-0.47,False,11.1,False,4.5
+SHP1968,2026-04-09,Thursday,False,East,Rail,Carrier A,Electronics,1231.9,111.7,69.26,4.5,3.54,-0.96,False,7.5,False,5.0
+SHP1969,2026-03-22,Sunday,True,East,Road,Carrier C,Consumer Goods,355.0,354.9,39.39,3.0,1.99,-1.01,False,7.1,False,3.5
+SHP1970,2026-01-02,Friday,False,West,Rail,Carrier A,Textiles,927.2,440.0,77.39,4.5,2.93,-1.57,False,8.3,False,4.5
+SHP1971,2026-03-18,Wednesday,False,Central,Road,Carrier C,Machinery,57.1,417.9,27.21,3.0,1.67,-1.33,False,7.1,False,4.0
+SHP1972,2026-06-29,Monday,False,West,Road,Carrier A,Perishables,662.8,704.4,68.34,3.0,2.13,-0.87,False,9.2,False,5.0
+SHP1973,2026-03-07,Saturday,True,North,Sea,Carrier C,Consumer Goods,3144.9,478.2,246.96,10.0,9.19,-0.81,False,9.5,False,4.5
+SHP1974,2026-02-21,Saturday,True,North,Road,Carrier D,Consumer Goods,54.6,1177.9,31.0,3.0,1.98,-1.02,False,5.4,False,4.5
+SHP1975,2026-04-02,Thursday,False,South,Sea,Carrier C,Perishables,2081.8,339.6,184.97,10.0,6.49,-3.51,False,6.7,False,5.0
+SHP1976,2026-06-20,Saturday,True,East,Road,Carrier C,Textiles,624.2,402.3,50.57,3.0,3.62,0.62,True,6.1,False,3.5
+SHP1977,2026-01-22,Thursday,False,North,Rail,Carrier A,Electronics,1464.8,145.1,69.88,4.5,3.85,-0.65,False,8.9,False,4.0
+SHP1978,2026-04-21,Tuesday,False,East,Rail,Carrier A,Consumer Goods,907.1,464.6,79.26,4.5,2.38,-2.12,False,10.2,False,5.0
+SHP1979,2026-04-17,Friday,False,East,Road,Carrier C,Machinery,253.6,841.3,47.57,3.0,1.72,-1.28,False,6.4,False,4.0
+SHP1980,2026-03-08,Sunday,True,South,Road,Carrier B,Consumer Goods,165.9,673.2,41.28,3.0,1.91,-1.09,False,10.2,False,4.0
+SHP1981,2026-05-20,Wednesday,False,West,Road,Carrier B,Perishables,732.9,985.2,89.24,3.0,2.69,-0.31,False,6.7,False,4.0
+SHP1982,2026-03-10,Tuesday,False,North,Road,Carrier A,Consumer Goods,539.9,546.3,51.15,3.0,1.46,-1.54,False,9.9,False,5.0
+SHP1983,2026-03-25,Wednesday,False,North,Road,Carrier A,Consumer Goods,384.0,1755.7,89.61,3.0,1.82,-1.18,False,7.9,False,4.0
+SHP1984,2026-04-13,Monday,False,West,Rail,Carrier A,Machinery,701.1,1023.3,95.43,4.5,2.34,-2.16,False,7.6,False,4.5
+SHP1985,2026-02-08,Sunday,True,East,Sea,Carrier D,Consumer Goods,4306.2,698.7,271.04,10.0,11.27,1.27,True,10.8,False,4.0
+SHP1986,2026-01-13,Tuesday,False,West,Sea,Carrier A,Textiles,4273.2,632.7,267.47,10.0,10.55,0.55,True,12.1,False,3.5
+SHP1987,2026-02-10,Tuesday,False,East,Air,Carrier B,Electronics,1172.4,220.0,200.17,1.5,0.5,-1.0,False,4.6,False,3.5
+SHP1988,2026-02-26,Thursday,False,South,Air,Carrier A,Machinery,1000.3,2219.2,822.05,1.5,0.93,-0.57,False,9.7,False,4.5
+SHP1989,2026-06-30,Tuesday,False,West,Rail,Carrier C,Consumer Goods,517.8,1056.1,87.54,4.5,2.9,-1.6,False,8.9,False,4.5
+SHP1990,2026-01-12,Monday,False,West,Road,Carrier B,Machinery,356.4,1757.0,79.4,3.0,0.69,-2.31,False,9.8,False,4.5
+SHP1991,2026-01-13,Tuesday,False,West,Sea,Carrier D,Electronics,2672.3,274.6,216.3,10.0,8.54,-1.46,False,5.6,False,4.5
+SHP1992,2026-04-30,Thursday,False,South,Rail,Carrier D,Textiles,1466.3,168.9,72.84,4.5,3.79,-0.71,False,6.3,False,4.0
+SHP1993,2026-04-07,Tuesday,False,East,Rail,Carrier B,Perishables,723.7,76.5,66.58,4.5,2.1,-2.4,False,7.2,True,4.0
+SHP1994,2026-02-26,Thursday,False,South,Road,Carrier D,Textiles,200.1,404.7,34.22,3.0,1.47,-1.53,False,8.9,False,4.5
+SHP1995,2026-02-09,Monday,False,North,Road,Carrier D,Machinery,211.3,1055.2,46.03,3.0,0.97,-2.03,False,7.0,False,4.0
+SHP1996,2026-04-28,Tuesday,False,Central,Road,Carrier D,Consumer Goods,413.2,412.8,31.93,3.0,1.93,-1.07,False,7.9,False,4.5
+SHP1997,2026-03-21,Saturday,True,North,Sea,Carrier D,Perishables,1313.5,494.0,234.49,10.0,6.51,-3.49,False,10.2,False,4.0
+SHP1998,2026-05-08,Friday,False,Central,Road,Carrier A,Textiles,438.0,304.5,38.18,3.0,2.35,-0.65,False,12.6,False,4.5
+SHP1999,2026-06-22,Monday,False,East,Road,Carrier B,Perishables,182.8,682.0,37.96,3.0,1.67,-1.33,False,10.0,False,5.0
+SHP2000,2026-02-04,Wednesday,False,North,Sea,Carrier A,Electronics,4890.3,249.4,207.23,10.0,12.06,2.06,True,10.2,False,3.5
+SHP2001,2026-01-03,Saturday,True,East,Road,Carrier A,Consumer Goods,473.3,601.3,45.38,3.0,1.79,-1.21,False,8.1,False,5.0
+SHP2002,2026-04-30,Thursday,False,Central,Road,Carrier D,Consumer Goods,874.2,178.6,41.57,3.0,2.77,-0.23,False,6.7,False,4.5
+SHP2003,2026-01-05,Monday,False,West,Road,Carrier B,Textiles,404.4,490.7,38.66,3.0,1.65,-1.35,False,7.8,False,4.5
+SHP2004,2026-01-11,Sunday,True,West,Air,Carrier C,Consumer Goods,20.0,1272.0,151.92,1.5,0.92,-0.58,False,8.4,False,4.0
+SHP2005,2026-05-06,Wednesday,False,West,Sea,Carrier D,Consumer Goods,5249.2,389.0,229.69,10.0,12.26,2.26,True,6.2,False,3.0
+SHP2006,2026-03-12,Thursday,False,West,Road,Carrier D,Consumer Goods,550.4,635.7,51.85,3.0,2.3,-0.7,False,10.1,False,4.5
+SHP2007,2026-04-27,Monday,False,Central,Sea,Carrier D,Electronics,4288.3,215.4,224.58,10.0,10.69,0.69,True,11.5,False,3.5
+SHP2008,2026-05-18,Monday,False,South,Road,Carrier A,Consumer Goods,249.5,136.9,29.46,3.0,1.31,-1.69,False,8.7,False,4.0
+SHP2009,2026-04-16,Thursday,False,East,Sea,Carrier A,Textiles,3448.6,259.9,227.63,10.0,8.98,-1.02,False,10.7,False,3.5
+SHP2010,2026-04-26,Sunday,True,South,Air,Carrier B,Perishables,1930.5,255.6,312.18,1.5,2.43,0.93,True,10.9,False,3.5
+SHP2011,2026-06-11,Thursday,False,Central,Sea,Carrier A,Electronics,3214.6,163.5,198.59,10.0,8.91,-1.09,False,6.4,True,4.5
+SHP2012,2026-03-08,Sunday,True,Central,Road,Carrier A,Textiles,103.1,255.6,25.95,3.0,1.58,-1.42,False,5.0,False,4.5
+SHP2013,2026-01-31,Saturday,True,North,Sea,Carrier B,Electronics,6822.4,201.6,238.05,10.0,16.33,6.33,True,7.5,False,1.0
+SHP2014,2026-03-16,Monday,False,West,Air,Carrier C,Perishables,2385.1,427.6,405.45,1.5,1.54,0.04,True,8.7,False,4.5
+SHP2015,2026-03-12,Thursday,False,Central,Road,Carrier B,Perishables,534.1,122.8,31.97,3.0,2.18,-0.82,False,6.1,False,4.5
+SHP2016,2026-03-07,Saturday,True,North,Sea,Carrier B,Consumer Goods,5076.7,251.9,260.66,10.0,13.02,3.02,True,11.3,False,3.0
+SHP2017,2026-03-11,Wednesday,False,East,Road,Carrier C,Consumer Goods,578.8,312.9,41.87,3.0,1.77,-1.23,False,12.4,False,4.5
+SHP2018,2026-02-10,Tuesday,False,Central,Sea,Carrier A,Perishables,2687.4,959.1,251.53,10.0,7.94,-2.06,False,8.9,False,4.0
+SHP2019,2026-06-09,Tuesday,False,North,Road,Carrier A,Consumer Goods,700.0,293.4,42.4,3.0,2.34,-0.66,False,6.5,False,4.0
+SHP2020,2026-01-20,Tuesday,False,West,Air,Carrier C,Consumer Goods,2396.6,1230.0,1146.69,1.5,0.69,-0.81,False,9.5,False,4.5
+SHP2021,2026-06-27,Saturday,True,South,Road,Carrier C,Consumer Goods,322.1,729.1,42.53,3.0,2.93,-0.07,False,6.5,False,3.5
+SHP2022,2026-06-02,Tuesday,False,Central,Road,Carrier C,Electronics,608.0,81.7,26.63,3.0,1.92,-1.08,False,10.8,False,4.0
+SHP2023,2026-05-20,Wednesday,False,Central,Road,Carrier A,Machinery,401.9,902.7,66.08,3.0,1.7,-1.3,False,8.0,False,4.5
+SHP2024,2026-02-08,Sunday,True,Central,Road,Carrier D,Consumer Goods,491.7,741.1,56.15,3.0,2.11,-0.89,False,10.0,False,3.5
+SHP2025,2026-05-25,Monday,False,East,Road,Carrier C,Machinery,569.9,894.0,73.86,3.0,1.71,-1.29,False,10.3,False,4.0
+SHP2026,2026-02-14,Saturday,True,Central,Road,Carrier B,Perishables,723.7,309.6,51.65,3.0,3.36,0.36,True,9.6,False,4.0
+SHP2027,2026-05-19,Tuesday,False,Central,Rail,Carrier C,Textiles,673.9,175.7,55.26,4.5,2.76,-1.74,False,12.1,False,4.0
+SHP2028,2026-03-11,Wednesday,False,South,Road,Carrier D,Machinery,523.0,1113.4,66.67,3.0,2.76,-0.24,False,8.9,False,4.0
+SHP2029,2026-05-05,Tuesday,False,Central,Road,Carrier C,Textiles,853.1,150.8,40.28,3.0,2.92,-0.08,False,7.5,False,4.0
+SHP2030,2026-05-31,Sunday,True,North,Air,Carrier C,Electronics,1676.8,210.6,232.06,1.5,0.76,-0.74,False,4.3,False,4.5
+SHP2031,2026-04-01,Wednesday,False,East,Road,Carrier D,Perishables,489.3,1810.9,96.82,3.0,1.71,-1.29,False,3.9,False,5.0
+SHP2032,2026-03-11,Wednesday,False,South,Sea,Carrier C,Consumer Goods,5917.1,459.3,243.76,10.0,13.3,3.3,True,9.8,False,2.5
+SHP2033,2026-06-15,Monday,False,North,Sea,Carrier B,Consumer Goods,4265.0,550.1,227.75,10.0,11.1,1.1,True,8.1,False,3.0
+SHP2034,2026-05-10,Sunday,True,North,Rail,Carrier C,Electronics,384.1,127.3,70.0,4.5,2.36,-2.14,False,6.9,False,4.5
+SHP2035,2026-03-25,Wednesday,False,West,Rail,Carrier B,Consumer Goods,621.6,1398.2,89.74,4.5,1.91,-2.59,False,6.3,False,4.0
+SHP2036,2026-03-30,Monday,False,South,Sea,Carrier A,Perishables,4327.5,365.0,195.17,10.0,11.22,1.22,True,10.0,False,3.0
+SHP2037,2026-03-20,Friday,False,West,Road,Carrier C,Machinery,534.6,1271.7,94.16,3.0,1.64,-1.36,False,6.5,False,4.0
+SHP2038,2026-04-23,Thursday,False,North,Road,Carrier D,Consumer Goods,482.5,554.6,44.63,3.0,2.43,-0.57,False,11.8,False,4.0
+SHP2039,2026-04-03,Friday,False,South,Road,Carrier D,Consumer Goods,882.2,288.6,45.03,3.0,2.28,-0.72,False,13.2,False,4.0
+SHP2040,2026-03-13,Friday,False,East,Air,Carrier B,Consumer Goods,1367.8,481.1,352.52,1.5,1.64,0.14,True,6.7,False,4.5
+SHP2041,2026-06-14,Sunday,True,West,Road,Carrier B,Perishables,435.1,962.8,68.1,3.0,1.8,-1.2,False,9.8,False,5.0
+SHP2042,2026-02-18,Wednesday,False,South,Rail,Carrier A,Consumer Goods,212.9,310.9,68.58,4.5,1.78,-2.72,False,9.4,False,4.0
+SHP2043,2026-02-21,Saturday,True,West,Sea,Carrier D,Electronics,4892.8,61.2,237.51,10.0,12.47,2.47,True,6.5,False,3.5
+SHP2044,2026-02-02,Monday,False,Central,Sea,Carrier D,Machinery,2541.4,2015.3,291.46,10.0,7.52,-2.48,False,6.5,False,4.5
+SHP2045,2026-01-22,Thursday,False,West,Road,Carrier C,Consumer Goods,661.4,604.5,65.97,3.0,2.3,-0.7,False,8.3,False,4.5
+SHP2046,2026-04-24,Friday,False,South,Road,Carrier D,Machinery,640.4,1236.4,97.55,3.0,1.79,-1.21,False,6.2,False,4.5
+SHP2047,2026-05-13,Wednesday,False,North,Sea,Carrier C,Perishables,6318.9,399.9,238.55,10.0,14.66,4.66,True,10.7,False,1.5
+SHP2048,2026-01-18,Sunday,True,Central,Rail,Carrier C,Consumer Goods,1127.2,76.2,70.58,4.5,3.49,-1.01,False,8.0,False,4.5
+SHP2049,2026-06-15,Monday,False,North,Road,Carrier A,Electronics,378.8,329.4,32.43,3.0,1.97,-1.03,False,6.3,False,4.5
+SHP2050,2026-04-28,Tuesday,False,Central,Road,Carrier B,Electronics,540.7,91.8,31.43,3.0,1.84,-1.16,False,8.3,False,3.5
+SHP2051,2026-04-27,Monday,False,East,Sea,Carrier C,Machinery,2588.9,773.0,253.54,10.0,7.32,-2.68,False,9.4,False,5.0
+SHP2052,2026-02-06,Friday,False,Central,Rail,Carrier C,Textiles,1011.7,177.3,68.73,4.5,2.61,-1.89,False,7.1,False,3.5
+SHP2053,2026-03-05,Thursday,False,West,Sea,Carrier B,Consumer Goods,3258.9,771.2,211.86,10.0,9.53,-0.47,False,4.5,False,4.0
+SHP2054,2026-05-18,Monday,False,Central,Sea,Carrier D,Textiles,3415.6,678.0,269.06,10.0,9.4,-0.6,False,8.8,False,3.5
+SHP2055,2026-03-20,Friday,False,South,Rail,Carrier A,Electronics,585.6,102.3,64.89,4.5,1.73,-2.77,False,6.1,False,4.5
+SHP2056,2026-06-19,Friday,False,West,Road,Carrier B,Consumer Goods,510.1,234.9,35.72,3.0,1.45,-1.55,False,6.9,False,4.0
+SHP2057,2026-05-03,Sunday,True,South,Road,Carrier C,Textiles,614.8,264.7,42.2,3.0,2.44,-0.56,False,9.4,False,4.0
+SHP2058,2026-06-25,Thursday,False,East,Road,Carrier C,Electronics,119.6,115.8,25.12,3.0,1.51,-1.49,False,7.3,False,4.5
+SHP2059,2026-02-13,Friday,False,West,Road,Carrier C,Consumer Goods,312.3,223.2,30.41,3.0,1.28,-1.72,False,8.2,False,4.5
+SHP2060,2026-03-23,Monday,False,Central,Air,Carrier A,Textiles,1917.6,566.4,496.33,1.5,0.84,-0.66,False,11.4,False,4.5
+SHP2061,2026-03-28,Saturday,True,Central,Rail,Carrier A,Machinery,78.4,1887.5,69.02,4.5,2.07,-2.43,False,7.8,False,4.0
+SHP2062,2026-01-16,Friday,False,West,Sea,Carrier C,Textiles,5588.3,113.9,208.06,10.0,13.25,3.25,True,12.5,False,2.5
+SHP2063,2026-02-23,Monday,False,South,Road,Carrier C,Consumer Goods,307.8,545.4,39.7,3.0,0.87,-2.13,False,10.0,False,4.0
+SHP2064,2026-04-12,Sunday,True,East,Rail,Carrier A,Consumer Goods,571.7,518.9,78.58,4.5,3.78,-0.72,False,6.6,False,4.5
+SHP2065,2026-06-12,Friday,False,West,Rail,Carrier C,Machinery,827.4,1934.4,125.5,4.5,2.24,-2.26,False,7.5,False,4.5
+SHP2066,2026-04-08,Wednesday,False,South,Rail,Carrier B,Electronics,948.1,68.4,62.06,4.5,2.55,-1.95,False,6.0,False,4.0
+SHP2067,2026-06-05,Friday,False,North,Air,Carrier C,Consumer Goods,1270.5,850.3,478.49,1.5,0.5,-1.0,False,9.8,False,4.5
+SHP2068,2026-01-02,Friday,False,South,Road,Carrier D,Machinery,646.1,1091.6,82.07,3.0,2.32,-0.68,False,11.1,False,4.0
+SHP2069,2026-04-04,Saturday,True,South,Road,Carrier A,Machinery,529.9,1805.6,118.41,3.0,2.93,-0.07,False,7.8,False,5.0
+SHP2070,2026-05-21,Thursday,False,South,Road,Carrier A,Perishables,282.6,288.2,37.32,3.0,1.87,-1.13,False,4.8,False,4.5
+SHP2071,2026-06-18,Thursday,False,South,Road,Carrier C,Consumer Goods,345.5,325.9,34.96,3.0,1.41,-1.59,False,9.2,False,4.5
+SHP2072,2026-02-28,Saturday,True,North,Road,Carrier C,Consumer Goods,146.6,287.0,28.78,3.0,1.98,-1.02,False,6.8,False,4.5
+SHP2073,2026-03-10,Tuesday,False,North,Rail,Carrier C,Electronics,461.3,44.2,55.92,4.5,2.01,-2.49,False,7.1,False,4.5
+SHP2074,2026-04-29,Wednesday,False,Central,Sea,Carrier D,Textiles,3965.1,144.2,190.03,10.0,9.59,-0.41,False,9.1,False,5.0
+SHP2075,2026-04-02,Thursday,False,East,Rail,Carrier D,Consumer Goods,610.6,277.5,76.43,4.5,2.64,-1.86,False,11.0,False,4.5
+SHP2076,2026-06-30,Tuesday,False,South,Air,Carrier D,Electronics,3063.0,147.6,286.02,1.5,1.29,-0.21,False,10.0,False,5.0
+SHP2077,2026-02-14,Saturday,True,West,Road,Carrier B,Consumer Goods,464.2,665.9,51.16,3.0,2.39,-0.61,False,9.4,False,4.5
+SHP2078,2026-05-28,Thursday,False,North,Rail,Carrier B,Machinery,426.5,2379.4,107.47,4.5,1.8,-2.7,False,8.2,False,4.5
+SHP2079,2026-01-24,Saturday,True,Central,Road,Carrier B,Machinery,221.3,2108.6,79.45,3.0,2.86,-0.14,False,5.9,False,5.0
+SHP2080,2026-04-01,Wednesday,False,West,Road,Carrier A,Perishables,660.6,1022.9,85.54,3.0,2.14,-0.86,False,9.2,False,4.0
+SHP2081,2026-04-04,Saturday,True,North,Road,Carrier B,Perishables,434.7,1274.9,77.69,3.0,2.29,-0.71,False,9.9,False,4.0
+SHP2082,2026-02-27,Friday,False,South,Road,Carrier A,Consumer Goods,648.4,473.0,62.03,3.0,2.39,-0.61,False,7.3,False,4.5
+SHP2083,2026-06-04,Thursday,False,Central,Road,Carrier D,Perishables,376.7,1042.4,51.14,3.0,1.94,-1.06,False,7.8,False,4.0
+SHP2084,2026-06-03,Wednesday,False,Central,Road,Carrier C,Consumer Goods,338.0,330.6,42.44,3.0,2.03,-0.97,False,10.7,False,3.5
+SHP2085,2026-05-08,Friday,False,East,Road,Carrier C,Textiles,673.9,290.4,42.82,3.0,1.43,-1.57,False,7.7,False,5.0
+SHP2086,2026-01-07,Wednesday,False,West,Sea,Carrier B,Electronics,2469.7,156.8,229.19,10.0,7.22,-2.78,False,8.0,False,5.0
+SHP2087,2026-06-19,Friday,False,North,Road,Carrier A,Electronics,547.8,208.7,31.9,3.0,1.9,-1.1,False,8.3,False,4.0
+SHP2088,2026-02-16,Monday,False,Central,Road,Carrier A,Textiles,407.6,276.1,33.09,3.0,2.44,-0.56,False,9.8,False,4.0
+SHP2089,2026-02-22,Sunday,True,South,Road,Carrier B,Consumer Goods,625.7,255.9,38.89,3.0,2.88,-0.12,False,9.1,False,4.0
+SHP2090,2026-02-07,Saturday,True,Central,Rail,Carrier A,Perishables,1536.5,414.0,94.94,4.5,4.7,0.2,True,8.9,False,5.0
+SHP2091,2026-02-22,Sunday,True,West,Road,Carrier C,Perishables,371.6,498.8,46.12,3.0,3.25,0.25,True,11.5,False,4.0
+SHP2092,2026-05-23,Saturday,True,West,Road,Carrier D,Perishables,340.6,148.9,34.65,3.0,2.28,-0.72,False,7.7,False,4.5
+SHP2093,2026-06-03,Wednesday,False,East,Road,Carrier D,Textiles,583.2,592.3,48.41,3.0,2.17,-0.83,False,6.6,False,4.5
+SHP2094,2026-02-17,Tuesday,False,South,Road,Carrier C,Textiles,233.6,336.2,32.47,3.0,0.52,-2.48,False,10.5,False,4.5
+SHP2095,2026-04-05,Sunday,True,North,Road,Carrier A,Consumer Goods,773.3,586.7,76.19,3.0,2.87,-0.13,False,9.0,False,5.0
+SHP2096,2026-05-27,Wednesday,False,South,Road,Carrier D,Textiles,739.2,463.6,60.68,3.0,2.23,-0.77,False,7.3,False,4.0
+SHP2097,2026-05-17,Sunday,True,North,Road,Carrier D,Textiles,250.2,461.7,36.88,3.0,2.99,-0.01,False,7.8,False,4.5
+SHP2098,2026-03-05,Thursday,False,West,Road,Carrier A,Electronics,133.4,105.1,25.36,3.0,1.1,-1.9,False,6.0,False,4.5
+SHP2099,2026-04-03,Friday,False,South,Road,Carrier C,Consumer Goods,217.9,620.6,36.9,3.0,1.81,-1.19,False,9.0,False,4.5
+SHP2100,2026-05-05,Tuesday,False,North,Sea,Carrier A,Perishables,2125.6,816.7,238.21,10.0,6.7,-3.3,False,5.6,False,4.0
+SHP2101,2026-06-28,Sunday,True,Central,Rail,Carrier D,Electronics,1180.6,161.7,81.8,4.5,3.75,-0.75,False,9.9,False,4.0
+SHP2102,2026-02-08,Sunday,True,Central,Road,Carrier D,Machinery,759.8,672.2,69.22,3.0,2.87,-0.13,False,7.5,False,4.0
+SHP2103,2026-01-04,Sunday,True,Central,Road,Carrier A,Machinery,608.0,1526.3,109.83,3.0,3.68,0.68,True,5.7,False,4.5
+SHP2104,2026-05-06,Wednesday,False,Central,Sea,Carrier D,Textiles,3216.6,761.1,222.45,10.0,8.76,-1.24,False,10.7,False,4.0
+SHP2105,2026-01-03,Saturday,True,North,Road,Carrier C,Textiles,518.5,250.3,40.97,3.0,2.04,-0.96,False,13.0,False,4.5
+SHP2106,2026-03-05,Thursday,False,South,Road,Carrier D,Consumer Goods,276.0,405.8,38.17,3.0,1.65,-1.35,False,9.4,False,4.5
+SHP2107,2026-01-29,Thursday,False,West,Rail,Carrier B,Electronics,1284.0,188.5,62.83,4.5,3.28,-1.22,False,7.9,False,4.0
+SHP2108,2026-04-26,Sunday,True,West,Road,Carrier D,Consumer Goods,536.4,855.6,72.12,3.0,3.23,0.23,True,6.6,False,4.0
+SHP2109,2026-01-11,Sunday,True,North,Road,Carrier A,Machinery,604.6,353.3,51.69,3.0,3.77,0.77,True,9.0,False,4.0
+SHP2110,2026-04-07,Tuesday,False,West,Road,Carrier B,Textiles,304.5,665.1,45.94,3.0,2.14,-0.86,False,9.8,False,4.5
+SHP2111,2026-04-12,Sunday,True,South,Sea,Carrier A,Textiles,3297.7,72.8,234.86,10.0,9.69,-0.31,False,8.5,False,4.5
+SHP2112,2026-06-04,Thursday,False,South,Road,Carrier D,Perishables,595.0,1600.0,100.14,3.0,1.85,-1.15,False,10.3,False,4.0
+SHP2113,2026-01-21,Wednesday,False,East,Air,Carrier D,Consumer Goods,2810.5,489.7,594.91,1.5,1.49,-0.01,False,11.5,False,4.0
+SHP2114,2026-02-08,Sunday,True,East,Sea,Carrier D,Textiles,2770.3,133.8,220.67,10.0,9.62,-0.38,False,6.0,False,4.5
+SHP2115,2026-04-12,Sunday,True,East,Road,Carrier D,Perishables,606.1,501.0,61.35,3.0,1.76,-1.24,False,9.1,False,5.0
+SHP2116,2026-02-15,Sunday,True,North,Road,Carrier A,Machinery,307.6,251.0,35.74,3.0,2.02,-0.98,False,4.7,False,3.5
+SHP2117,2026-03-07,Saturday,True,Central,Road,Carrier B,Consumer Goods,873.4,374.1,54.93,3.0,4.0,1.0,True,6.9,False,3.5
+SHP2118,2026-04-01,Wednesday,False,South,Road,Carrier A,Textiles,367.0,276.8,34.9,3.0,1.75,-1.25,False,9.9,False,4.5
+SHP2119,2026-06-13,Saturday,True,North,Road,Carrier A,Consumer Goods,578.7,610.2,65.34,3.0,2.51,-0.49,False,8.4,False,4.5
+SHP2120,2026-04-21,Tuesday,False,Central,Sea,Carrier A,Perishables,3698.7,695.3,241.25,10.0,10.08,0.08,True,5.3,False,4.5
+SHP2121,2026-03-23,Monday,False,Central,Air,Carrier B,Electronics,3623.7,96.3,234.06,1.5,1.34,-0.16,False,10.6,False,4.0
+SHP2122,2026-05-03,Sunday,True,Central,Rail,Carrier A,Electronics,980.5,174.5,65.3,4.5,3.82,-0.68,False,7.4,False,4.0
+SHP2123,2026-04-09,Thursday,False,West,Road,Carrier A,Textiles,347.0,266.6,34.79,3.0,2.44,-0.56,False,10.2,True,5.0
+SHP2124,2026-02-04,Wednesday,False,West,Sea,Carrier A,Electronics,4267.4,62.8,204.44,10.0,11.15,1.15,True,9.5,False,4.0
+SHP2125,2026-06-08,Monday,False,East,Sea,Carrier A,Electronics,4240.7,120.4,225.58,10.0,10.9,0.9,True,6.8,False,4.0
+SHP2126,2026-06-05,Friday,False,North,Sea,Carrier D,Consumer Goods,3311.0,636.7,252.25,10.0,9.37,-0.63,False,10.2,False,4.0
+SHP2127,2026-04-13,Monday,False,South,Road,Carrier C,Consumer Goods,231.0,519.1,34.63,3.0,1.69,-1.31,False,9.1,False,4.0
+SHP2128,2026-05-09,Saturday,True,South,Rail,Carrier D,Consumer Goods,715.2,199.1,66.86,4.5,3.7,-0.8,False,8.9,False,4.5
+SHP2129,2026-01-25,Sunday,True,South,Road,Carrier B,Electronics,626.3,160.0,33.58,3.0,2.38,-0.62,False,7.6,False,4.5
+SHP2130,2026-02-12,Thursday,False,West,Road,Carrier A,Electronics,100.5,74.0,24.63,3.0,1.55,-1.45,False,6.3,False,4.5
+SHP2131,2026-03-25,Wednesday,False,East,Road,Carrier C,Electronics,400.4,137.1,32.07,3.0,0.97,-2.03,False,7.7,False,5.0
+SHP2132,2026-02-20,Friday,False,North,Rail,Carrier B,Consumer Goods,1248.2,369.7,69.42,4.5,3.08,-1.42,False,7.6,False,5.0
+SHP2133,2026-05-10,Sunday,True,South,Rail,Carrier A,Consumer Goods,867.3,489.4,78.35,4.5,3.34,-1.16,False,10.2,False,4.0
+SHP2134,2026-05-06,Wednesday,False,West,Road,Carrier A,Textiles,884.7,294.3,51.76,3.0,2.66,-0.34,False,5.2,False,4.5
+SHP2135,2026-03-10,Tuesday,False,North,Road,Carrier A,Electronics,101.1,74.2,28.4,3.0,1.17,-1.83,False,11.4,False,4.0
+SHP2136,2026-01-09,Friday,False,Central,Road,Carrier A,Textiles,257.7,210.4,27.53,3.0,0.76,-2.24,False,11.6,False,4.5
+SHP2137,2026-01-02,Friday,False,East,Road,Carrier B,Perishables,20.0,298.6,23.4,3.0,0.78,-2.22,False,7.2,False,4.5
+SHP2138,2026-06-11,Thursday,False,East,Road,Carrier C,Textiles,848.7,263.3,50.19,3.0,2.04,-0.96,False,11.3,False,5.0
+SHP2139,2026-06-08,Monday,False,East,Road,Carrier A,Machinery,261.0,588.3,38.44,3.0,0.81,-2.19,False,6.5,False,4.5
+SHP2140,2026-01-10,Saturday,True,Central,Air,Carrier A,Machinery,409.2,2051.8,389.72,1.5,1.53,0.03,True,10.8,False,4.5
+SHP2141,2026-04-24,Friday,False,South,Road,Carrier D,Electronics,327.6,116.7,30.82,3.0,1.38,-1.62,False,6.9,False,5.0
+SHP2142,2026-03-17,Tuesday,False,West,Road,Carrier A,Electronics,171.4,521.5,34.38,3.0,1.0,-2.0,False,10.6,False,4.5
+SHP2143,2026-06-13,Saturday,True,East,Road,Carrier B,Consumer Goods,329.0,499.7,45.51,3.0,2.94,-0.06,False,5.6,False,4.0
+SHP2144,2026-03-26,Thursday,False,South,Sea,Carrier D,Perishables,3549.5,226.9,201.54,10.0,9.33,-0.67,False,10.7,False,4.5
+SHP2145,2026-02-18,Wednesday,False,Central,Rail,Carrier A,Electronics,1181.7,23.7,64.54,4.5,2.94,-1.56,False,11.1,False,4.5
+SHP2146,2026-03-11,Wednesday,False,West,Rail,Carrier A,Electronics,838.9,66.2,68.73,4.5,2.07,-2.43,False,5.6,False,4.5
+SHP2147,2026-06-26,Friday,False,West,Road,Carrier B,Electronics,455.1,327.0,40.36,3.0,1.83,-1.17,False,12.0,False,5.0
+SHP2148,2026-05-11,Monday,False,Central,Rail,Carrier B,Textiles,696.4,109.1,68.09,4.5,1.9,-2.6,False,10.5,False,4.5
+SHP2149,2026-05-13,Wednesday,False,Central,Road,Carrier B,Consumer Goods,147.7,877.3,40.78,3.0,1.36,-1.64,False,4.5,False,4.5
+SHP2150,2026-03-31,Tuesday,False,West,Rail,Carrier D,Perishables,253.7,791.9,71.4,4.5,2.15,-2.35,False,7.5,False,4.0
+SHP2151,2026-01-26,Monday,False,Central,Sea,Carrier A,Textiles,3062.6,315.7,209.42,10.0,8.68,-1.32,False,10.6,False,5.0
+SHP2152,2026-03-13,Friday,False,West,Rail,Carrier C,Machinery,929.6,2472.8,174.91,4.5,2.99,-1.51,False,9.9,False,4.5
+SHP2153,2026-01-05,Monday,False,West,Sea,Carrier B,Textiles,2973.7,460.1,207.25,10.0,8.82,-1.18,False,8.7,False,4.0
+SHP2154,2026-01-15,Thursday,False,West,Air,Carrier A,Consumer Goods,533.5,399.2,184.81,1.5,0.61,-0.89,False,10.4,False,5.0
+SHP2155,2026-05-03,Sunday,True,West,Road,Carrier C,Consumer Goods,490.3,119.9,34.25,3.0,2.05,-0.95,False,6.8,False,5.0
+SHP2156,2026-05-24,Sunday,True,North,Sea,Carrier A,Electronics,5455.2,221.9,179.82,10.0,12.98,2.98,True,8.6,False,2.5
+SHP2157,2026-01-01,Thursday,False,Central,Road,Carrier B,Consumer Goods,427.1,227.6,34.43,3.0,2.09,-0.91,False,6.8,False,3.5
+SHP2158,2026-05-24,Sunday,True,Central,Road,Carrier A,Textiles,334.1,154.4,32.78,3.0,1.42,-1.58,False,8.8,False,4.0
+SHP2159,2026-06-14,Sunday,True,North,Road,Carrier B,Consumer Goods,437.9,390.7,39.66,3.0,2.31,-0.69,False,10.5,False,5.0
+SHP2160,2026-01-03,Saturday,True,Central,Road,Carrier B,Textiles,229.1,189.3,32.03,3.0,2.28,-0.72,False,10.1,False,4.5
+SHP2161,2026-06-29,Monday,False,North,Road,Carrier D,Consumer Goods,216.2,419.1,33.66,3.0,1.21,-1.79,False,8.9,False,4.0
+SHP2162,2026-02-16,Monday,False,South,Road,Carrier A,Consumer Goods,540.3,373.3,43.27,3.0,1.56,-1.44,False,10.5,False,4.5
+SHP2163,2026-04-05,Sunday,True,West,Road,Carrier B,Perishables,648.1,609.2,71.6,3.0,3.26,0.26,True,10.7,False,4.0
+SHP2164,2026-01-13,Tuesday,False,North,Rail,Carrier B,Textiles,848.5,374.8,79.54,4.5,2.58,-1.92,False,12.1,False,4.0
+SHP2165,2026-04-30,Thursday,False,West,Road,Carrier C,Consumer Goods,55.2,975.0,31.37,3.0,0.54,-2.46,False,10.8,True,4.0
+SHP2166,2026-02-24,Tuesday,False,Central,Road,Carrier B,Consumer Goods,520.7,662.2,51.44,3.0,1.42,-1.58,False,9.8,True,5.0
+SHP2167,2026-05-29,Friday,False,East,Rail,Carrier C,Electronics,1623.6,202.5,74.69,4.5,4.16,-0.34,False,10.4,False,4.5
+SHP2168,2026-03-07,Saturday,True,North,Road,Carrier C,Machinery,401.2,974.7,71.17,3.0,2.43,-0.57,False,9.0,False,4.0
+SHP2169,2026-06-04,Thursday,False,South,Air,Carrier D,Perishables,1675.5,409.7,333.83,1.5,0.9,-0.6,False,7.9,False,4.5
+SHP2170,2026-06-15,Monday,False,West,Rail,Carrier B,Electronics,594.6,36.7,68.96,4.5,2.24,-2.26,False,10.2,False,4.5
+SHP2171,2026-03-31,Tuesday,False,Central,Sea,Carrier B,Textiles,4077.6,231.1,230.56,10.0,10.42,0.42,True,10.0,False,4.0
+SHP2172,2026-03-03,Tuesday,False,West,Rail,Carrier D,Perishables,665.2,808.0,95.7,4.5,2.03,-2.47,False,9.1,False,4.5
+SHP2173,2026-04-12,Sunday,True,South,Road,Carrier D,Consumer Goods,654.3,147.8,33.29,3.0,2.13,-0.87,False,8.1,False,4.0
+SHP2174,2026-06-23,Tuesday,False,West,Rail,Carrier D,Perishables,669.8,513.2,74.53,4.5,3.25,-1.25,False,8.0,False,4.0
+SHP2175,2026-05-19,Tuesday,False,East,Road,Carrier B,Consumer Goods,518.4,462.5,46.35,3.0,1.56,-1.44,False,7.7,False,4.5
+SHP2176,2026-01-08,Thursday,False,West,Road,Carrier A,Electronics,440.7,194.0,34.28,3.0,1.66,-1.34,False,11.0,False,4.5
+SHP2177,2026-04-07,Tuesday,False,North,Air,Carrier B,Perishables,2888.6,758.0,772.17,1.5,0.9,-0.6,False,10.9,False,4.5
+SHP2178,2026-04-27,Monday,False,West,Road,Carrier C,Perishables,531.9,940.9,61.03,3.0,1.17,-1.83,False,10.8,False,4.0
+SHP2179,2026-03-05,Thursday,False,East,Air,Carrier B,Perishables,2770.9,227.0,331.0,1.5,1.15,-0.35,False,6.4,False,4.5
+SHP2180,2026-01-21,Wednesday,False,Central,Sea,Carrier B,Electronics,3630.3,180.3,206.84,10.0,9.59,-0.41,False,7.8,False,5.0
+SHP2181,2026-04-25,Saturday,True,South,Sea,Carrier D,Electronics,3295.1,159.0,218.76,10.0,10.15,0.15,True,8.0,False,4.5
+SHP2182,2026-03-26,Thursday,False,West,Sea,Carrier B,Textiles,3454.2,65.9,193.22,10.0,8.76,-1.24,False,7.3,False,4.5
+SHP2183,2026-01-20,Tuesday,False,Central,Road,Carrier D,Perishables,295.7,1220.8,58.06,3.0,1.39,-1.61,False,12.2,False,4.5
+SHP2184,2026-01-08,Thursday,False,North,Road,Carrier B,Textiles,556.3,457.0,43.76,3.0,1.78,-1.22,False,9.3,False,4.0
+SHP2185,2026-02-27,Friday,False,Central,Rail,Carrier B,Textiles,658.4,147.7,63.38,4.5,2.09,-2.41,False,9.2,False,4.5
+SHP2186,2026-02-15,Sunday,True,West,Road,Carrier B,Consumer Goods,472.5,303.9,38.24,3.0,1.99,-1.01,False,7.6,False,3.5
+SHP2187,2026-01-31,Saturday,True,North,Rail,Carrier C,Consumer Goods,1199.3,337.2,80.34,4.5,4.23,-0.27,False,10.2,False,3.5
+SHP2188,2026-04-03,Friday,False,South,Air,Carrier A,Textiles,2908.5,592.1,690.07,1.5,1.13,-0.37,False,12.9,False,4.5
+SHP2189,2026-01-09,Friday,False,West,Rail,Carrier A,Perishables,957.0,807.8,99.73,4.5,2.97,-1.53,False,8.7,False,4.5
+SHP2190,2026-01-15,Thursday,False,North,Road,Carrier D,Electronics,622.2,218.1,36.3,3.0,2.24,-0.76,False,8.0,False,4.5
+SHP2191,2026-04-04,Saturday,True,East,Road,Carrier A,Consumer Goods,598.4,461.7,58.02,3.0,2.54,-0.46,False,8.3,False,4.5
+SHP2192,2026-06-03,Wednesday,False,South,Road,Carrier B,Electronics,373.5,267.6,31.35,3.0,2.13,-0.87,False,7.9,False,4.0
+SHP2193,2026-05-18,Monday,False,West,Road,Carrier B,Perishables,871.6,108.2,29.42,3.0,2.48,-0.52,False,8.5,False,5.0
+SHP2194,2026-01-29,Thursday,False,North,Sea,Carrier B,Perishables,2808.5,505.6,203.98,10.0,8.17,-1.83,False,7.3,False,5.0
+SHP2195,2026-03-21,Saturday,True,Central,Road,Carrier C,Perishables,468.2,960.2,64.62,3.0,2.55,-0.45,False,6.7,False,4.0
+SHP2196,2026-02-05,Thursday,False,Central,Road,Carrier A,Electronics,740.8,256.8,37.7,3.0,1.84,-1.16,False,8.5,False,4.5
+SHP2197,2026-03-25,Wednesday,False,Central,Road,Carrier B,Consumer Goods,735.9,913.3,99.31,3.0,1.74,-1.26,False,8.7,False,4.5
+SHP2198,2026-04-19,Sunday,True,West,Rail,Carrier B,Electronics,905.0,274.8,67.35,4.5,3.74,-0.76,False,8.0,False,4.5
+SHP2199,2026-04-28,Tuesday,False,North,Rail,Carrier C,Machinery,1246.6,748.5,109.64,4.5,3.51,-0.99,False,11.4,False,5.0
